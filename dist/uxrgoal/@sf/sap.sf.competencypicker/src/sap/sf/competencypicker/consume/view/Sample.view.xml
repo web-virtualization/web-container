@@ -1,0 +1,39 @@
+<mvc:View
+	controllerName="sap.sf.consume.controller.Sample"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+    xmlns:form="sap.ui.layout.form"
+    xmlns:core="sap.ui.core">
+    <Shell>
+        <App>
+            <pages>
+                <Page title="Sample Page">
+                    <Panel headerText="Panel Header Text" class="sapUiResponsiveMargin" width="auto">
+                        <content>
+                            <form:SimpleForm layout="ResponsiveGridLayout">
+                                <Label text="Filter Data" />
+                                <TextArea value="{view>/filterData}" growing="true" width="80%" />
+                                <Label text="Change Labels" />
+                                <TextArea value="{view>/inputLabels}" growing="true" width="50%" />
+                                <Label text="Apply Changes" />
+                                <Button text="Apply"
+                                        press="onPress"
+                                        ariaDescribedBy="defaultButtonDescription genericButtonDescription"
+                                        width="50%">
+                                </Button>
+                                <Label text="Open Competency Picker"/>
+                                <Button text="Open Picker"
+                                        press="openPicker"
+                                        enabled="{view>/bEnableButton}"
+                                        ariaDescribedBy="defaultButtonDescription genericButtonDescription"
+                                        width="50%">
+                                </Button>
+                            </form:SimpleForm>
+                        </content>
+                    </Panel>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

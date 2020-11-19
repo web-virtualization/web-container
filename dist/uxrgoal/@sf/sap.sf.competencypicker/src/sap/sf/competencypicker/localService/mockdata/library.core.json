@@ -1,0 +1,7 @@
+{
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "libraryNames": [
+        "Core Competency Library"
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "Skilled Craft Family":{
+        "Role1": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981122,
+                    "competencyName": "Demonstrating Self-Insight and Awareness",
+                    "roleId": 1231
+                },
+                {
+                    "competencyInternalId": 13981140,
+                    "competencyName": "Establishing Relationships",
+                    "roleId": 1231
+                }
+            ]
+        },
+        "Role2": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981146,
+                    "competencyName": "Following Policies and Procedures",
+                    "roleId": "1232"
+                },
+                {
+                    "competencyInternalId": 13981152,
+                    "competencyName": "Evaluating and Implementing Ideas",
+                    "roleId": "1232"
+                }
+            ]
+        },
+        "Role3": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981158,
+                    "competencyName": "Setting a Strategic Vision",
+                    "roleId": "1233"
+                },
+                {
+                    "competencyInternalId": 13981204,
+                    "competencyName": "Using Math",
+                    "roleId": "1233"
+                }
+
+
+            ]
+        }
+    },
+    "Retail Associates":{
+        "Role4": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981216,
+                    "competencyName": "Performing Physical or Mechanical Tasks",
+                    "roleId": "1234"
+                },
+                {
+                    "competencyInternalId": 13981222,
+                    "competencyName": "Making a Strong Impression",
+                    "roleId": "1234"
+                }
+            ]
+        }
+    },
+    "Human Resources Family":{
+        "Role5": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981140,
+                    "competencyName": "Establishing Relationships",
+                    "roleId": 1235
+                }
+            ]
+        }
+
+    },
+    "Services and Maintenance Family":{
+        "Role6": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981228,
+                    "competencyName": "Delivering High Quality Work",
+                    "roleId": "1236"
+                },
+                {
+                    "competencyInternalId": 13981256,
+                    "competencyName": "Demonstrating Initiative",
+                    "roleId": "1236"
+                }
+            ]
+        }
+    }
+}

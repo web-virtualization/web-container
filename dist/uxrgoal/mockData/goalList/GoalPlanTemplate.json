@@ -1,0 +1,25 @@
+{
+  "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/Goal_66.svc/$metadata#GoalPlanTemplate(templateConfiguration())",
+    "@odata.metadataEtag": "\"3109be12-ed8c-48ad-a572-4f90eb45837d\"",
+    "value": [
+        {
+            "description": "This is the 2008 objective plan.",
+            "displayOrder": 172,
+            "dueDate": "2010-12-31",
+            "id": 66,
+            "name": "Standard Goal Template (TGM-3150/3005)",
+            "parentPlanId": -1,
+            "startDate": "2010-01-01",
+            "templateConfiguration": {
+                "introduction": "<font size=\"3\">The <b>Goals</b> section is used by managers who wish to cascade their performance goals to their direct reports. Employees can also view and manage performance goals in this section, but please note that you must use the <b>Performance</b> tab to submit goals for manager approval.</font>",
+                "maxGoals": 100,
+                "maxWeight": 300.0,
+                "maxWeightPerObj": 80.0,
+                "minGoals": 123,
+                "minWeight": 1.0,
+                "minWeightPerObj": 1.0,
+                "planId": 66
+            }
+        }
+    ]
+}

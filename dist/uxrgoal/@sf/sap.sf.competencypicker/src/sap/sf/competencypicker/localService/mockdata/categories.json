@@ -1,0 +1,36 @@
+{
+    "SuccessFactors 2.0":{
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+        "Category1",
+        "Category2",
+        "Category3"
+    ]
+   },
+   "HealthPrint":{
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+        "Category4",
+        "Category5",
+        "Category6"
+    ]
+   },
+   "Partner Demo Library":{
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+        "Category7",
+        "Category8",
+        "Category9"
+    ]
+   },
+   "BPA Library":{
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+        "Assists EVP/COO in strategic and long-range planning to meet current and future goals and objectives of the Corporation."
+    ]
+   } 
+}

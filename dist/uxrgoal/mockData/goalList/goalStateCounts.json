@@ -1,0 +1,30 @@
+{
+  "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/Goal_66.svc/$metadata#Collection(Goal_66.svc.GoalPlanUserStateStatistics)",
+  "@odata.metadataEtag": "\"40d71f7e-788e-45b6-b212-b23d92bd77a7\"",
+  "value": [
+      {
+          "count": 3,
+          "stateId": "white"
+      },
+      {
+          "count": 0,
+          "stateId": "yellow"
+      },
+      {
+          "count": 0,
+          "stateId": "red"
+      },
+      {
+          "count": 0,
+          "stateId": "green"
+      },
+      {
+          "count": 0,
+          "stateId": "purple"
+      },
+      {
+          "count": 0,
+          "stateId": "blue"
+      }
+  ]
+}

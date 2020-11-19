@@ -1,0 +1,41 @@
+{
+  "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/Goal_2001.svc/$metadata#GoalEnum",
+    "@odata.metadataEtag": "\"cc0d1482-8761-4ead-b87a-adb888bf9096\"",
+    "value": [
+      {
+        "fieldId": "state",
+        "label": "Not Started",
+        "planId": 2001,
+        "style": "#6a6d70",
+        "value": "NotStarted"
+      },
+      {
+        "fieldId": "state",
+        "label": "On Track",
+        "planId": 2001,
+        "style": "#6367de",
+        "value": "OnTrack"
+      },
+      {
+        "fieldId": "state",
+        "label": "At Risk",
+        "planId": 2001,
+        "style": "#bb5500",
+        "value": "AtRisk"
+      },
+      {
+        "fieldId": "state",
+        "label": "Behind",
+        "planId": 2001,
+        "style": "#bb0000",
+        "value": "Behind"
+      },
+      {
+        "fieldId": "state",
+        "label": "Completed",
+        "planId": 2001,
+        "style": "#107e3e",
+        "value": "Completed"
+      }
+    ]
+}

@@ -1,0 +1,23 @@
+.competenciesDialog .addCompetenciesHLayoutBreadCrumbs, .competenciesDialog .addCompetenciesSelectedItem {
+    padding: 10px;
+}
+.competenciesDialog .addCompetenciesHLayoutBreadCrumbs span {
+    padding: 0px 5px;
+}
+.competenciesDialog .sapMSplitContainerMaster {
+    width: 56%;
+}
+.competenciesDialog .addCompetenciesDetailPageSubHeaderText {
+    margin: 5px;
+}
+.competenciesDialog .removeAllBgColor {
+    background-color: #FAFAFA;
+    height: 2rem;
+}
+.competenciesDialog .breadCrumbSize {
+    height: 2.6rem;
+}
+.competenciesDialog .selectedCountStyle {
+    height: 2.6rem;
+    background-color: FAFAFA;
+}

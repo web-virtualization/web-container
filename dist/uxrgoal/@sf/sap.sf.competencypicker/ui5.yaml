@@ -1,0 +1,12 @@
+specVersion: '0.1'
+resources:
+  configuration:
+    paths:
+
+      webapp: src/sap/sf/competencypicker
+
+
+metadata:
+  name: au-jdmng-sap.sf.competencypicker-web
+  namespace: sap/sf/competencypicker
+type: application

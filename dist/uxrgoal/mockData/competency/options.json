@@ -1,0 +1,37 @@
+{
+  "@odata.context": "https://localhost:443/odata/v4/DevGoal_2012.svc/$metadata#DevGoal_2012.svc.CompetencyFilterOptions",
+  "@odata.metadataEtag": "\"a2e8b22c-3542-4f27-b5d8-10101e0640b6\"",
+  "excludeInActive": false,
+  "excludeQuestion": false,
+  "excludeSkill": false,
+  "ids": [
+    10012561,
+    10009067,
+    10010917,
+    10011850,
+    10008887,
+    10008822,
+    9508280,
+    10008842,
+    10010171,
+    10008092
+  ],
+  "libCategories": [
+    {
+      "categoryNames": [
+        "My Category",
+        "Category2"
+      ]
+    },
+    {
+      "categoryNames": [],
+      "libName": "NA CDP"
+    },
+    {
+      "categoryNames": [],
+      "libName": "CDP2"
+    }
+  ],
+  "useBehavior": false,
+  "useSingleSelection": false
+}

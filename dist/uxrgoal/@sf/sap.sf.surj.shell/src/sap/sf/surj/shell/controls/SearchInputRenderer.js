@@ -1,0 +1,1 @@
+sap.ui.define(['jquery.sap.global','sap/ui/core/Renderer','sap/m/InputRenderer','sap/m/ComboBoxRenderer'],function(q,R,I,C){"use strict";var S=R.extend(I);S.CSS_CLASS_COMBOBOXBASE=C.CSS_CLASS_COMBOBOXBASE;S.addOuterClasses=function(r,c){if(c.getPending()){r.addClass('bizXSFPending');}I.addOuterClasses(r,c);};return S;},true);

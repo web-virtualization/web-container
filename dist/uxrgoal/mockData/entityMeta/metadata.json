@@ -1,0 +1,455 @@
+{
+  "$Version": "4.01",
+  "$EntityContainer": "DevGoalDetail_22.svc.Container",
+  "DevGoalDetail_22.svc": {
+    "CDPCompetency": {
+      "$Kind": "EntityType",
+      "$Key": ["competencyId", "entryId"],
+      "competencyId": { "$Type": "Edm.Int64", "$Precision": 0, "$Scale": 0 },
+      "entryId": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 }
+    },
+    "DevLearning": {
+      "$Kind": "EntityType",
+      "$Key": ["id"],
+      "type_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "score_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "dueDate": { "$Type": "Edm.Date", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "description": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "description_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "guid_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "type": { "$Type": "Edm.String", "$Nullable": true, "$MaxLength": 60, "$Precision": 0, "$Scale": 0 },
+      "completedDate": { "$Type": "Edm.Date", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "beginDate": { "$Type": "Edm.Date", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "score": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "status_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "name_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "delete_mc": { "$Type": "Edm.Boolean", "$Nullable": true, "$MaxLength": 1 },
+      "completedDate_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "dueDate_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "name": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "assignee_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "guid": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "assignee": { "$Type": "Edm.String", "$Precision": 0, "$Scale": 0 },
+      "id": { "$Type": "Edm.Int64", "$Precision": 0, "$Scale": 0 },
+      "certifications_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "update_mc": { "$Type": "Edm.Boolean", "$Nullable": true, "$MaxLength": 1 },
+      "beginDate_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "status": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "certifications": {
+        "$Kind": "NavigationProperty",
+        "$Type": "DevGoalDetail_22.svc.DevLearningCertification",
+        "$Collection": true,
+        "$Nullable": true
+      }
+    },
+    "GoalPlanTemplate": {
+      "$Kind": "EntityType",
+      "$Key": ["id"],
+      "parentPlanId": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "dueDate": { "$Type": "Edm.Date", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "name": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "displayOrder": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "description": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "id": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "startDate": { "$Type": "Edm.Date", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "enums": {
+        "$Kind": "NavigationProperty",
+        "$Type": "DevGoalDetail_22.svc.GoalEnum",
+        "$Collection": true,
+        "$Nullable": true
+      },
+      "planStates": {
+        "$Kind": "NavigationProperty",
+        "$Type": "DevGoalDetail_22.svc.GoalPlanState",
+        "$Collection": true,
+        "$Nullable": true
+      },
+      "templateConfiguration": {
+        "$Kind": "NavigationProperty",
+        "$Type": "DevGoalDetail_22.svc.TemplateConfiguration",
+        "$Nullable": true
+      }
+    },
+    "Goal": {
+      "$Kind": "EntityType",
+      "$Key": ["id"],
+      "purposeLabel_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "goalScore_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "bizxStrategic_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "competencies_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "modifier": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "done_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "guid_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "type": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "currentOwner_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "bizxPos_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "currentOwner": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "id_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "learnings_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "planId": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "id": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "state": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "update_mc": { "$Type": "Edm.Boolean", "$Nullable": true, "$MaxLength": 1 },
+      "numbering": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "bizxTarget_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "weight_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "lastModified_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "userId_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "weight": { "$Type": "Edm.Double", "$Nullable": true, "$Precision": 28, "$Scale": 3 },
+      "purpose_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "due_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "planId_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "done": { "$Type": "Edm.Double", "$Nullable": true, "$Precision": 28, "$Scale": 3 },
+      "bizxActual_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "status_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "delete_mc": { "$Type": "Edm.Boolean", "$Nullable": true, "$MaxLength": 1 },
+      "category_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "name": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "guid": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "stateLabel": { "$Type": "Edm.String", "$Nullable": true },
+      "state_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "lastModified": { "$Type": "Edm.DateTimeOffset", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "status": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "flag": { "$Type": "Edm.Int32", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "type_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "purpose": { "$Type": "Edm.String", "$Nullable": true },
+      "stateLabel_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "flagLabel_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "start_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "description": { "$Type": "Edm.String", "$Nullable": true },
+      "description_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "goalScore": { "$Type": "Edm.Double", "$Nullable": true },
+      "bizxActual": { "$Type": "Edm.Double", "$Nullable": true, "$Precision": 28, "$Scale": 3 },
+      "name_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "numbering_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "bizxStrategic": { "$Type": "Edm.Int32", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "modifier_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "purposeLabel": { "$Type": "Edm.String", "$Nullable": true },
+      "start": { "$Type": "Edm.Date", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "userId": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "bizxPos": { "$Type": "Edm.Int32", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "due": { "$Type": "Edm.Date", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "flagLabel": { "$Type": "Edm.String", "$Nullable": true },
+      "bizxTarget": { "$Type": "Edm.Double", "$Nullable": true, "$Precision": 28, "$Scale": 3 },
+      "category": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "flag_FC": { "$Type": "Edm.Byte", "$Nullable": true, "$MaxLength": 1 },
+      "competencies": {
+        "$Kind": "NavigationProperty",
+        "$Type": "DevGoalDetail_22.svc.CDPCompetency",
+        "$Collection": true,
+        "$Nullable": true
+      },
+      "learnings": {
+        "$Kind": "NavigationProperty",
+        "$Type": "DevGoalDetail_22.svc.DevLearning",
+        "$Collection": true,
+        "$Nullable": true
+      }
+    },
+    "GoalEnum": {
+      "$Kind": "EntityType",
+      "$Key": ["planId", "value", "fieldId"],
+      "planId": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "style": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "label": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "value": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "fieldId": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 }
+    },
+    "DevLearningCertification": {
+      "$Kind": "EntityType",
+      "$Key": ["certId", "learningId"],
+      "certName": { "$Type": "Edm.String", "$Precision": 0, "$Scale": 0 },
+      "certId": { "$Type": "Edm.Int64", "$Precision": 0, "$Scale": 0 },
+      "learningId": { "$Type": "Edm.Int64", "$Precision": 0, "$Scale": 0 }
+    },
+    "TemplateConfiguration": {
+      "$Kind": "EntityType",
+      "$Key": ["planId"],
+      "maxWeightPerObj": { "$Type": "Edm.Double", "$Nullable": true, "$Precision": 28, "$Scale": 3 },
+      "minGoals": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "maxGoals": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "minWeightPerObj": { "$Type": "Edm.Double", "$Nullable": true, "$Precision": 28, "$Scale": 3 },
+      "minWeight": { "$Type": "Edm.Double", "$Nullable": true, "$Precision": 28, "$Scale": 3 },
+      "planId": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "maxWeight": { "$Type": "Edm.Double", "$Nullable": true, "$Precision": 28, "$Scale": 3 },
+      "introduction": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 }
+    },
+    "GoalPlanState": {
+      "$Kind": "EntityType",
+      "$Key": ["stateId", "planId", "userId"],
+      "auditComments": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "defaultState": { "$Type": "Edm.Boolean", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "stateId": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "stateLabel": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "planId": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "lastModified": { "$Type": "Edm.Date", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "currentState": { "$Type": "Edm.Boolean", "$Precision": 0, "$Scale": 0 },
+      "targetStates": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "userId": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "actionLabel": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 }
+    },
+    "GoalSummary": {
+      "$Kind": "ComplexType",
+      "totalScore": { "$Type": "Edm.Double", "$Nullable": true, "$Precision": 28, "$Scale": 3 },
+      "totalScoreText": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "totalWeight": { "$Type": "Edm.Double", "$Nullable": true, "$Precision": 28, "$Scale": 3 },
+      "totalWeightText": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 }
+    },
+    "GoalPlanValidationMessage": {
+      "$Kind": "ComplexType",
+      "message": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "type": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 }
+    },
+    "GoalPlanUserStateStatistics": {
+      "$Kind": "ComplexType",
+      "count": { "$Type": "Edm.Int64", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "stateId": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 }
+    },
+    "LibCategories": {
+      "$Kind": "ComplexType",
+      "categoryNames": {
+        "$Type": "Edm.String",
+        "$Collection": true,
+        "$Nullable": true,
+        "$Precision": 0,
+        "$Scale": 0
+      },
+      "libName": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 }
+    },
+    "CompetencyFilterOptions": {
+      "$Kind": "ComplexType",
+      "excludeInActive": { "$Type": "Edm.Boolean", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "excludeQuestion": { "$Type": "Edm.Boolean", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "excludeSkill": { "$Type": "Edm.Boolean", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "ids": { "$Type": "Edm.Int64", "$Collection": true, "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "libCategories": {
+        "$Type": "DevGoalDetail_22.svc.LibCategories",
+        "$Collection": true,
+        "$Nullable": true,
+        "$Precision": 0,
+        "$Scale": 0
+      },
+      "useBehavior": { "$Type": "Edm.Boolean", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "useSingleSelection": { "$Type": "Edm.Boolean", "$Nullable": true, "$Precision": 0, "$Scale": 0 }
+    },
+    "LMSResponse": {
+      "$Kind": "ComplexType",
+      "lmsServerURL": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "message": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "requestBody": { "$Type": "Edm.String", "$Nullable": true, "$Precision": 0, "$Scale": 0 },
+      "success": { "$Type": "Edm.Boolean", "$Nullable": true, "$Precision": 0, "$Scale": 0 }
+    },
+    "refreshMetadata": [{ "$Kind": "Action", "$IsBound": false }],
+    "hasCreateDevGoalPermission": [
+      {
+        "$Kind": "Function",
+        "$EntitySetPath": "boundResource",
+        "$IsBound": true,
+        "$Parameter": [
+          {
+            "$Name": "boundResource",
+            "$Type": "DevGoalDetail_22.svc.Goal",
+            "$Collection": true,
+            "$Nullable": true
+          },
+          { "$Name": "targetUserId", "$Type": "Edm.String", "$Nullable": true }
+        ],
+        "$ReturnType": { "$Type": "Edm.Boolean", "$Nullable": true }
+      }
+    ],
+    "getUserGoalPlanValidationMessage": [
+      {
+        "$Kind": "Function",
+        "$Parameter": [{ "$Name": "targetUserId", "$Type": "Edm.String", "$Nullable": true }],
+        "$ReturnType": {
+          "$Type": "DevGoalDetail_22.svc.GoalPlanValidationMessage",
+          "$Collection": true,
+          "$Nullable": true
+        }
+      }
+    ],
+    "getDevGoalSummaryByUser": [
+      {
+        "$Kind": "Function",
+        "$EntitySetPath": "boundResource",
+        "$IsBound": true,
+        "$Parameter": [
+          {
+            "$Name": "boundResource",
+            "$Type": "DevGoalDetail_22.svc.Goal",
+            "$Collection": true,
+            "$Nullable": true
+          },
+          { "$Name": "targetUserId", "$Type": "Edm.String", "$Nullable": true }
+        ],
+        "$ReturnType": { "$Type": "DevGoalDetail_22.svc.GoalSummary", "$Nullable": true }
+      }
+    ],
+    "hasCreateLearningPermission": [
+      {
+        "$Kind": "Function",
+        "$Parameter": [{ "$Name": "targetUserId", "$Type": "Edm.String", "$Nullable": true }],
+        "$ReturnType": { "$Type": "Edm.Boolean", "$Nullable": true }
+      }
+    ],
+    "getInitialDevGoalData": [
+      {
+        "$Kind": "Function",
+        "$EntitySetPath": "boundResource",
+        "$IsBound": true,
+        "$Parameter": [
+          {
+            "$Name": "boundResource",
+            "$Type": "DevGoalDetail_22.svc.Goal",
+            "$Collection": true,
+            "$Nullable": true
+          },
+          { "$Name": "targetUserId", "$Type": "Edm.String", "$Nullable": true }
+        ],
+        "$ReturnType": { "$Type": "DevGoalDetail_22.svc.Goal", "$Nullable": true }
+      }
+    ],
+    "getMoreDetails": [
+      {
+        "$Kind": "Function",
+        "$EntitySetPath": "boundResource",
+        "$IsBound": true,
+        "$Parameter": [
+          { "$Name": "boundResource", "$Type": "DevGoalDetail_22.svc.Goal", "$Nullable": true },
+          { "$Name": "learningId", "$Type": "Edm.Int64", "$Nullable": true }
+        ],
+        "$ReturnType": { "$Type": "DevGoalDetail_22.svc.LMSResponse", "$Nullable": true }
+      }
+    ],
+    "getLinkedCompetencyNames": [
+      {
+        "$Kind": "Function",
+        "$EntitySetPath": "Goal",
+        "$IsBound": true,
+        "$Parameter": [{ "$Name": "Goal", "$Type": "DevGoalDetail_22.svc.Goal", "$Nullable": true }],
+        "$ReturnType": { "$Type": "Edm.String", "$Collection": true, "$Nullable": true }
+      }
+    ],
+    "getDevGoalPlanUserStateStatistics": [
+      {
+        "$Kind": "Function",
+        "$EntitySetPath": "boundResource",
+        "$IsBound": true,
+        "$Parameter": [
+          {
+            "$Name": "boundResource",
+            "$Type": "DevGoalDetail_22.svc.Goal",
+            "$Collection": true,
+            "$Nullable": true
+          },
+          { "$Name": "targetUserId", "$Type": "Edm.String", "$Nullable": true }
+        ],
+        "$ReturnType": {
+          "$Type": "DevGoalDetail_22.svc.GoalPlanUserStateStatistics",
+          "$Collection": true,
+          "$Nullable": true
+        }
+      }
+    ],
+    "launchLMSCourse": [
+      {
+        "$Kind": "Function",
+        "$EntitySetPath": "boundResource",
+        "$IsBound": true,
+        "$Parameter": [
+          { "$Name": "boundResource", "$Type": "DevGoalDetail_22.svc.Goal", "$Nullable": true },
+          { "$Name": "learningId", "$Type": "Edm.Int64", "$Nullable": true }
+        ],
+        "$ReturnType": { "$Type": "DevGoalDetail_22.svc.LMSResponse", "$Nullable": true }
+      }
+    ],
+    "checkUnsupportedDevFields": [
+      {
+        "$Kind": "Function",
+        "$EntitySetPath": "boundResource",
+        "$IsBound": true,
+        "$Parameter": [{ "$Name": "boundResource", "$Type": "DevGoalDetail_22.svc.Goal", "$Nullable": true }],
+        "$ReturnType": { "$Type": "Edm.Boolean", "$Nullable": true }
+      }
+    ],
+    "hasLaunchLearningPermission": [
+      {
+        "$Kind": "Function",
+        "$Parameter": [{ "$Name": "targetUserId", "$Type": "Edm.String", "$Nullable": true }],
+        "$ReturnType": { "$Type": "Edm.Boolean", "$Nullable": true }
+      }
+    ],
+    "getCompetencyFilterOptions": [
+      {
+        "$Kind": "Function",
+        "$Parameter": [{ "$Name": "objAssignee", "$Type": "Edm.String", "$Nullable": true }],
+        "$ReturnType": { "$Type": "DevGoalDetail_22.svc.CompetencyFilterOptions", "$Nullable": true }
+      }
+    ],
+    "findInCatalog": [
+      {
+        "$Kind": "Function",
+        "$EntitySetPath": "boundResource",
+        "$IsBound": true,
+        "$Parameter": [
+          { "$Name": "boundResource", "$Type": "DevGoalDetail_22.svc.Goal", "$Nullable": true },
+          { "$Name": "selectedUserId", "$Type": "Edm.String", "$Nullable": true },
+          { "$Name": "extURLType", "$Type": "Edm.Int64", "$Nullable": true },
+          { "$Name": "formSubjId", "$Type": "Edm.Int64", "$Nullable": true }
+        ],
+        "$ReturnType": { "$Type": "DevGoalDetail_22.svc.LMSResponse", "$Nullable": true }
+      }
+    ],
+    "Container": {
+      "$Kind": "EntityContainer",
+      "CDPCompetency": { "$Kind": "EntitySet", "$Type": "DevGoalDetail_22.svc.CDPCompetency" },
+      "DevLearning": {
+        "$Kind": "EntitySet",
+        "$Type": "DevGoalDetail_22.svc.DevLearning",
+        "$NavigationPropertyBinding": { "certifications": "DevLearningCertification" }
+      },
+      "GoalPlanTemplate": {
+        "$Kind": "EntitySet",
+        "$Type": "DevGoalDetail_22.svc.GoalPlanTemplate",
+        "$NavigationPropertyBinding": {
+          "enums": "GoalEnum",
+          "planStates": "GoalPlanState",
+          "templateConfiguration": "TemplateConfiguration"
+        }
+      },
+      "Goal": {
+        "$Kind": "EntitySet",
+        "$Type": "DevGoalDetail_22.svc.Goal",
+        "$NavigationPropertyBinding": { "competencies": "CDPCompetency", "learnings": "DevLearning" }
+      },
+      "GoalEnum": { "$Kind": "EntitySet", "$Type": "DevGoalDetail_22.svc.GoalEnum" },
+      "DevLearningCertification": {
+        "$Kind": "EntitySet",
+        "$Type": "DevGoalDetail_22.svc.DevLearningCertification"
+      },
+      "TemplateConfiguration": { "$Kind": "EntitySet", "$Type": "DevGoalDetail_22.svc.TemplateConfiguration" },
+      "GoalPlanState": { "$Kind": "EntitySet", "$Type": "DevGoalDetail_22.svc.GoalPlanState" },
+      "refreshMetadata": { "$Kind": "ActionImport", "$Action": "DevGoalDetail_22.svc.refreshMetadata" },
+      "getUserGoalPlanValidationMessage": {
+        "$Kind": "FunctionImport",
+        "$Function": "DevGoalDetail_22.svc.getUserGoalPlanValidationMessage",
+        "$IncludeInServiceDocument": true
+      },
+      "hasCreateLearningPermission": {
+        "$Kind": "FunctionImport",
+        "$Function": "DevGoalDetail_22.svc.hasCreateLearningPermission",
+        "$IncludeInServiceDocument": true
+      },
+      "hasLaunchLearningPermission": {
+        "$Kind": "FunctionImport",
+        "$Function": "DevGoalDetail_22.svc.hasLaunchLearningPermission",
+        "$IncludeInServiceDocument": true
+      },
+      "getCompetencyFilterOptions": {
+        "$Kind": "FunctionImport",
+        "$Function": "DevGoalDetail_22.svc.getCompetencyFilterOptions",
+        "$IncludeInServiceDocument": true
+      }
+    }
+  }
+}

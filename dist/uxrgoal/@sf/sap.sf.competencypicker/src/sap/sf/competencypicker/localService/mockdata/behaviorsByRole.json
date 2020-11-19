@@ -1,0 +1,193 @@
+{
+    "Skilled Craft Family":{
+        "Role1": {
+            "Demonstrating Self-Insight and Awareness":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                      "behaviorInternalId": 13981439,
+                      "behaviorName": "Critical Thinking",
+                      "roleId": 1231
+                    },
+                    {
+                      "behaviorInternalId": 13981451,
+                      "behaviorName": "Adapting to Change",
+                      "roleId": 1231
+                    },
+                    {
+                      "behaviorInternalId": 13981475,
+                      "behaviorName": "Inspiring and Motivating Others",
+                      "roleId": 1231
+                    },
+                    {
+                      "behaviorInternalId": 13981547,
+                      "behaviorName": "Maintaining Work-Life Balance",
+                      "roleId": 1231
+                    }
+                ]
+            },
+            "Establishing Relationships":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                      "behaviorInternalId": 13981565,
+                      "behaviorName": "Using Computers and Technology",
+                      "roleId": 1231
+                    },
+                    {
+                      "behaviorInternalId": 13981571,
+                      "behaviorName": "Thinking Broadly",
+                      "roleId": 1231
+                    },
+                    {
+                      "behaviorInternalId": 13981583,
+                      "behaviorName": "Reading Effectively",
+                      "roleId": 1231
+                    }
+                ]
+            }
+        },
+        "Role2": {
+            "Following Policies and Procedures":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                      "behaviorInternalId": 13981589,
+                      "behaviorName": "Managing Political Situations",
+                      "roleId": 1232
+                    },
+                    {
+                      "behaviorInternalId": 13981601,
+                      "behaviorName": "Resolving Conflict",
+                      "roleId": 1232
+                    }
+                ]
+            },
+          "Evaluating and Implementing Ideas":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                      "behaviorInternalId": 13981607,
+                      "behaviorName": "Testing and Troubleshooting",
+                      "roleId": 1232
+                    }
+                ]
+            }
+        },
+      "Role3": {
+            "Setting a Strategic Vision":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                      "behaviorInternalId": 13981613,
+                      "behaviorName": "Driving for Results",
+                      "roleId": 1233
+                    },
+                    {
+                      "behaviorInternalId": 13981625,
+                      "behaviorName": "Entrepreneurial Thinking",
+                      "roleId": 1233
+                    }
+                ]
+            },
+            "Using Math":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                      "behaviorInternalId": 13981693,
+                      "behaviorName": "Setting Objectives",
+                      "roleId": 1233
+                    },
+                    {
+                      "behaviorInternalId": 13981699,
+                      "behaviorName": "Managing Resources",
+                      "roleId": 1233
+                    }
+                ]
+            }
+        }
+    },
+    "Retail Associates":{
+        "Role4": {
+            "Performing Physical or Mechanical Tasks":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                      "behaviorInternalId": 13981727,
+                      "behaviorName": "Driving Continuous Improvement",
+                      "roleId": 1234
+                    }
+                ]
+            },
+            "Making a Strong Impression":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                      "behaviorInternalId": 13981736,
+                      "behaviorName": "Thinking Globally",
+                      "roleId": 1234
+                    }
+                ]
+            }
+        }
+    },
+    "Human Resources Family":{
+        "Role5": {
+            "Establishing Relationships":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                      "behaviorInternalId": 13981565,
+                      "behaviorName": "Using Computers and Technology",
+                      "roleId": 1235
+                    },
+                    {
+                      "behaviorInternalId": 13981571,
+                      "behaviorName": "Thinking Broadly",
+                      "roleId": 1235
+                    },
+                    {
+                      "behaviorInternalId": 13981583,
+                      "behaviorName": "Reading Effectively",
+                      "roleId": 1235
+                    }
+                ]
+            }
+        }
+    },
+    "Services and Maintenance Family":{
+        "Role6": {
+            "Delivering High Quality Work":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                      "behaviorInternalId": 13981742,
+                      "behaviorName": "Serving Customers",
+                      "roleId": 1236
+                    }
+                ]
+            },
+            "Demonstrating Initiative":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                      "behaviorInternalId": 13981765,
+                      "behaviorName": "Prioritizing and Organizing Work",
+                      "roleId": 1236
+                    }
+                ]
+            }
+        }
+    }
+}

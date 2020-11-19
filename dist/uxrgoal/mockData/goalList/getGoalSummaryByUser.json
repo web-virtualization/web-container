@@ -1,0 +1,8 @@
+{
+    "@odata.context": "https://localhost:443/odata/v4/Goal_19.svc/$metadata#Goal_19.svc.GoalSummary",
+    "@odata.metadataEtag": "\"0969f679-b4e5-4ed1-be87-e9419505ec3e\"",
+    "totalScore": 153.3,
+    "totalScoreText": "153.3",
+    "totalWeight": 41,
+    "totalWeightText": "41"
+}

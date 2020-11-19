@@ -1,0 +1,2769 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".library"
+		},
+		{
+			"name": ".theming"
+		},
+		{
+			"name": "BizXHeader-dbg.controller.js",
+			"module": "sap/sf/surj/shell/BizXHeader.controller.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"jquery.sap.storage.js",
+				"sap/m/Dialog.js",
+				"sap/sf/surj/shell/controls/BizXMenuListItem.js",
+				"sap/sf/surj/shell/controls/BizXMenuPopover.js",
+				"sap/sf/surj/shell/controls/BizXSearchField.js",
+				"sap/sf/surj/shell/controls/BizXSuggestionItem.js",
+				"sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js",
+				"sap/sf/surj/shell/controls/IntroSuggestionItem.js",
+				"sap/sf/surj/shell/controls/PeopleSuggestionItem.js",
+				"sap/sf/surj/shell/controls/ResponsiveSidePanel.js",
+				"sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js",
+				"sap/sf/surj/shell/core/BizXResourceModel.js",
+				"sap/sf/surj/shell/library.js",
+				"sap/sf/surj/shell/quickcard/QuickcardHandler.js",
+				"sap/sf/surj/shell/util/A11yPreferences.js",
+				"sap/sf/surj/shell/util/ActionSearchUtil.js",
+				"sap/sf/surj/shell/util/AnimateUtil.js",
+				"sap/sf/surj/shell/util/CookiePolicyUtil.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/FLPServices.js",
+				"sap/sf/surj/shell/util/JamUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/PeopleSearchUtil.js",
+				"sap/sf/surj/shell/util/Polyfill.js",
+				"sap/sf/surj/shell/util/ProxyUtil.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/sf/surj/shell/util/ShowMeUtil.js",
+				"sap/sf/surj/shell/util/Util.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/model/json/JSONModel.js"
+			],
+			"condRequired": [
+				"sap/sf/todo/util/PanelManager.js"
+			]
+		},
+		{
+			"name": "BizXHeader-dbg.view.js",
+			"module": "sap/sf/surj/shell/BizXHeader.view.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Bar.js",
+				"sap/m/Image.js",
+				"sap/m/Link.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/SearchField.js",
+				"sap/m/SuggestionItem.js",
+				"sap/m/Text.js",
+				"sap/sf/surj/shell/controls/BizXButton.js",
+				"sap/sf/surj/shell/controls/BizXSearchField.js",
+				"sap/sf/surj/shell/controls/Container.js",
+				"sap/sf/surj/shell/controls/FocusMarker.js",
+				"sap/sf/surj/shell/controls/NotificationWrapper.js",
+				"sap/sf/surj/shell/controls/UserPhoto.js",
+				"sap/sf/surj/shell/util/A11yPreferences.js",
+				"sap/sf/surj/shell/util/SuppIconPool.js",
+				"sap/sf/surj/shell/util/Util.js",
+				"sap/ui/core/CustomData.js",
+				"sap/ui/core/delegate/ItemNavigation.js",
+				"sap/ui/core/theming/Parameters.js"
+			]
+		},
+		{
+			"name": "BizXHeader.controller.js",
+			"module": "sap/sf/surj/shell/BizXHeader.controller.js",
+			"required": [
+				"jquery.sap.global.js",
+				"jquery.sap.storage.js",
+				"sap/m/Dialog.js",
+				"sap/sf/surj/shell/controls/BizXMenuListItem.js",
+				"sap/sf/surj/shell/controls/BizXMenuPopover.js",
+				"sap/sf/surj/shell/controls/BizXSearchField.js",
+				"sap/sf/surj/shell/controls/BizXSuggestionItem.js",
+				"sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js",
+				"sap/sf/surj/shell/controls/IntroSuggestionItem.js",
+				"sap/sf/surj/shell/controls/PeopleSuggestionItem.js",
+				"sap/sf/surj/shell/controls/ResponsiveSidePanel.js",
+				"sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js",
+				"sap/sf/surj/shell/core/BizXResourceModel.js",
+				"sap/sf/surj/shell/library.js",
+				"sap/sf/surj/shell/quickcard/QuickcardHandler.js",
+				"sap/sf/surj/shell/util/A11yPreferences.js",
+				"sap/sf/surj/shell/util/ActionSearchUtil.js",
+				"sap/sf/surj/shell/util/AnimateUtil.js",
+				"sap/sf/surj/shell/util/CookiePolicyUtil.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/FLPServices.js",
+				"sap/sf/surj/shell/util/JamUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/PeopleSearchUtil.js",
+				"sap/sf/surj/shell/util/Polyfill.js",
+				"sap/sf/surj/shell/util/ProxyUtil.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/sf/surj/shell/util/ShowMeUtil.js",
+				"sap/sf/surj/shell/util/Util.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/model/json/JSONModel.js"
+			],
+			"condRequired": [
+				"sap/sf/todo/util/PanelManager.js"
+			]
+		},
+		{
+			"name": "BizXHeader.view.js",
+			"module": "sap/sf/surj/shell/BizXHeader.view.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Bar.js",
+				"sap/m/Image.js",
+				"sap/m/Link.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/SearchField.js",
+				"sap/m/SuggestionItem.js",
+				"sap/m/Text.js",
+				"sap/sf/surj/shell/controls/BizXButton.js",
+				"sap/sf/surj/shell/controls/BizXSearchField.js",
+				"sap/sf/surj/shell/controls/Container.js",
+				"sap/sf/surj/shell/controls/FocusMarker.js",
+				"sap/sf/surj/shell/controls/NotificationWrapper.js",
+				"sap/sf/surj/shell/controls/UserPhoto.js",
+				"sap/sf/surj/shell/util/A11yPreferences.js",
+				"sap/sf/surj/shell/util/SuppIconPool.js",
+				"sap/sf/surj/shell/util/Util.js",
+				"sap/ui/core/CustomData.js",
+				"sap/ui/core/delegate/ItemNavigation.js",
+				"sap/ui/core/theming/Parameters.js"
+			]
+		},
+		{
+			"name": "BizXShell-dbg.controller.js",
+			"module": "sap/sf/surj/shell/BizXShell.controller.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/ui/model/json/JSONModel.js"
+			]
+		},
+		{
+			"name": "BizXShell-dbg.view.js",
+			"module": "sap/sf/surj/shell/BizXShell.view.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Text.js",
+				"sap/m/library.js",
+				"sap/sf/surj/shell/controls/BizXApp.js",
+				"sap/sf/surj/shell/controls/BizXPage.js",
+				"sap/sf/surj/shell/controls/BizXShell.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ui/core/HTML.js"
+			]
+		},
+		{
+			"name": "BizXShell.controller.js",
+			"module": "sap/sf/surj/shell/BizXShell.controller.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/ui/model/json/JSONModel.js"
+			]
+		},
+		{
+			"name": "BizXShell.view.js",
+			"module": "sap/sf/surj/shell/BizXShell.view.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Text.js",
+				"sap/m/library.js",
+				"sap/sf/surj/shell/controls/BizXApp.js",
+				"sap/sf/surj/shell/controls/BizXPage.js",
+				"sap/sf/surj/shell/controls/BizXShell.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ui/core/HTML.js"
+			]
+		},
+		{
+			"name": "component/header/Component-dbg.js",
+			"module": "sap/sf/surj/shell/component/header/Component.js",
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/UIComponent.js"
+			]
+		},
+		{
+			"name": "component/header/Component.js",
+			"module": "sap/sf/surj/shell/component/header/Component.js",
+			"required": [
+				"sap/ui/core/UIComponent.js"
+			]
+		},
+		{
+			"name": "component/header/manifest.json",
+			"module": "sap/sf/surj/shell/component/header/manifest.json"
+		},
+		{
+			"name": "component/shell/Component-dbg.js",
+			"module": "sap/sf/surj/shell/component/shell/Component.js",
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/UIComponent.js"
+			]
+		},
+		{
+			"name": "component/shell/Component.js",
+			"module": "sap/sf/surj/shell/component/shell/Component.js",
+			"required": [
+				"sap/ui/core/UIComponent.js"
+			]
+		},
+		{
+			"name": "component/shell/manifest.json",
+			"module": "sap/sf/surj/shell/component/shell/manifest.json"
+		},
+		{
+			"name": "controls/BizXApp-dbg.js",
+			"module": "sap/sf/surj/shell/controls/BizXApp.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXApp.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/BizXApp.js",
+			"module": "sap/sf/surj/shell/controls/BizXApp.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXButton-dbg.js",
+			"module": "sap/sf/surj/shell/controls/BizXButton.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Button.js",
+				"sap/sf/surj/shell/controls/BizXButtonRenderer.js"
+			]
+		},
+		{
+			"name": "controls/BizXButton.js",
+			"module": "sap/sf/surj/shell/controls/BizXButton.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Button.js",
+				"sap/sf/surj/shell/controls/BizXButtonRenderer.js"
+			]
+		},
+		{
+			"name": "controls/BizXButtonRenderer-dbg.js",
+			"module": "sap/sf/surj/shell/controls/BizXButtonRenderer.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/ButtonRenderer.js",
+				"sap/ui/core/Renderer.js"
+			]
+		},
+		{
+			"name": "controls/BizXButtonRenderer.js",
+			"module": "sap/sf/surj/shell/controls/BizXButtonRenderer.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/ButtonRenderer.js",
+				"sap/ui/core/Renderer.js"
+			]
+		},
+		{
+			"name": "controls/BizXMenuListItem-dbg.js",
+			"module": "sap/sf/surj/shell/controls/BizXMenuListItem.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXMenuListItem.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/BizXMenuListItem.js",
+			"module": "sap/sf/surj/shell/controls/BizXMenuListItem.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXMenuListItemRenderer-dbg.js",
+			"module": "sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/ListItemBaseRenderer.js",
+				"sap/ui/core/Renderer.js"
+			]
+		},
+		{
+			"name": "controls/BizXMenuListItemRenderer.js",
+			"module": "sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/ListItemBaseRenderer.js",
+				"sap/ui/core/Renderer.js"
+			]
+		},
+		{
+			"name": "controls/BizXMenuPopover-dbg.js",
+			"module": "sap/sf/surj/shell/controls/BizXMenuPopover.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXMenuPopover.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/BizXMenuPopover.js",
+			"module": "sap/sf/surj/shell/controls/BizXMenuPopover.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXPage-dbg.js",
+			"module": "sap/sf/surj/shell/controls/BizXPage.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXPage.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/BizXPage.js",
+			"module": "sap/sf/surj/shell/controls/BizXPage.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXSearchField-dbg.js",
+			"module": "sap/sf/surj/shell/controls/BizXSearchField.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXSearchField.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/BizXSearchField.js",
+			"module": "sap/sf/surj/shell/controls/BizXSearchField.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXShell-dbg.js",
+			"module": "sap/sf/surj/shell/controls/BizXShell.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXShell.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/BizXShell.js",
+			"module": "sap/sf/surj/shell/controls/BizXShell.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXSuggest-dbg.js",
+			"module": "sap/sf/surj/shell/controls/BizXSuggest.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Suggest.js",
+				"sap/sf/surj/shell/util/A11yPreferences.js",
+				"sap/ui/Device.js"
+			]
+		},
+		{
+			"name": "controls/BizXSuggest.js",
+			"module": "sap/sf/surj/shell/controls/BizXSuggest.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Suggest.js",
+				"sap/sf/surj/shell/util/A11yPreferences.js",
+				"sap/ui/Device.js"
+			]
+		},
+		{
+			"name": "controls/BizXSuggestionItem-dbg.js",
+			"module": "sap/sf/surj/shell/controls/BizXSuggestionItem.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/BizXSuggestionItem.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/BizXSuggestionItem.js",
+			"module": "sap/sf/surj/shell/controls/BizXSuggestionItem.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/Container-dbg.js",
+			"module": "sap/sf/surj/shell/controls/Container.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/Container.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/Container.js",
+			"module": "sap/sf/surj/shell/controls/Container.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/FocusMarker-dbg.js",
+			"module": "sap/sf/surj/shell/controls/FocusMarker.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/FocusMarker.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/FocusMarker.js",
+			"module": "sap/sf/surj/shell/controls/FocusMarker.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/GACESearchInput-dbg.js",
+			"module": "sap/sf/surj/shell/controls/GACESearchInput.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/GACESearchInput.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/GACESearchInput.js",
+			"module": "sap/sf/surj/shell/controls/GACESearchInput.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/GACESearchResult-dbg.js",
+			"module": "sap/sf/surj/shell/controls/GACESearchResult.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/GACESearchResult.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/GACESearchResult.js",
+			"module": "sap/sf/surj/shell/controls/GACESearchResult.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/GlobalAssignmentMenuItem-dbg.js",
+			"module": "sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/GlobalAssignmentMenuItem.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/GlobalAssignmentMenuItem.js",
+			"module": "sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/IntroSuggestionItem-dbg.js",
+			"module": "sap/sf/surj/shell/controls/IntroSuggestionItem.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/IntroSuggestionItem.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/IntroSuggestionItem.js",
+			"module": "sap/sf/surj/shell/controls/IntroSuggestionItem.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/NotificationWrapper-dbg.js",
+			"module": "sap/sf/surj/shell/controls/NotificationWrapper.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/NotificationWrapper.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/NotificationWrapper.js",
+			"module": "sap/sf/surj/shell/controls/NotificationWrapper.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/PeopleSuggestionItem-dbg.js",
+			"module": "sap/sf/surj/shell/controls/PeopleSuggestionItem.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/PeopleSuggestionItem.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/PeopleSuggestionItem.js",
+			"module": "sap/sf/surj/shell/controls/PeopleSuggestionItem.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/ResponsiveSidePanel-dbg.js",
+			"module": "sap/sf/surj/shell/controls/ResponsiveSidePanel.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/ResponsiveSidePanel.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/ResponsiveSidePanel.js",
+			"module": "sap/sf/surj/shell/controls/ResponsiveSidePanel.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/SearchInput-dbg.js",
+			"module": "sap/sf/surj/shell/controls/SearchInput.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/SearchInput.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/SearchInput.js",
+			"module": "sap/sf/surj/shell/controls/SearchInput.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/SearchInputRenderer-dbg.js",
+			"module": "sap/sf/surj/shell/controls/SearchInputRenderer.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/ComboBoxRenderer.js",
+				"sap/m/InputRenderer.js",
+				"sap/ui/core/Renderer.js"
+			]
+		},
+		{
+			"name": "controls/SearchInputRenderer.js",
+			"module": "sap/sf/surj/shell/controls/SearchInputRenderer.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/ComboBoxRenderer.js",
+				"sap/m/InputRenderer.js",
+				"sap/ui/core/Renderer.js"
+			]
+		},
+		{
+			"name": "controls/SearchResult-dbg.js",
+			"module": "sap/sf/surj/shell/controls/SearchResult.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/SearchResult.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/SearchResult.js",
+			"module": "sap/sf/surj/shell/controls/SearchResult.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/SearchResultList-dbg.js",
+			"module": "sap/sf/surj/shell/controls/SearchResultList.js",
+			"isDebug": true,
+			"required": [
+				"sap/m/List.js"
+			]
+		},
+		{
+			"name": "controls/SearchResultList.js",
+			"module": "sap/sf/surj/shell/controls/SearchResultList.js",
+			"required": [
+				"sap/m/List.js"
+			]
+		},
+		{
+			"name": "controls/SearchResultPopover-dbg.js",
+			"module": "sap/sf/surj/shell/controls/SearchResultPopover.js",
+			"isDebug": true,
+			"required": [
+				"sap/m/Popover.js"
+			]
+		},
+		{
+			"name": "controls/SearchResultPopover.js",
+			"module": "sap/sf/surj/shell/controls/SearchResultPopover.js",
+			"required": [
+				"sap/m/Popover.js"
+			]
+		},
+		{
+			"name": "controls/ShowMeCallout-dbg.js",
+			"module": "sap/sf/surj/shell/controls/ShowMeCallout.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/ShowMeCallout.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/ShowMeCallout.js",
+			"module": "sap/sf/surj/shell/controls/ShowMeCallout.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/ShowMoreSuggestionItem-dbg.js",
+			"module": "sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/ShowMoreSuggestionItem.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/ShowMoreSuggestionItem.js",
+			"module": "sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/Table-dbg.js",
+			"module": "sap/sf/surj/shell/controls/Table.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/Table.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/Table.js",
+			"module": "sap/sf/surj/shell/controls/Table.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/UserPhoto-dbg.js",
+			"module": "sap/sf/surj/shell/controls/UserPhoto.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "controls/UserPhoto.control",
+			"designtime": true
+		},
+		{
+			"name": "controls/UserPhoto.js",
+			"module": "sap/sf/surj/shell/controls/UserPhoto.js",
+			"required": [
+				"sap/sf/surj/shell/library.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "core/BizXResourceBundle-dbg.js",
+			"module": "sap/sf/surj/shell/core/BizXResourceBundle.js",
+			"isDebug": true,
+			"required": [
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "core/BizXResourceBundle.js",
+			"module": "sap/sf/surj/shell/core/BizXResourceBundle.js",
+			"required": [
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "core/BizXResourceModel-dbg.js",
+			"module": "sap/sf/surj/shell/core/BizXResourceModel.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/core/BizXResourceBundle.js",
+				"sap/ui/model/resource/ResourceModel.js"
+			]
+		},
+		{
+			"name": "core/BizXResourceModel.js",
+			"module": "sap/sf/surj/shell/core/BizXResourceModel.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/core/BizXResourceBundle.js",
+				"sap/ui/model/resource/ResourceModel.js"
+			]
+		},
+		{
+			"name": "fragments/ProductSwitcher.fragment.xml",
+			"module": "sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml",
+			"required": [
+				"sap/m/CustomListItem.js",
+				"sap/m/Label.js",
+				"sap/m/List.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/Title.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/Icon.js"
+			]
+		},
+		{
+			"name": "i18n/messagebundle.properties",
+			"module": "sap/sf/surj/shell/i18n/messagebundle.properties"
+		},
+		{
+			"name": "img/sessiontimeout/yellow_alert_icon.png"
+		},
+		{
+			"name": "img/showme/show_me_how_to_thumb.jpg"
+		},
+		{
+			"name": "img/showme/showme_admin_bar.png"
+		},
+		{
+			"name": "img/showme/showme_admin_done_bar.png"
+		},
+		{
+			"name": "img/showme/video_play.png"
+		},
+		{
+			"name": "img/userphoto/UserPhotoPlaceholder_112x112.png"
+		},
+		{
+			"name": "img/userphoto/UserPhotoPlaceholder_180x240.png"
+		},
+		{
+			"name": "img/userphoto/UserPhotoPlaceholder_30x30.png"
+		},
+		{
+			"name": "img/userphoto/UserPhotoPlaceholder_50x50.png"
+		},
+		{
+			"name": "img/userphoto/UserPhotoPlaceholder_60x80.png"
+		},
+		{
+			"name": "library-dbg.js",
+			"module": "sap/sf/surj/shell/library.js",
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Core.js",
+				"sap/ui/core/library.js"
+			]
+		},
+		{
+			"name": "library-h2-preload-dbg.js",
+			"module": "sap/sf/surj/shell/library-h2-preload.js",
+			"isDebug": true,
+			"merged": true,
+			"required": [
+				"jquery.sap.global.js",
+				"jquery.sap.storage.js",
+				"sap/base/util/isEmptyObject.js",
+				"sap/m/Bar.js",
+				"sap/m/BusyIndicator.js",
+				"sap/m/Button.js",
+				"sap/m/ButtonRenderer.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/ComboBoxRenderer.js",
+				"sap/m/CustomListItem.js",
+				"sap/m/Dialog.js",
+				"sap/m/FlexItemData.js",
+				"sap/m/HBox.js",
+				"sap/m/Image.js",
+				"sap/m/Input.js",
+				"sap/m/InputRenderer.js",
+				"sap/m/Label.js",
+				"sap/m/Link.js",
+				"sap/m/List.js",
+				"sap/m/ListItemBaseRenderer.js",
+				"sap/m/MessageBox.js",
+				"sap/m/MessageStrip.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/Page.js",
+				"sap/m/Panel.js",
+				"sap/m/Popover.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/SearchField.js",
+				"sap/m/SegmentedButton.js",
+				"sap/m/SegmentedButtonItem.js",
+				"sap/m/Select.js",
+				"sap/m/StandardListItem.js",
+				"sap/m/Suggest.js",
+				"sap/m/SuggestionItem.js",
+				"sap/m/Switch.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/m/TextArea.js",
+				"sap/m/Title.js",
+				"sap/m/VBox.js",
+				"sap/m/library.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/EventProvider.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/CustomData.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/HTML.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/core/ListItem.js",
+				"sap/ui/core/Renderer.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/ValueState.js",
+				"sap/ui/core/delegate/ItemNavigation.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/layout/form/FormElement.js",
+				"sap/ui/mdc/Field.js",
+				"sap/ui/mdc/enum/EditMode.js",
+				"sap/ui/mdc/enum/FieldDisplay.js",
+				"sap/ui/mdc/field/FieldValueHelp.js",
+				"sap/ui/mdc/field/FieldValueHelpMTableWrapper.js",
+				"sap/ui/mdc/field/InParameter.js",
+				"sap/ui/mdc/field/ListFieldHelp.js",
+				"sap/ui/mdc/field/OutParameter.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/model/odata/v4/ODataModel.js",
+				"sap/ui/model/resource/ResourceModel.js"
+			],
+			"condRequired": [
+				"sap/m/BusyDialog.js",
+				"sap/sf/todo/util/PanelManager.js",
+				"sap/ui/base/DataType.js"
+			],
+			"included": [
+				"sap/sf/surj/shell/library.js",
+				"sap/sf/surj/shell/manifest.json",
+				"sap/sf/surj/shell/BizXHeader.controller.js",
+				"sap/sf/surj/shell/BizXHeader.view.js",
+				"sap/sf/surj/shell/BizXShell.controller.js",
+				"sap/sf/surj/shell/BizXShell.view.js",
+				"sap/sf/surj/shell/component/header/Component.js",
+				"sap/sf/surj/shell/component/header/manifest.json",
+				"sap/sf/surj/shell/component/shell/Component.js",
+				"sap/sf/surj/shell/component/shell/manifest.json",
+				"sap/sf/surj/shell/controls/BizXApp.js",
+				"sap/sf/surj/shell/controls/BizXButton.js",
+				"sap/sf/surj/shell/controls/BizXButtonRenderer.js",
+				"sap/sf/surj/shell/controls/BizXMenuListItem.js",
+				"sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js",
+				"sap/sf/surj/shell/controls/BizXMenuPopover.js",
+				"sap/sf/surj/shell/controls/BizXPage.js",
+				"sap/sf/surj/shell/controls/BizXSearchField.js",
+				"sap/sf/surj/shell/controls/BizXShell.js",
+				"sap/sf/surj/shell/controls/BizXSuggest.js",
+				"sap/sf/surj/shell/controls/BizXSuggestionItem.js",
+				"sap/sf/surj/shell/controls/Container.js",
+				"sap/sf/surj/shell/controls/FocusMarker.js",
+				"sap/sf/surj/shell/controls/GACESearchInput.js",
+				"sap/sf/surj/shell/controls/GACESearchResult.js",
+				"sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js",
+				"sap/sf/surj/shell/controls/IntroSuggestionItem.js",
+				"sap/sf/surj/shell/controls/NotificationWrapper.js",
+				"sap/sf/surj/shell/controls/PeopleSuggestionItem.js",
+				"sap/sf/surj/shell/controls/ResponsiveSidePanel.js",
+				"sap/sf/surj/shell/controls/SearchInput.js",
+				"sap/sf/surj/shell/controls/SearchInputRenderer.js",
+				"sap/sf/surj/shell/controls/SearchResult.js",
+				"sap/sf/surj/shell/controls/SearchResultList.js",
+				"sap/sf/surj/shell/controls/SearchResultPopover.js",
+				"sap/sf/surj/shell/controls/ShowMeCallout.js",
+				"sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js",
+				"sap/sf/surj/shell/controls/Table.js",
+				"sap/sf/surj/shell/controls/UserPhoto.js",
+				"sap/sf/surj/shell/core/BizXResourceBundle.js",
+				"sap/sf/surj/shell/core/BizXResourceModel.js",
+				"sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml",
+				"sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js",
+				"sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js",
+				"sap/sf/surj/shell/mvc/GACESearchTest.controller.js",
+				"sap/sf/surj/shell/mvc/GACESearchTest.view.xml",
+				"sap/sf/surj/shell/quickcard/QuickcardHandler.js",
+				"sap/sf/surj/shell/session/SessionTimer.fragment.xml",
+				"sap/sf/surj/shell/session/SessionTimer.js",
+				"sap/sf/surj/shell/util/A11yPreferences.js",
+				"sap/sf/surj/shell/util/AboutBoxUtil.js",
+				"sap/sf/surj/shell/util/ActionSearchUtil.js",
+				"sap/sf/surj/shell/util/AjaxServiceError.js",
+				"sap/sf/surj/shell/util/AnimateUtil.js",
+				"sap/sf/surj/shell/util/Config.js",
+				"sap/sf/surj/shell/util/CookiePolicyUtil.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/DowntimeNotificationUtil.js",
+				"sap/sf/surj/shell/util/FLPServices.js",
+				"sap/sf/surj/shell/util/FOPeopleSearchUtil.js",
+				"sap/sf/surj/shell/util/FormGenerationUtil.js",
+				"sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js",
+				"sap/sf/surj/shell/util/GACESearchUtil.js",
+				"sap/sf/surj/shell/util/JamUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/NameFormatter.js",
+				"sap/sf/surj/shell/util/Observable.js",
+				"sap/sf/surj/shell/util/PeopleSearchUtil.js",
+				"sap/sf/surj/shell/util/Polyfill.js",
+				"sap/sf/surj/shell/util/PostMessageAPI.js",
+				"sap/sf/surj/shell/util/ProxyUtil.js",
+				"sap/sf/surj/shell/util/SMRF.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/sf/surj/shell/util/ServiceVisibilityMapping.js",
+				"sap/sf/surj/shell/util/ShowMeUtil.js",
+				"sap/sf/surj/shell/util/SuppIconPool.js",
+				"sap/sf/surj/shell/util/ThemeUtil.js",
+				"sap/sf/surj/shell/util/TopNavLogout.js",
+				"sap/sf/surj/shell/util/UserPhotoUtil.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "library-h2-preload.js",
+			"module": "sap/sf/surj/shell/library-h2-preload.js",
+			"merged": true,
+			"required": [
+				"jquery.sap.global.js",
+				"jquery.sap.storage.js",
+				"sap/base/util/isEmptyObject.js",
+				"sap/m/Bar.js",
+				"sap/m/BusyIndicator.js",
+				"sap/m/Button.js",
+				"sap/m/ButtonRenderer.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/ComboBoxRenderer.js",
+				"sap/m/CustomListItem.js",
+				"sap/m/Dialog.js",
+				"sap/m/FlexItemData.js",
+				"sap/m/HBox.js",
+				"sap/m/Image.js",
+				"sap/m/Input.js",
+				"sap/m/InputRenderer.js",
+				"sap/m/Label.js",
+				"sap/m/Link.js",
+				"sap/m/List.js",
+				"sap/m/ListItemBaseRenderer.js",
+				"sap/m/MessageBox.js",
+				"sap/m/MessageStrip.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/Page.js",
+				"sap/m/Panel.js",
+				"sap/m/Popover.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/SearchField.js",
+				"sap/m/SegmentedButton.js",
+				"sap/m/SegmentedButtonItem.js",
+				"sap/m/Select.js",
+				"sap/m/StandardListItem.js",
+				"sap/m/Suggest.js",
+				"sap/m/SuggestionItem.js",
+				"sap/m/Switch.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/m/TextArea.js",
+				"sap/m/Title.js",
+				"sap/m/VBox.js",
+				"sap/m/library.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/EventProvider.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/CustomData.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/HTML.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/core/ListItem.js",
+				"sap/ui/core/Renderer.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/ValueState.js",
+				"sap/ui/core/delegate/ItemNavigation.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/layout/form/FormElement.js",
+				"sap/ui/mdc/Field.js",
+				"sap/ui/mdc/enum/EditMode.js",
+				"sap/ui/mdc/enum/FieldDisplay.js",
+				"sap/ui/mdc/field/FieldValueHelp.js",
+				"sap/ui/mdc/field/FieldValueHelpMTableWrapper.js",
+				"sap/ui/mdc/field/InParameter.js",
+				"sap/ui/mdc/field/ListFieldHelp.js",
+				"sap/ui/mdc/field/OutParameter.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/model/odata/v4/ODataModel.js",
+				"sap/ui/model/resource/ResourceModel.js"
+			],
+			"condRequired": [
+				"sap/m/BusyDialog.js",
+				"sap/sf/todo/util/PanelManager.js",
+				"sap/ui/base/DataType.js"
+			],
+			"included": [
+				"sap/sf/surj/shell/library.js",
+				"sap/sf/surj/shell/manifest.json",
+				"sap/sf/surj/shell/BizXHeader.controller.js",
+				"sap/sf/surj/shell/BizXHeader.view.js",
+				"sap/sf/surj/shell/BizXShell.controller.js",
+				"sap/sf/surj/shell/BizXShell.view.js",
+				"sap/sf/surj/shell/component/header/Component.js",
+				"sap/sf/surj/shell/component/header/manifest.json",
+				"sap/sf/surj/shell/component/shell/Component.js",
+				"sap/sf/surj/shell/component/shell/manifest.json",
+				"sap/sf/surj/shell/controls/BizXApp.js",
+				"sap/sf/surj/shell/controls/BizXButton.js",
+				"sap/sf/surj/shell/controls/BizXButtonRenderer.js",
+				"sap/sf/surj/shell/controls/BizXMenuListItem.js",
+				"sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js",
+				"sap/sf/surj/shell/controls/BizXMenuPopover.js",
+				"sap/sf/surj/shell/controls/BizXPage.js",
+				"sap/sf/surj/shell/controls/BizXSearchField.js",
+				"sap/sf/surj/shell/controls/BizXShell.js",
+				"sap/sf/surj/shell/controls/BizXSuggest.js",
+				"sap/sf/surj/shell/controls/BizXSuggestionItem.js",
+				"sap/sf/surj/shell/controls/Container.js",
+				"sap/sf/surj/shell/controls/FocusMarker.js",
+				"sap/sf/surj/shell/controls/GACESearchInput.js",
+				"sap/sf/surj/shell/controls/GACESearchResult.js",
+				"sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js",
+				"sap/sf/surj/shell/controls/IntroSuggestionItem.js",
+				"sap/sf/surj/shell/controls/NotificationWrapper.js",
+				"sap/sf/surj/shell/controls/PeopleSuggestionItem.js",
+				"sap/sf/surj/shell/controls/ResponsiveSidePanel.js",
+				"sap/sf/surj/shell/controls/SearchInput.js",
+				"sap/sf/surj/shell/controls/SearchInputRenderer.js",
+				"sap/sf/surj/shell/controls/SearchResult.js",
+				"sap/sf/surj/shell/controls/SearchResultList.js",
+				"sap/sf/surj/shell/controls/SearchResultPopover.js",
+				"sap/sf/surj/shell/controls/ShowMeCallout.js",
+				"sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js",
+				"sap/sf/surj/shell/controls/Table.js",
+				"sap/sf/surj/shell/controls/UserPhoto.js",
+				"sap/sf/surj/shell/core/BizXResourceBundle.js",
+				"sap/sf/surj/shell/core/BizXResourceModel.js",
+				"sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml",
+				"sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js",
+				"sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js",
+				"sap/sf/surj/shell/mvc/GACESearchTest.controller.js",
+				"sap/sf/surj/shell/mvc/GACESearchTest.view.xml",
+				"sap/sf/surj/shell/quickcard/QuickcardHandler.js",
+				"sap/sf/surj/shell/session/SessionTimer.fragment.xml",
+				"sap/sf/surj/shell/session/SessionTimer.js",
+				"sap/sf/surj/shell/util/A11yPreferences.js",
+				"sap/sf/surj/shell/util/AboutBoxUtil.js",
+				"sap/sf/surj/shell/util/ActionSearchUtil.js",
+				"sap/sf/surj/shell/util/AjaxServiceError.js",
+				"sap/sf/surj/shell/util/AnimateUtil.js",
+				"sap/sf/surj/shell/util/Config.js",
+				"sap/sf/surj/shell/util/CookiePolicyUtil.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/DowntimeNotificationUtil.js",
+				"sap/sf/surj/shell/util/FLPServices.js",
+				"sap/sf/surj/shell/util/FOPeopleSearchUtil.js",
+				"sap/sf/surj/shell/util/FormGenerationUtil.js",
+				"sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js",
+				"sap/sf/surj/shell/util/GACESearchUtil.js",
+				"sap/sf/surj/shell/util/JamUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/NameFormatter.js",
+				"sap/sf/surj/shell/util/Observable.js",
+				"sap/sf/surj/shell/util/PeopleSearchUtil.js",
+				"sap/sf/surj/shell/util/Polyfill.js",
+				"sap/sf/surj/shell/util/PostMessageAPI.js",
+				"sap/sf/surj/shell/util/ProxyUtil.js",
+				"sap/sf/surj/shell/util/SMRF.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/sf/surj/shell/util/ServiceVisibilityMapping.js",
+				"sap/sf/surj/shell/util/ShowMeUtil.js",
+				"sap/sf/surj/shell/util/SuppIconPool.js",
+				"sap/sf/surj/shell/util/ThemeUtil.js",
+				"sap/sf/surj/shell/util/TopNavLogout.js",
+				"sap/sf/surj/shell/util/UserPhotoUtil.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "library-h2-preload.js.map",
+			"isDebug": true
+		},
+		{
+			"name": "library-preload.js",
+			"module": "sap/sf/surj/shell/library-preload.js",
+			"merged": true,
+			"required": [
+				"jquery.sap.global.js",
+				"jquery.sap.storage.js",
+				"sap/base/util/isEmptyObject.js",
+				"sap/m/Bar.js",
+				"sap/m/BusyIndicator.js",
+				"sap/m/Button.js",
+				"sap/m/ButtonRenderer.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/ComboBoxRenderer.js",
+				"sap/m/CustomListItem.js",
+				"sap/m/Dialog.js",
+				"sap/m/FlexItemData.js",
+				"sap/m/HBox.js",
+				"sap/m/Image.js",
+				"sap/m/Input.js",
+				"sap/m/InputRenderer.js",
+				"sap/m/Label.js",
+				"sap/m/Link.js",
+				"sap/m/List.js",
+				"sap/m/ListItemBaseRenderer.js",
+				"sap/m/MessageBox.js",
+				"sap/m/MessageStrip.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/Page.js",
+				"sap/m/Panel.js",
+				"sap/m/Popover.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/SearchField.js",
+				"sap/m/SegmentedButton.js",
+				"sap/m/SegmentedButtonItem.js",
+				"sap/m/Select.js",
+				"sap/m/StandardListItem.js",
+				"sap/m/Suggest.js",
+				"sap/m/SuggestionItem.js",
+				"sap/m/Switch.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/m/TextArea.js",
+				"sap/m/Title.js",
+				"sap/m/VBox.js",
+				"sap/m/library.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/EventProvider.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/CustomData.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/HTML.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/core/ListItem.js",
+				"sap/ui/core/Renderer.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/ValueState.js",
+				"sap/ui/core/delegate/ItemNavigation.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/layout/form/FormElement.js",
+				"sap/ui/mdc/Field.js",
+				"sap/ui/mdc/enum/EditMode.js",
+				"sap/ui/mdc/enum/FieldDisplay.js",
+				"sap/ui/mdc/field/FieldValueHelp.js",
+				"sap/ui/mdc/field/FieldValueHelpMTableWrapper.js",
+				"sap/ui/mdc/field/InParameter.js",
+				"sap/ui/mdc/field/ListFieldHelp.js",
+				"sap/ui/mdc/field/OutParameter.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/model/odata/v4/ODataModel.js",
+				"sap/ui/model/resource/ResourceModel.js"
+			],
+			"condRequired": [
+				"sap/m/BusyDialog.js",
+				"sap/sf/todo/util/PanelManager.js",
+				"sap/ui/base/DataType.js"
+			],
+			"included": [
+				"sap/sf/surj/shell/BizXHeader.controller.js",
+				"sap/sf/surj/shell/BizXHeader.view.js",
+				"sap/sf/surj/shell/BizXShell.controller.js",
+				"sap/sf/surj/shell/BizXShell.view.js",
+				"sap/sf/surj/shell/component/header/Component.js",
+				"sap/sf/surj/shell/component/header/manifest.json",
+				"sap/sf/surj/shell/component/shell/Component.js",
+				"sap/sf/surj/shell/component/shell/manifest.json",
+				"sap/sf/surj/shell/controls/BizXApp.js",
+				"sap/sf/surj/shell/controls/BizXButton.js",
+				"sap/sf/surj/shell/controls/BizXButtonRenderer.js",
+				"sap/sf/surj/shell/controls/BizXMenuListItem.js",
+				"sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js",
+				"sap/sf/surj/shell/controls/BizXMenuPopover.js",
+				"sap/sf/surj/shell/controls/BizXPage.js",
+				"sap/sf/surj/shell/controls/BizXSearchField.js",
+				"sap/sf/surj/shell/controls/BizXShell.js",
+				"sap/sf/surj/shell/controls/BizXSuggest.js",
+				"sap/sf/surj/shell/controls/BizXSuggestionItem.js",
+				"sap/sf/surj/shell/controls/Container.js",
+				"sap/sf/surj/shell/controls/FocusMarker.js",
+				"sap/sf/surj/shell/controls/GACESearchInput.js",
+				"sap/sf/surj/shell/controls/GACESearchResult.js",
+				"sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js",
+				"sap/sf/surj/shell/controls/IntroSuggestionItem.js",
+				"sap/sf/surj/shell/controls/NotificationWrapper.js",
+				"sap/sf/surj/shell/controls/PeopleSuggestionItem.js",
+				"sap/sf/surj/shell/controls/ResponsiveSidePanel.js",
+				"sap/sf/surj/shell/controls/SearchInput.js",
+				"sap/sf/surj/shell/controls/SearchInputRenderer.js",
+				"sap/sf/surj/shell/controls/SearchResult.js",
+				"sap/sf/surj/shell/controls/SearchResultList.js",
+				"sap/sf/surj/shell/controls/SearchResultPopover.js",
+				"sap/sf/surj/shell/controls/ShowMeCallout.js",
+				"sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js",
+				"sap/sf/surj/shell/controls/Table.js",
+				"sap/sf/surj/shell/controls/UserPhoto.js",
+				"sap/sf/surj/shell/core/BizXResourceBundle.js",
+				"sap/sf/surj/shell/core/BizXResourceModel.js",
+				"sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml",
+				"sap/sf/surj/shell/library.js",
+				"sap/sf/surj/shell/manifest.json",
+				"sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js",
+				"sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js",
+				"sap/sf/surj/shell/mvc/GACESearchTest.controller.js",
+				"sap/sf/surj/shell/mvc/GACESearchTest.view.xml",
+				"sap/sf/surj/shell/quickcard/QuickcardHandler.js",
+				"sap/sf/surj/shell/session/SessionTimer.fragment.xml",
+				"sap/sf/surj/shell/session/SessionTimer.js",
+				"sap/sf/surj/shell/util/A11yPreferences.js",
+				"sap/sf/surj/shell/util/AboutBoxUtil.js",
+				"sap/sf/surj/shell/util/ActionSearchUtil.js",
+				"sap/sf/surj/shell/util/AjaxServiceError.js",
+				"sap/sf/surj/shell/util/AnimateUtil.js",
+				"sap/sf/surj/shell/util/Config.js",
+				"sap/sf/surj/shell/util/CookiePolicyUtil.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/DowntimeNotificationUtil.js",
+				"sap/sf/surj/shell/util/FLPServices.js",
+				"sap/sf/surj/shell/util/FOPeopleSearchUtil.js",
+				"sap/sf/surj/shell/util/FormGenerationUtil.js",
+				"sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js",
+				"sap/sf/surj/shell/util/GACESearchUtil.js",
+				"sap/sf/surj/shell/util/JamUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/NameFormatter.js",
+				"sap/sf/surj/shell/util/Observable.js",
+				"sap/sf/surj/shell/util/PeopleSearchUtil.js",
+				"sap/sf/surj/shell/util/Polyfill.js",
+				"sap/sf/surj/shell/util/PostMessageAPI.js",
+				"sap/sf/surj/shell/util/ProxyUtil.js",
+				"sap/sf/surj/shell/util/SMRF.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/sf/surj/shell/util/ServiceVisibilityMapping.js",
+				"sap/sf/surj/shell/util/ShowMeUtil.js",
+				"sap/sf/surj/shell/util/SuppIconPool.js",
+				"sap/sf/surj/shell/util/ThemeUtil.js",
+				"sap/sf/surj/shell/util/TopNavLogout.js",
+				"sap/sf/surj/shell/util/UserPhotoUtil.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "library-preload.js.map",
+			"isDebug": true
+		},
+		{
+			"name": "library-preload.json",
+			"module": "sap/sf/surj/shell/library-preload.json",
+			"merged": true,
+			"required": [
+				"jquery.sap.global.js",
+				"jquery.sap.storage.js",
+				"sap/base/util/isEmptyObject.js",
+				"sap/m/Bar.js",
+				"sap/m/BusyIndicator.js",
+				"sap/m/Button.js",
+				"sap/m/ButtonRenderer.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/ComboBoxRenderer.js",
+				"sap/m/CustomListItem.js",
+				"sap/m/Dialog.js",
+				"sap/m/FlexItemData.js",
+				"sap/m/HBox.js",
+				"sap/m/Image.js",
+				"sap/m/Input.js",
+				"sap/m/InputRenderer.js",
+				"sap/m/Label.js",
+				"sap/m/Link.js",
+				"sap/m/List.js",
+				"sap/m/ListItemBaseRenderer.js",
+				"sap/m/MessageBox.js",
+				"sap/m/MessageStrip.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/Page.js",
+				"sap/m/Panel.js",
+				"sap/m/Popover.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/SearchField.js",
+				"sap/m/SegmentedButton.js",
+				"sap/m/SegmentedButtonItem.js",
+				"sap/m/Select.js",
+				"sap/m/StandardListItem.js",
+				"sap/m/Suggest.js",
+				"sap/m/SuggestionItem.js",
+				"sap/m/Switch.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/m/TextArea.js",
+				"sap/m/Title.js",
+				"sap/m/VBox.js",
+				"sap/m/library.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/EventProvider.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/CustomData.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/HTML.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/core/ListItem.js",
+				"sap/ui/core/Renderer.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/ValueState.js",
+				"sap/ui/core/delegate/ItemNavigation.js",
+				"sap/ui/core/library-preload.json",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/layout/form/FormElement.js",
+				"sap/ui/mdc/Field.js",
+				"sap/ui/mdc/enum/EditMode.js",
+				"sap/ui/mdc/enum/FieldDisplay.js",
+				"sap/ui/mdc/field/FieldValueHelp.js",
+				"sap/ui/mdc/field/FieldValueHelpMTableWrapper.js",
+				"sap/ui/mdc/field/InParameter.js",
+				"sap/ui/mdc/field/ListFieldHelp.js",
+				"sap/ui/mdc/field/OutParameter.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/model/odata/v4/ODataModel.js",
+				"sap/ui/model/resource/ResourceModel.js"
+			],
+			"condRequired": [
+				"sap/m/BusyDialog.js",
+				"sap/sf/todo/util/PanelManager.js",
+				"sap/ui/base/DataType.js"
+			],
+			"included": [
+				"sap/sf/surj/shell/BizXHeader.controller.js",
+				"sap/sf/surj/shell/BizXHeader.view.js",
+				"sap/sf/surj/shell/BizXShell.controller.js",
+				"sap/sf/surj/shell/BizXShell.view.js",
+				"sap/sf/surj/shell/component/header/Component.js",
+				"sap/sf/surj/shell/component/header/manifest.json",
+				"sap/sf/surj/shell/component/shell/Component.js",
+				"sap/sf/surj/shell/component/shell/manifest.json",
+				"sap/sf/surj/shell/controls/BizXApp.js",
+				"sap/sf/surj/shell/controls/BizXButton.js",
+				"sap/sf/surj/shell/controls/BizXButtonRenderer.js",
+				"sap/sf/surj/shell/controls/BizXMenuListItem.js",
+				"sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js",
+				"sap/sf/surj/shell/controls/BizXMenuPopover.js",
+				"sap/sf/surj/shell/controls/BizXPage.js",
+				"sap/sf/surj/shell/controls/BizXSearchField.js",
+				"sap/sf/surj/shell/controls/BizXShell.js",
+				"sap/sf/surj/shell/controls/BizXSuggest.js",
+				"sap/sf/surj/shell/controls/BizXSuggestionItem.js",
+				"sap/sf/surj/shell/controls/Container.js",
+				"sap/sf/surj/shell/controls/FocusMarker.js",
+				"sap/sf/surj/shell/controls/GACESearchInput.js",
+				"sap/sf/surj/shell/controls/GACESearchResult.js",
+				"sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js",
+				"sap/sf/surj/shell/controls/IntroSuggestionItem.js",
+				"sap/sf/surj/shell/controls/NotificationWrapper.js",
+				"sap/sf/surj/shell/controls/PeopleSuggestionItem.js",
+				"sap/sf/surj/shell/controls/ResponsiveSidePanel.js",
+				"sap/sf/surj/shell/controls/SearchInput.js",
+				"sap/sf/surj/shell/controls/SearchInputRenderer.js",
+				"sap/sf/surj/shell/controls/SearchResult.js",
+				"sap/sf/surj/shell/controls/SearchResultList.js",
+				"sap/sf/surj/shell/controls/SearchResultPopover.js",
+				"sap/sf/surj/shell/controls/ShowMeCallout.js",
+				"sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js",
+				"sap/sf/surj/shell/controls/Table.js",
+				"sap/sf/surj/shell/controls/UserPhoto.js",
+				"sap/sf/surj/shell/core/BizXResourceBundle.js",
+				"sap/sf/surj/shell/core/BizXResourceModel.js",
+				"sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml",
+				"sap/sf/surj/shell/library.js",
+				"sap/sf/surj/shell/manifest.json",
+				"sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js",
+				"sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js",
+				"sap/sf/surj/shell/mvc/GACESearchTest.controller.js",
+				"sap/sf/surj/shell/mvc/GACESearchTest.view.xml",
+				"sap/sf/surj/shell/quickcard/QuickcardHandler.js",
+				"sap/sf/surj/shell/session/SessionTimer.fragment.xml",
+				"sap/sf/surj/shell/session/SessionTimer.js",
+				"sap/sf/surj/shell/util/A11yPreferences.js",
+				"sap/sf/surj/shell/util/AboutBoxUtil.js",
+				"sap/sf/surj/shell/util/ActionSearchUtil.js",
+				"sap/sf/surj/shell/util/AjaxServiceError.js",
+				"sap/sf/surj/shell/util/AnimateUtil.js",
+				"sap/sf/surj/shell/util/Config.js",
+				"sap/sf/surj/shell/util/CookiePolicyUtil.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/DowntimeNotificationUtil.js",
+				"sap/sf/surj/shell/util/FLPServices.js",
+				"sap/sf/surj/shell/util/FOPeopleSearchUtil.js",
+				"sap/sf/surj/shell/util/FormGenerationUtil.js",
+				"sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js",
+				"sap/sf/surj/shell/util/GACESearchUtil.js",
+				"sap/sf/surj/shell/util/JamUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/NameFormatter.js",
+				"sap/sf/surj/shell/util/Observable.js",
+				"sap/sf/surj/shell/util/PeopleSearchUtil.js",
+				"sap/sf/surj/shell/util/Polyfill.js",
+				"sap/sf/surj/shell/util/PostMessageAPI.js",
+				"sap/sf/surj/shell/util/ProxyUtil.js",
+				"sap/sf/surj/shell/util/SMRF.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/sf/surj/shell/util/ServiceVisibilityMapping.js",
+				"sap/sf/surj/shell/util/ShowMeUtil.js",
+				"sap/sf/surj/shell/util/SuppIconPool.js",
+				"sap/sf/surj/shell/util/ThemeUtil.js",
+				"sap/sf/surj/shell/util/TopNavLogout.js",
+				"sap/sf/surj/shell/util/UserPhotoUtil.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "library.dependencies.json",
+			"designtime": true
+		},
+		{
+			"name": "library.dependencies.xml",
+			"designtime": true
+		},
+		{
+			"name": "library.js",
+			"module": "sap/sf/surj/shell/library.js",
+			"required": [
+				"sap/ui/core/Core.js",
+				"sap/ui/core/library.js"
+			]
+		},
+		{
+			"name": "library.properties",
+			"module": "sap/sf/surj/shell/library.properties"
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/sf/surj/shell/manifest.json"
+		},
+		{
+			"name": "mvc/GACEAdvancedSearch-dbg.controller.js",
+			"module": "sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/controls/SearchInput.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/ui/core/ValueState.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "mvc/GACEAdvancedSearch-dbg.view.js",
+			"module": "sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Column.js",
+				"sap/sf/surj/shell/controls/Table.js",
+				"sap/sf/surj/shell/controls/UserPhoto.js"
+			]
+		},
+		{
+			"name": "mvc/GACEAdvancedSearch.controller.js",
+			"module": "sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/controls/SearchInput.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/ui/core/ValueState.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "mvc/GACEAdvancedSearch.view.js",
+			"module": "sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Column.js",
+				"sap/sf/surj/shell/controls/Table.js",
+				"sap/sf/surj/shell/controls/UserPhoto.js"
+			]
+		},
+		{
+			"name": "mvc/GACESearchTest-dbg.controller.js",
+			"module": "sap/sf/surj/shell/mvc/GACESearchTest.controller.js",
+			"isDebug": true
+		},
+		{
+			"name": "mvc/GACESearchTest.controller.js",
+			"module": "sap/sf/surj/shell/mvc/GACESearchTest.controller.js"
+		},
+		{
+			"name": "mvc/GACESearchTest.view.xml",
+			"module": "sap/sf/surj/shell/mvc/GACESearchTest.view.xml",
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/FlexItemData.js",
+				"sap/m/HBox.js",
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/m/MessageStrip.js",
+				"sap/m/Page.js",
+				"sap/m/Panel.js",
+				"sap/m/SegmentedButton.js",
+				"sap/m/SegmentedButtonItem.js",
+				"sap/m/Select.js",
+				"sap/m/Switch.js",
+				"sap/m/TextArea.js",
+				"sap/m/VBox.js",
+				"sap/sf/surj/shell/controls/SearchInput.js",
+				"sap/sf/surj/shell/mvc/GACESearchTest.controller.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/core/mvc/XMLView.js"
+			]
+		},
+		{
+			"name": "quickcard/QuickcardHandler-dbg.js",
+			"module": "sap/sf/surj/shell/quickcard/QuickcardHandler.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/SMRF.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "quickcard/QuickcardHandler.js",
+			"module": "sap/sf/surj/shell/quickcard/QuickcardHandler.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/SMRF.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "resources.json"
+		},
+		{
+			"name": "session/SessionTimer-dbg.js",
+			"module": "sap/sf/surj/shell/session/SessionTimer.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"jquery.sap.storage.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/Util.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/EventProvider.js",
+				"sap/ui/model/json/JSONModel.js"
+			],
+			"condRequired": [
+				"sap/sf/surj/shell/util/TopNavLogout.js"
+			]
+		},
+		{
+			"name": "session/SessionTimer.fragment.xml",
+			"module": "sap/sf/surj/shell/session/SessionTimer.fragment.xml",
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/HTML.js"
+			]
+		},
+		{
+			"name": "session/SessionTimer.js",
+			"module": "sap/sf/surj/shell/session/SessionTimer.js",
+			"required": [
+				"jquery.sap.global.js",
+				"jquery.sap.storage.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/Util.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/EventProvider.js",
+				"sap/ui/model/json/JSONModel.js"
+			],
+			"condRequired": [
+				"sap/sf/surj/shell/util/TopNavLogout.js"
+			]
+		},
+		{
+			"name": "themes/base/.theming",
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img-RTL/ico_loading_sm_gry_on-wht.gif",
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/ico_loading_sm_gry_on-wht.gif",
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library-RTL-dbg.css",
+			"isDebug": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library-RTL.css",
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library-dbg.css",
+			"isDebug": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library-parameters.json",
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library.css",
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library.less",
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library.source.less",
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/normal/.theming",
+			"theme": "normal"
+		},
+		{
+			"name": "themes/normal/library-RTL-dbg.css",
+			"isDebug": true,
+			"theme": "normal"
+		},
+		{
+			"name": "themes/normal/library-RTL.css",
+			"theme": "normal"
+		},
+		{
+			"name": "themes/normal/library-dbg.css",
+			"isDebug": true,
+			"theme": "normal"
+		},
+		{
+			"name": "themes/normal/library-parameters.json",
+			"theme": "normal"
+		},
+		{
+			"name": "themes/normal/library.css",
+			"theme": "normal"
+		},
+		{
+			"name": "themes/normal/library.less",
+			"designtime": true,
+			"theme": "normal"
+		},
+		{
+			"name": "themes/normal/library.source.less",
+			"designtime": true,
+			"theme": "normal"
+		},
+		{
+			"name": "themes/sap_belize/.theming",
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library-RTL-dbg.css",
+			"isDebug": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library-RTL.css",
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library-dbg.css",
+			"isDebug": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library-parameters.json",
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library.css",
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library.less",
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library.source.less",
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize_hcb/.theming",
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library-RTL-dbg.css",
+			"isDebug": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library-RTL.css",
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library-dbg.css",
+			"isDebug": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library-parameters.json",
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library.css",
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library.less",
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library.source.less",
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcw/.theming",
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library-RTL-dbg.css",
+			"isDebug": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library-RTL.css",
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library-dbg.css",
+			"isDebug": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library-parameters.json",
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library.css",
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library.less",
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library.source.less",
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_plus/.theming",
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library-RTL-dbg.css",
+			"isDebug": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library-RTL.css",
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library-dbg.css",
+			"isDebug": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library-parameters.json",
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library.css",
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library.less",
+			"designtime": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library.source.less",
+			"designtime": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_bluecrystal/.theming",
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library-RTL-dbg.css",
+			"isDebug": true,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library-RTL.css",
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library-dbg.css",
+			"isDebug": true,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library-parameters.json",
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library.css",
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library.less",
+			"designtime": true,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library.source.less",
+			"designtime": true,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_fiori_3/.theming",
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library-RTL-dbg.css",
+			"isDebug": true,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library-RTL.css",
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library-dbg.css",
+			"isDebug": true,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library-parameters.json",
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library.css",
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library.less",
+			"designtime": true,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library.source.less",
+			"designtime": true,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "util/A11yPreferences-dbg.js",
+			"module": "sap/sf/surj/shell/util/A11yPreferences.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js"
+			]
+		},
+		{
+			"name": "util/A11yPreferences.js",
+			"module": "sap/sf/surj/shell/util/A11yPreferences.js",
+			"required": [
+				"jquery.sap.global.js"
+			]
+		},
+		{
+			"name": "util/AboutBoxUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/AboutBoxUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/ui/core/HTML.js"
+			]
+		},
+		{
+			"name": "util/AboutBoxUtil.js",
+			"module": "sap/sf/surj/shell/util/AboutBoxUtil.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/ui/core/HTML.js"
+			]
+		},
+		{
+			"name": "util/ActionSearchUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/ActionSearchUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"jquery.sap.storage.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/SMRF.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/sf/surj/shell/util/Util.js"
+			],
+			"condRequired": [
+				"sap/m/MessageBox.js"
+			]
+		},
+		{
+			"name": "util/ActionSearchUtil.js",
+			"module": "sap/sf/surj/shell/util/ActionSearchUtil.js",
+			"required": [
+				"jquery.sap.global.js",
+				"jquery.sap.storage.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/SMRF.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/sf/surj/shell/util/Util.js"
+			],
+			"condRequired": [
+				"sap/m/MessageBox.js"
+			]
+		},
+		{
+			"name": "util/AjaxServiceError-dbg.js",
+			"module": "sap/sf/surj/shell/util/AjaxServiceError.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/BusyIndicator.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/List.js",
+				"sap/m/StandardListItem.js",
+				"sap/m/TextArea.js",
+				"sap/sf/surj/shell/controls/Container.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/ui/core/HTML.js",
+				"sap/ui/core/InvisibleText.js"
+			]
+		},
+		{
+			"name": "util/AjaxServiceError.js",
+			"module": "sap/sf/surj/shell/util/AjaxServiceError.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/BusyIndicator.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/List.js",
+				"sap/m/StandardListItem.js",
+				"sap/m/TextArea.js",
+				"sap/sf/surj/shell/controls/Container.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/ui/core/HTML.js",
+				"sap/ui/core/InvisibleText.js"
+			]
+		},
+		{
+			"name": "util/AnimateUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/AnimateUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js"
+			]
+		},
+		{
+			"name": "util/AnimateUtil.js",
+			"module": "sap/sf/surj/shell/util/AnimateUtil.js",
+			"required": [
+				"jquery.sap.global.js"
+			]
+		},
+		{
+			"name": "util/Config-dbg.js",
+			"module": "sap/sf/surj/shell/util/Config.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/Logger.js"
+			],
+			"condRequired": [
+				"sap/ui/base/DataType.js"
+			]
+		},
+		{
+			"name": "util/Config.js",
+			"module": "sap/sf/surj/shell/util/Config.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/Logger.js"
+			],
+			"condRequired": [
+				"sap/ui/base/DataType.js"
+			]
+		},
+		{
+			"name": "util/CookiePolicyUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/CookiePolicyUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/Text.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js"
+			]
+		},
+		{
+			"name": "util/CookiePolicyUtil.js",
+			"module": "sap/sf/surj/shell/util/CookiePolicyUtil.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/Text.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js"
+			]
+		},
+		{
+			"name": "util/DeferredUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/DeferredUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/core/BizXResourceBundle.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/SMRF.js",
+				"sap/sf/surj/shell/util/ServiceVisibilityMapping.js",
+				"sap/sf/surj/shell/util/Util.js"
+			],
+			"condRequired": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/Text.js"
+			]
+		},
+		{
+			"name": "util/DeferredUtil.js",
+			"module": "sap/sf/surj/shell/util/DeferredUtil.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/core/BizXResourceBundle.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/SMRF.js",
+				"sap/sf/surj/shell/util/ServiceVisibilityMapping.js",
+				"sap/sf/surj/shell/util/Util.js"
+			],
+			"condRequired": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/Text.js"
+			]
+		},
+		{
+			"name": "util/DowntimeNotificationUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/DowntimeNotificationUtil.js",
+			"isDebug": true,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/ui/core/HTML.js"
+			]
+		},
+		{
+			"name": "util/DowntimeNotificationUtil.js",
+			"module": "sap/sf/surj/shell/util/DowntimeNotificationUtil.js",
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/ui/core/HTML.js"
+			]
+		},
+		{
+			"name": "util/FLPServices-dbg.js",
+			"module": "sap/sf/surj/shell/util/FLPServices.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/util/PostMessageAPI.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "util/FLPServices.js",
+			"module": "sap/sf/surj/shell/util/FLPServices.js",
+			"required": [
+				"sap/sf/surj/shell/util/PostMessageAPI.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "util/FOPeopleSearchUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/FOPeopleSearchUtil.js",
+			"isDebug": true
+		},
+		{
+			"name": "util/FOPeopleSearchUtil.js",
+			"module": "sap/sf/surj/shell/util/FOPeopleSearchUtil.js"
+		},
+		{
+			"name": "util/FormGenerationUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/FormGenerationUtil.js",
+			"isDebug": true,
+			"required": [
+				"sap/base/util/isEmptyObject.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/Label.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/ui/core/ListItem.js",
+				"sap/ui/layout/form/FormElement.js",
+				"sap/ui/mdc/Field.js",
+				"sap/ui/mdc/enum/EditMode.js",
+				"sap/ui/mdc/enum/FieldDisplay.js",
+				"sap/ui/mdc/field/FieldValueHelp.js",
+				"sap/ui/mdc/field/FieldValueHelpMTableWrapper.js",
+				"sap/ui/mdc/field/InParameter.js",
+				"sap/ui/mdc/field/ListFieldHelp.js",
+				"sap/ui/mdc/field/OutParameter.js",
+				"sap/ui/model/odata/v4/ODataModel.js"
+			]
+		},
+		{
+			"name": "util/FormGenerationUtil.js",
+			"module": "sap/sf/surj/shell/util/FormGenerationUtil.js",
+			"required": [
+				"sap/base/util/isEmptyObject.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/Label.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/ui/core/ListItem.js",
+				"sap/ui/layout/form/FormElement.js",
+				"sap/ui/mdc/Field.js",
+				"sap/ui/mdc/enum/EditMode.js",
+				"sap/ui/mdc/enum/FieldDisplay.js",
+				"sap/ui/mdc/field/FieldValueHelp.js",
+				"sap/ui/mdc/field/FieldValueHelpMTableWrapper.js",
+				"sap/ui/mdc/field/InParameter.js",
+				"sap/ui/mdc/field/ListFieldHelp.js",
+				"sap/ui/mdc/field/OutParameter.js",
+				"sap/ui/model/odata/v4/ODataModel.js"
+			]
+		},
+		{
+			"name": "util/GACEAdvancedSearchUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/MessageBox.js",
+				"sap/sf/surj/shell/library.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/SearchUtil.js"
+			]
+		},
+		{
+			"name": "util/GACEAdvancedSearchUtil.js",
+			"module": "sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/MessageBox.js",
+				"sap/sf/surj/shell/library.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/SearchUtil.js"
+			]
+		},
+		{
+			"name": "util/GACESearchUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/GACESearchUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/SearchUtil.js"
+			]
+		},
+		{
+			"name": "util/GACESearchUtil.js",
+			"module": "sap/sf/surj/shell/util/GACESearchUtil.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/SearchUtil.js"
+			]
+		},
+		{
+			"name": "util/JamUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/JamUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "util/JamUtil.js",
+			"module": "sap/sf/surj/shell/util/JamUtil.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "util/LinkUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/LinkUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/SMRF.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "util/LinkUtil.js",
+			"module": "sap/sf/surj/shell/util/LinkUtil.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/SMRF.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "util/Logger-dbg.js",
+			"module": "sap/sf/surj/shell/util/Logger.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js"
+			]
+		},
+		{
+			"name": "util/Logger.js",
+			"module": "sap/sf/surj/shell/util/Logger.js",
+			"required": [
+				"jquery.sap.global.js"
+			]
+		},
+		{
+			"name": "util/NameFormatter-dbg.js",
+			"module": "sap/sf/surj/shell/util/NameFormatter.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js"
+			]
+		},
+		{
+			"name": "util/NameFormatter.js",
+			"module": "sap/sf/surj/shell/util/NameFormatter.js",
+			"required": [
+				"jquery.sap.global.js"
+			]
+		},
+		{
+			"name": "util/Observable-dbg.js",
+			"module": "sap/sf/surj/shell/util/Observable.js",
+			"isDebug": true
+		},
+		{
+			"name": "util/Observable.js",
+			"module": "sap/sf/surj/shell/util/Observable.js"
+		},
+		{
+			"name": "util/PeopleSearchUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/PeopleSearchUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "util/PeopleSearchUtil.js",
+			"module": "sap/sf/surj/shell/util/PeopleSearchUtil.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/SearchUtil.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "util/Polyfill-dbg.js",
+			"module": "sap/sf/surj/shell/util/Polyfill.js",
+			"isDebug": true,
+			"condRequired": [
+				"jquery.sap.global.js"
+			]
+		},
+		{
+			"name": "util/Polyfill.js",
+			"module": "sap/sf/surj/shell/util/Polyfill.js",
+			"condRequired": [
+				"jquery.sap.global.js"
+			]
+		},
+		{
+			"name": "util/PostMessageAPI-dbg.js",
+			"module": "sap/sf/surj/shell/util/PostMessageAPI.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/util/Util.js",
+				"sap/ui/base/EventProvider.js"
+			]
+		},
+		{
+			"name": "util/PostMessageAPI.js",
+			"module": "sap/sf/surj/shell/util/PostMessageAPI.js",
+			"required": [
+				"sap/sf/surj/shell/util/Util.js",
+				"sap/ui/base/EventProvider.js"
+			]
+		},
+		{
+			"name": "util/ProxyUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/ProxyUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/Label.js",
+				"sap/sf/surj/shell/controls/SearchInput.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js"
+			],
+			"condRequired": [
+				"sap/sf/surj/shell/util/TopNavLogout.js"
+			]
+		},
+		{
+			"name": "util/ProxyUtil.js",
+			"module": "sap/sf/surj/shell/util/ProxyUtil.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/Label.js",
+				"sap/sf/surj/shell/controls/SearchInput.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js"
+			],
+			"condRequired": [
+				"sap/sf/surj/shell/util/TopNavLogout.js"
+			]
+		},
+		{
+			"name": "util/SMRF-dbg.js",
+			"module": "sap/sf/surj/shell/util/SMRF.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"jquery.sap.storage.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "util/SMRF.js",
+			"module": "sap/sf/surj/shell/util/SMRF.js",
+			"required": [
+				"jquery.sap.global.js",
+				"jquery.sap.storage.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "util/SearchUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/SearchUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/Config.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/Util.js",
+				"sap/ui/base/EventProvider.js"
+			]
+		},
+		{
+			"name": "util/SearchUtil.js",
+			"module": "sap/sf/surj/shell/util/SearchUtil.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/util/Config.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/LinkUtil.js",
+				"sap/sf/surj/shell/util/Logger.js",
+				"sap/sf/surj/shell/util/Util.js",
+				"sap/ui/base/EventProvider.js"
+			]
+		},
+		{
+			"name": "util/ServiceVisibilityMapping-dbg.js",
+			"module": "sap/sf/surj/shell/util/ServiceVisibilityMapping.js",
+			"isDebug": true
+		},
+		{
+			"name": "util/ServiceVisibilityMapping.js",
+			"module": "sap/sf/surj/shell/util/ServiceVisibilityMapping.js"
+		},
+		{
+			"name": "util/ShowMeUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/ShowMeUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/controls/ShowMeCallout.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/Util.js"
+			],
+			"condRequired": [
+				"sap/m/BusyDialog.js"
+			]
+		},
+		{
+			"name": "util/ShowMeUtil.js",
+			"module": "sap/sf/surj/shell/util/ShowMeUtil.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/sf/surj/shell/controls/ShowMeCallout.js",
+				"sap/sf/surj/shell/util/DeferredUtil.js",
+				"sap/sf/surj/shell/util/Util.js"
+			],
+			"condRequired": [
+				"sap/m/BusyDialog.js"
+			]
+		},
+		{
+			"name": "util/SuppIconPool-dbg.js",
+			"module": "sap/sf/surj/shell/util/SuppIconPool.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/ui/core/IconPool.js"
+			]
+		},
+		{
+			"name": "util/SuppIconPool.js",
+			"module": "sap/sf/surj/shell/util/SuppIconPool.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/ui/core/IconPool.js"
+			]
+		},
+		{
+			"name": "util/ThemeUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/ThemeUtil.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js"
+			]
+		},
+		{
+			"name": "util/ThemeUtil.js",
+			"module": "sap/sf/surj/shell/util/ThemeUtil.js",
+			"required": [
+				"jquery.sap.global.js"
+			]
+		},
+		{
+			"name": "util/TopNavLogout-dbg.js",
+			"module": "sap/sf/surj/shell/util/TopNavLogout.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js"
+			],
+			"condRequired": [
+				"sap/m/BusyDialog.js"
+			]
+		},
+		{
+			"name": "util/TopNavLogout.js",
+			"module": "sap/sf/surj/shell/util/TopNavLogout.js",
+			"required": [
+				"jquery.sap.global.js"
+			],
+			"condRequired": [
+				"sap/m/BusyDialog.js"
+			]
+		},
+		{
+			"name": "util/UserPhotoUtil-dbg.js",
+			"module": "sap/sf/surj/shell/util/UserPhotoUtil.js",
+			"isDebug": true,
+			"required": [
+				"sap/sf/surj/shell/util/NameFormatter.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "util/UserPhotoUtil.js",
+			"module": "sap/sf/surj/shell/util/UserPhotoUtil.js",
+			"required": [
+				"sap/sf/surj/shell/util/NameFormatter.js",
+				"sap/sf/surj/shell/util/Util.js"
+			]
+		},
+		{
+			"name": "util/Util-dbg.js",
+			"module": "sap/sf/surj/shell/util/Util.js",
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/EventProvider.js",
+				"sap/ui/core/HTML.js"
+			],
+			"condRequired": [
+				"sap/sf/surj/shell/util/AjaxServiceError.js",
+				"sap/sf/surj/shell/util/SMRF.js"
+			]
+		},
+		{
+			"name": "util/Util.js",
+			"module": "sap/sf/surj/shell/util/Util.js",
+			"required": [
+				"jquery.sap.global.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/EventProvider.js",
+				"sap/ui/core/HTML.js"
+			],
+			"condRequired": [
+				"sap/sf/surj/shell/util/AjaxServiceError.js",
+				"sap/sf/surj/shell/util/SMRF.js"
+			]
+		}
+	]
+}

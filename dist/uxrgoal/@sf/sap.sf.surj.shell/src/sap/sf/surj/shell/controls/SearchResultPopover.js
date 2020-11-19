@@ -1,0 +1,1 @@
+sap.ui.define('sap/sf/surj/shell/controls/SearchResultPopover',['sap/m/Popover'],function(P){"use strict";return P.extend('sap.sf.surj.shell.controls.SearchResultPopover',{metadata:{},renderer:{}});});

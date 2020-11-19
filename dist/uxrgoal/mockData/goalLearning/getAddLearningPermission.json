@@ -1,0 +1,6 @@
+
+{
+  "@odata.context": "https://qaautocand-api.lab-rot.ondemand.com/odata/v4/DevGoalDetail_2009.svc/$metadata#Edm.Boolean",
+  "@odata.metadataEtag": "\"46200b5b-0d10-465b-97c0-1a0a98b4ad3e\"",
+  "value": true
+}

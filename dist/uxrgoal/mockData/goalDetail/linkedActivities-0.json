@@ -1,0 +1,208 @@
+{
+  "@odata.context": "https://talent.uxr.c.eu-nl-1.cloud.sap:443/odata/v4/CPM.svc/$metadata#ActivityDetail(recordId,updateIconStatus,activityName,subjectUserId,createdDate,isShowTrophy,status())",
+  "@odata.metadataEtag": "\"c9c61753-c3d9-4df6-b2b3-732e2db67e36\"",
+  "@odata.count": 100,
+  "value": [
+    {
+      "recordId": "0DBF327BCC6A43F7BA5058B89AF06D05",
+      "updateIconStatus": 0,
+      "activityName": "long name long name long name long name long name long name long name long name long name long name long name long name",
+      "subjectUserId": "cgrant1",
+      "createdDate": "2020-08-18T08:26:09Z",
+      "isShowTrophy": false,
+      "status": {
+        "activityStatusId": "medium",
+        "colorRGBCode": "#e79651",
+        "createAchievement": false,
+        "defaultStatus": true,
+        "deleted": false,
+        "internalId": 506653,
+        "priority": 1001,
+        "recordId": "388C689F129943A89752583FD1647D9A",
+        "removeActivityFromMeeting": false,
+        "statusName": "Medium"
+      }
+    },
+    {
+      "recordId": "C54E09996D4A4E93B55894AD373BEF64",
+      "updateIconStatus": 0,
+      "activityName": "no status color use default sapNeutralColor",
+      "subjectUserId": "cgrant1",
+      "createdDate": "2020-08-18T08:35:24Z",
+      "isShowTrophy": false,
+      "status": {
+        "activityStatusId": "ActivityStatus1559965870444update",
+        "colorRGBCode": null,
+        "createAchievement": false,
+        "defaultStatus": false,
+        "deleted": false,
+        "internalId": 3014707,
+        "priority": 8,
+        "recordId": "2825559612FD43728C45316B2A292972",
+        "removeActivityFromMeeting": false,
+        "statusName": "ActivityStatus1559965870444update 123123123123123123 12313123123 23424 1231 132 123 12312312 31312312313123"
+      }
+    },
+    {
+      "recordId": "340DFDE13ED947E6B8F61066F784A90B",
+      "updateIconStatus": 0,
+      "activityName": "no comment",
+      "subjectUserId": "cgrant1",
+      "createdDate": "2020-08-19T05:30:15Z",
+      "isShowTrophy": false,
+      "status": {
+        "activityStatusId": "low",
+        "colorRGBCode": "#bac1c4",
+        "createAchievement": false,
+        "defaultStatus": false,
+        "deleted": false,
+        "internalId": 506652,
+        "priority": 1002,
+        "recordId": "E432BDBADF89430C93BBF8A74EEF9AA0",
+        "removeActivityFromMeeting": false,
+        "statusName": "Low"
+      }
+    },
+    {
+      "recordId": "4A074CFC82694FBAA06020E8AE44776B",
+      "updateIconStatus": 1,
+      "activityName": "has read comment",
+      "subjectUserId": "cgrant1",
+      "createdDate": "2020-08-19T06:54:17Z",
+      "isShowTrophy": false,
+      "status": {
+        "activityStatusId": "medium",
+        "colorRGBCode": "#e79651",
+        "createAchievement": false,
+        "defaultStatus": true,
+        "deleted": false,
+        "internalId": 506653,
+        "priority": 1001,
+        "recordId": "388C689F129943A89752583FD1647D9A",
+        "removeActivityFromMeeting": false,
+        "statusName": "Medium"
+      }
+    },
+    {
+      "recordId": "93DA2BE49B07412C99F249B6FCE6000B",
+      "updateIconStatus": 3,
+      "activityName": "has new unread comment",
+      "subjectUserId": "cgrant1",
+      "createdDate": "2020-08-19T06:54:26Z",
+      "isShowTrophy": false,
+      "status": {
+        "activityStatusId": "medium",
+        "colorRGBCode": "#e79651",
+        "createAchievement": false,
+        "defaultStatus": true,
+        "deleted": false,
+        "internalId": 506653,
+        "priority": 1001,
+        "recordId": "388C689F129943A89752583FD1647D9A",
+        "removeActivityFromMeeting": false,
+        "statusName": "Medium"
+      }
+    },
+    {
+      "recordId": "3F0DAD8194BB46A7A4109761FBC7184E",
+      "updateIconStatus": 3,
+      "activityName": "has achievement",
+      "subjectUserId": "cgrant1",
+      "createdDate": "2020-08-19T06:54:34Z",
+      "isShowTrophy": true,
+      "status": {
+        "activityStatusId": "medium",
+        "colorRGBCode": "#e79651",
+        "createAchievement": false,
+        "defaultStatus": true,
+        "deleted": false,
+        "internalId": 506653,
+        "priority": 1001,
+        "recordId": "388C689F129943A89752583FD1647D9A",
+        "removeActivityFromMeeting": false,
+        "statusName": "Medium"
+      }
+    },
+    {
+      "recordId": "8F18F187B50A467DA40C2910DB997AA1",
+      "updateIconStatus": 0,
+      "activityName": "has only achievement",
+      "subjectUserId": "cgrant1",
+      "createdDate": "2020-08-19T06:54:53Z",
+      "isShowTrophy": true,
+      "status": {
+        "activityStatusId": "medium",
+        "colorRGBCode": "#e79651",
+        "createAchievement": false,
+        "defaultStatus": true,
+        "deleted": false,
+        "internalId": 506653,
+        "priority": 1001,
+        "recordId": "388C689F129943A89752583FD1647D9A",
+        "removeActivityFromMeeting": false,
+        "statusName": "Medium"
+      }
+    },
+    {
+      "recordId": "2D0AC5677ADF4425946B16CA8782BE65",
+      "updateIconStatus": 0,
+      "activityName": "sdfsfsfsf",
+      "subjectUserId": "cgrant1",
+      "createdDate": "2020-08-19T06:55:01Z",
+      "isShowTrophy": false,
+      "status": {
+        "activityStatusId": "medium",
+        "colorRGBCode": "#e79651",
+        "createAchievement": false,
+        "defaultStatus": true,
+        "deleted": false,
+        "internalId": 506653,
+        "priority": 1001,
+        "recordId": "388C689F129943A89752583FD1647D9A",
+        "removeActivityFromMeeting": false,
+        "statusName": "Medium"
+      }
+    },
+    {
+      "recordId": "8B7C0396F2DA4CF0B3348CFD003DD092",
+      "updateIconStatus": 0,
+      "activityName": "qweqesdfsfsf",
+      "subjectUserId": "cgrant1",
+      "createdDate": "2020-08-19T06:55:08Z",
+      "isShowTrophy": false,
+      "status": {
+        "activityStatusId": "medium",
+        "colorRGBCode": "#e79651",
+        "createAchievement": false,
+        "defaultStatus": true,
+        "deleted": false,
+        "internalId": 506653,
+        "priority": 1001,
+        "recordId": "388C689F129943A89752583FD1647D9A",
+        "removeActivityFromMeeting": false,
+        "statusName": "Medium"
+      }
+    },
+    {
+      "recordId": "30741BE1A2BE4D1FB1D6028D974B8BA6",
+      "updateIconStatus": 0,
+      "activityName": "asasas\nasasas",
+      "subjectUserId": "cgrant1",
+      "createdDate": "2020-08-19T07:53:46Z",
+      "isShowTrophy": false,
+      "status": {
+        "activityStatusId": "ActivityStatus1559965868670",
+        "colorRGBCode": "#fffff",
+        "createAchievement": null,
+        "defaultStatus": null,
+        "deleted": null,
+        "internalId": 3014215,
+        "priority": 7,
+        "recordId": "51B33CA16E9043CCB8667865A31A85E2",
+        "removeActivityFromMeeting": null,
+        "statusName": "ActivityStatus1559965868670"
+      }
+    }
+  ],
+  "@odata.nextLink": "https://talent.uxr.c.eu-nl-1.cloud.sap:443/odata/v4/CPM.svc/ActivityDetail?$format=json&$expand=status&$select=recordId,activityName,subjectUserId,isShowTrophy,updateIconStatus,createdDate&$filter=(goalDetails/any(g:g/goalId%20eq%209389))&$count=true&$skiptoken=eyJsaW1pdCI6MTAsIm9mZnNldCI6MTB9"
+}

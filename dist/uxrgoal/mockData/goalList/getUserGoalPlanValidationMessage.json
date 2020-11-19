@@ -1,0 +1,18 @@
+{
+    "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/Goal_1.svc/$metadata#Collection(Goal_1.svc.GoalPlanValidationMessage)",
+    "@odata.metadataEtag": "\"eff4dd6c-21a3-4659-b062-5ebda99acbf0\"",
+    "value": [
+        {
+            "message": "It's recommended that you create at least 3 goals.",
+            "type": "minGoalCountMsg"
+        },
+        {
+            "message": "The recommended minimum goal weight is 100%. (Current: 0%)",
+            "type": "minGoalWeightMsg"
+        },
+        {
+          "message": "You now have the recommended maximum of 20 goals",
+          "type": "maxGoalCountToastMsg"
+      }
+    ]
+  }

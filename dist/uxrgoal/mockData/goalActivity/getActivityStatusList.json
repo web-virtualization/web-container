@@ -1,0 +1,78 @@
+{
+  "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/CPM.svc/$metadata#ActivityStatus",
+  "@odata.metadataEtag": "\"e12ee04c-93e0-455d-93fc-277cc7d522b7\"",
+  "value": [
+    {
+      "activityStatusId": "high",
+      "colorRGBCode": "#a71926",
+      "createAchievement": false,
+      "defaultStatus": false,
+      "deleted": false,
+      "internalId": "2010765",
+      "priority": "1000",
+      "recordId": "DA0CD4C3CB244798AD75ED342C62E9C2",
+      "removeActivityFromMeeting": false,
+      "statusName": "High High High HighHighHighHighHigh High High 123 High High High HighHighHighHighHigh High High 123 "
+    },
+    {
+      "activityStatusId": "medium",
+      "colorRGBCode": "#008000",
+      "createAchievement": false,
+      "defaultStatus": true,
+      "deleted": false,
+      "internalId": "2010767",
+      "priority": "1001",
+      "recordId": "70AF5C9ABAD449D796F89330ADF821F4",
+      "removeActivityFromMeeting": false,
+      "statusName": "Medium"
+    },
+    {
+      "activityStatusId": "low",
+      "colorRGBCode": "#ff8c00",
+      "createAchievement": false,
+      "defaultStatus": false,
+      "deleted": false,
+      "internalId": "2010766",
+      "priority": "1002",
+      "recordId": "F231DF7A8E0B440984CC114DB00863FD",
+      "removeActivityFromMeeting": false,
+      "statusName": "Low"
+    },
+    {
+      "activityStatusId": "complete",
+      "colorRGBCode": "#ff0000",
+      "createAchievement": true,
+      "defaultStatus": false,
+      "deleted": false,
+      "internalId": "2010764",
+      "priority": "1003",
+      "recordId": "33DE920EB1EA4828B26224A9FE919147",
+      "removeActivityFromMeeting": false,
+      "statusName": "Complete"
+    },
+    {
+      "activityStatusId": "cancelled",
+      "colorRGBCode": "#CCCCCC",
+      "createAchievement": false,
+      "defaultStatus": false,
+      "deleted": false,
+      "internalId": "2010763",
+      "priority": "1004",
+      "recordId": "F784902E1EBA4D3194ACC8D07ECEEC3D",
+      "removeActivityFromMeeting": true,
+      "statusName": "Cancelled"
+    },
+    {
+      "activityStatusId": "paused",
+      "colorRGBCode": "#626466",
+      "createAchievement": false,
+      "defaultStatus": false,
+      "deleted": false,
+      "internalId": "2010768",
+      "priority": "1005",
+      "recordId": "02A5EFCA36AB4D9F9097D9B652E18DF5",
+      "removeActivityFromMeeting": true,
+      "statusName": "Paused"
+    }
+  ]
+}

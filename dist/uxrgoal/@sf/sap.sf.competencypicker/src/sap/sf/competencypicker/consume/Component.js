@@ -1,0 +1,1 @@
+sap.ui.define(["jquery.sap.global","sap/ui/core/UIComponent"],function(e,n){"use strict";var a=n.extend("sap.sf.consume.Component",{metadata:{manifest:"json"}});return a});

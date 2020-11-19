@@ -1,0 +1,188 @@
+@import "../base/library.source.less";
+
+/*
+sap_belize
+sap_belize_plus
+sap_bluecrystal
+sap_fiori_3
+*/
+
+/*\
+|*| BizXSearchField
+\*/
+
+.bizXSF .sapMSFI::-moz-placeholder {
+    color: #555555;
+}
+
+.bizXSF .sapMSFI::-webkit-input-placeholder {
+    color: #555555;
+}
+
+.bizXSF .sapMSFI:-ms-input-placeholder {
+    color: #555555;
+}
+
+.bizXPeopleSuggestionItem.bizXSuggestionItem:hover {
+    background: #CCE4FE;
+}
+
+
+.bizXSuggestionItem b {
+    color: #008ECC;
+}
+
+.bizXSuggestExternalSearch,
+.bizXShowMoreSuggestionItem {
+    color: #008ECC;
+    font-size: 12px;
+}
+
+/*\
+|*| UserPhoto
+\*/
+
+/* hcw, hcb missing */
+.surjUserPhoto .surjName {
+    color: #222;
+}
+
+/* hcw, hcb missing */
+.surjUserPhoto .surjUserInfoKey {
+    color: #555;
+}
+
+.surjUserPhotoName em {
+    color: #008ECC;
+}
+
+/*\
+|*| SearchInput.css
+\*/
+
+.surjli .surjhighlight {
+    font-weight: bolder;
+}
+
+/* .surjli .surjAutoCompleteHighlight in hcb hcw */
+
+.surjli .surjcontent .info {
+    opacity: 0.7;
+}
+
+.surjGACEIcon.sapUiIcon::before {
+  color: #e09d00;
+}
+
+/*\
+|*| QuickcardPeopleSearch items display for SearchResult
+\*/
+
+.surjli.surjli-hasSubTitle .surjli-Title .surjhighlight {
+    font-weight: bolder;
+}
+
+.surjli.surjli-hasSubTitle .surjli-Title .info {
+    opacity: 0.7;
+}
+
+/*\
+|*| BizXSuggest
+\*/
+
+.fiori .bizXSuggestPicker {
+    box-shadow: 0 2px 3px -1px rgba(0,0,0,0.25);
+}
+
+/*\
+|*| Restyling UI5 Header to look like JUIC
+\*/
+
+.bizXMenuPopover.sapMPopover {
+    border: none;
+}
+
+/*\
+|*| RevolutionTopNavigation.css
+\*/
+
+/********************************************/
+/* START: Global Action Search Intro Styles */
+
+/* END: Global Action Search Intro Styles */
+/******************************************/
+
+/*************************************************/
+/* START: Universal Search                       */
+
+/* --- START Show Me for SURJ --- */
+
+/* --- END Show Me for SURJ --- */
+
+/* --- START SFRevolutionTopNav.css --- */
+
+/* --- END SFRevolutionTopNav.css --- */
+
+.bizXSuggestPicker .sapMSelectList {
+    background: #FFFFFF;
+}
+.bizXSuggestPicker .sapMSelectList {
+    border: none !important;
+}
+
+/* Override the global keyboard navigation on sap M buttons because they already do that for us
+   Before there were 2 borders added to the buttons. */
+.globalKeyboardNavigation .surjTopNav .sapMBtn:focus {
+    border: none !important;
+}
+
+#bizXHeaderCompanyLogo {
+    cursor: pointer;
+}
+
+/* To fix the focus outline not visible as the header banner and the outline are dark colors, adding 
+   background color brightness filter. */
+#bizXHeaderCompanyLogo:focus {
+    outline: 0.0625rem dotted #000;
+    filter:brightness(80%);
+}
+
+.surjGACEBorder div.sapMPanelContent{
+    border-color:transparent;
+}
+
+.surjGACEPanelBorder header.sapMPanelWrappingDiv{
+    border-color:transparent;
+}
+
+.surjGACEBackground section{
+    background-color: rgba(255,255,255,0.8);
+}
+
+/*\
+|*| Transitive Text Display
+\*/
+
+/*\
+|*| Show Me Icon
+\*/
+
+/* Employment items: belize_plus missing */
+/*\
+|*| Employment items
+\*/
+/* .bizXMenuPopover: bluecrystal, hcw, hcb missing */
+.bizXMenuPopover .globalMenuItem,
+.bizXMenuPopover .globalMenuItem:link {
+    /* font-size use rem? fiori? */
+    font-size: 14px;
+}
+
+/*\
+|*| Downtime Notification
+\*/
+
+.ipsButton {
+    background-color: rgb(67, 86, 103);
+    color: rgb(255, 255, 255);
+} 

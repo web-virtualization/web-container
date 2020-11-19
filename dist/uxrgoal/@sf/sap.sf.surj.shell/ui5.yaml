@@ -1,0 +1,13 @@
+specVersion: '0.1'
+resources:
+  configuration:
+    paths:
+
+
+      src: src
+      test: test
+
+metadata:
+  name: idl-surj-sap.sf.surj.shell-web
+  namespace: sap/sf/surj/shell
+type: library

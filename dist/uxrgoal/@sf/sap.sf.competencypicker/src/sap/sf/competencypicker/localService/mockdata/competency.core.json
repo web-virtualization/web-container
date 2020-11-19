@@ -1,0 +1,22 @@
+{
+	"Core Competency Library": 
+	{
+		"Core Competency Category": 
+		{
+			"@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+			"@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+			"value": 
+			[
+				{
+					"competencyInternalId": 13981122,
+					"competencyName": "Core Comptency 1"
+				},
+
+				{
+					"competencyInternalId": 13981140,
+					"competencyName": "Core Competency 2"
+				}
+			]
+		}
+	}
+}

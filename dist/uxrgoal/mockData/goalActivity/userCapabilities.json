@@ -1,0 +1,12 @@
+{
+  "@odata.context": "https://talent.uxr.c.eu-nl-1.cloud.sap:443/odata/v4/CPM.svc/$metadata#CPMUserCapabilities/$entity",
+  "@odata.metadataEtag": "\"d08a3d45-0e61-4f1a-b0fc-1a4575c2bee4\"",
+  "canRequestFeedbackFromOthers": false,
+  "targetUserId": "cgrant",
+  "canGiveFeedback": false,
+  "canRequestFeedback": false,
+  "canViewAchievements": true,
+  "showGiveFeedbackButton": false,
+  "canViewActivities": true,
+  "canViewFeedback": false
+}

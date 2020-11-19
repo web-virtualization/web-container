@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="@langTag@" dir="@langDir@">
+
+<head>
+  <title>SuccessFactors: @title@</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta http-equiv="cache-control" content="no-cache">
+  <link rel="icon" href="./favicon.ico" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+  <meta name="theme-color" content="#FFFFFF" />
+  <meta http-equiv="expires" content="0" />
+  <meta name="@globalVariablesScript?replace_tag@" content="" />
+  <meta name="ui5Bootstrap" content="@ui5Bootstrap@" />
+  <meta name="resourceRoots" content="@resourceRoots@" />
+  <meta name="resourceMappings" content="@resourceMappings@" />
+  <meta name="pageMetaData" content="@pageMetaData@" />
+  <meta name="ui5-wc-messagebundle" content="" />
+  <meta name="@additionalMetaTags?replace_tag@" content="" />
+  <meta name="@initScripts?replace_tag@" content="" />
+  <meta name="useSessionTimeout" content="@useSessionTimeout@" />
+  <meta name="perfPhaseUrl" content="@perfPhaseUrl@" />
+  <meta name="piid" content="@piid@" />
+  <meta name="serverTimestamp" content="@serverTimestamp@" />
+  <meta name="deferHeader" content="@deferHeader@" />
+  <meta name="snonce" content="@cspNonce!@" />
+  <meta name="description" content="@title@" />
+  <script nonce="@cspNonce!@" data-ui5-config type="application/json">{}</script>
+  <style nonce="@cspNonce!@">
+    body {
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale
+    }
+  </style>
+  <script
+    nonce="@cspNonce!@">window.useSessionTimeout = "false" != "@useSessionTimeout@".toString(), window.__BUILD_TIMESTAMP__ = "1607018707105", window.__BUILD_TIME_STR__ = "12/4/2020, 2:05:07 AM", window.__APP_VERSION__ = "1.3.0-rc.6", window.__APP_NAME__ = "@xweb/goalmanagementx", window.__APP_ENV__ = "production", window.__APP_INIT_TIME__ = window.performance && performance.timing ? performance.timing.responseEnd : (new Date).getTime(), window.printTimePassed = function (_) { console.info((_ || "Time") + ": " + ((new Date).getTime() - window.__APP_INIT_TIME__) + " ms") }, console.info("---------------------------------------------"), console.info("app name: " + window.__APP_NAME__), console.info("app env: " + window.__APP_ENV__), console.info("app ver: " + window.__APP_VERSION__), console.info("app build str: " + window.__BUILD_TIME_STR__), console.info("app build timestamp: " + window.__BUILD_TIMESTAMP__), console.info("---------------------------------------------")</script>
+  <link href="./static/css/styles.e49dfb76.chunk.css" rel="stylesheet">
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script
+    nonce="@cspNonce!@">!function (e) { function t(t) { for (var n, u, i = t[0], c = t[1], l = t[2], p = 0, s = []; p < i.length; p++)u = i[p], Object.prototype.hasOwnProperty.call(o, u) && o[u] && s.push(o[u][0]), o[u] = 0; for (n in c) Object.prototype.hasOwnProperty.call(c, n) && (e[n] = c[n]); for (f && f(t); s.length;)s.shift()(); return a.push.apply(a, l || []), r() } function r() { for (var e, t = 0; t < a.length; t++) { for (var r = a[t], n = !0, i = 1; i < r.length; i++) { var c = r[i]; 0 !== o[c] && (n = !1) } n && (a.splice(t--, 1), e = u(u.s = r[0])) } return e } var n = {}, o = { 4: 0 }, a = []; function u(t) { if (n[t]) return n[t].exports; var r = n[t] = { i: t, l: !1, exports: {} }; return e[t].call(r.exports, r, r.exports, u), r.l = !0, r.exports } u.e = function (e) { var t = [], r = o[e]; if (0 !== r) if (r) t.push(r[2]); else { var n = new Promise((function (t, n) { r = o[e] = [t, n] })); t.push(r[2] = n); var a, i = document.createElement("script"); i.charset = "utf-8", i.timeout = 120, u.nc && i.setAttribute("nonce", u.nc), i.src = function (e) { return u.p + "static/js/" + ({ 0: "batch-mock-data", 3: "peopleListMock" }[e] || e) + "." + { 0: "0b8f6a21", 3: "5676fc58", 7: "6f60448a", 8: "4ec69266" }[e] + ".chunk.js" }(e); var c = new Error; a = function (t) { i.onerror = i.onload = null, clearTimeout(l); var r = o[e]; if (0 !== r) { if (r) { var n = t && ("load" === t.type ? "missing" : t.type), a = t && t.target && t.target.src; c.message = "Loading chunk " + e + " failed.\n(" + n + ": " + a + ")", c.name = "ChunkLoadError", c.type = n, c.request = a, r[1](c) } o[e] = void 0 } }; var l = setTimeout((function () { a({ type: "timeout", target: i }) }), 12e4); i.onerror = i.onload = a, document.head.appendChild(i) } return Promise.all(t) }, u.m = e, u.c = n, u.d = function (e, t, r) { u.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: r }) }, u.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, u.t = function (e, t) { if (1 & t && (e = u(e)), 8 & t) return e; if (4 & t && "object" == typeof e && e && e.__esModule) return e; var r = Object.create(null); if (u.r(r), Object.defineProperty(r, "default", { enumerable: !0, value: e }), 2 & t && "string" != typeof e) for (var n in e) u.d(r, n, function (t) { return e[t] }.bind(null, n)); return r }, u.n = function (e) { var t = e && e.__esModule ? function () { return e.default } : function () { return e }; return u.d(t, "a", t), t }, u.o = function (e, t) { return Object.prototype.hasOwnProperty.call(e, t) }, u.p = "./", u.oe = function (e) { throw console.error(e), e }; var i = window["goalmanagementx"] = window["goalmanagementx"] || [], c = i.push.bind(i); i.push = t, i = i.slice(); for (var l = 0; l < i.length; l++)t(i[l]); var f = c; r() }([])</script>
+  <script
+    nonce="@cspNonce!@">(this["goalmanagementx"] = this["goalmanagementx"] || []).push([[6], { 199: function (t, n, e) { t.exports = { header: "style_header__2bHWN", headerTitleContainer: "style_headerTitleContainer__2Z1zW", headerTitle: "style_headerTitle__3fBct", headerContent: "style_headerContent__1qyZ9", headerActionButton: "style_headerActionButton__sno47" } }, 233: function (t, n, e) { t.exports = { header: "style_header__3eNus", headerCreateBtn: "style_headerCreateBtn__oTx6t", headerTitleBar: "style_headerTitleBar__34Ege", headerSummary: "style_headerSummary__1SxqR", headerSummaryText: "style_headerSummaryText__zeRgy" } }, 269: function (t, n, e) { t.exports = { columnLayout: "style_columnLayout__6IJBG", startColumn: "style_startColumn__Pi5Ao", midColumn: "style_midColumn___3Fji", expandButton: "style_expandButton__3PAGI" } }, 338: function (t, n, e) { t.exports = { loading: "style_loading__15h3G", peopleList: "style_peopleList__1bQLg" } }, 340: function (t, n, e) { t.exports = { emptyState: "style_emptyState__8ArvX" } }, 373: function (t, n, e) { }, 485: function (t, n, e) { }, 489: function (t, n, e) { }, 689: function (t, n, e) { t.exports = { loading: "style_loading__1ChSk" } }, 691: function (t, n, e) { t.exports = { app: "style_app__1LRJc" } }, 692: function (t, n, e) { t.exports = { ui5ShellBar: "style_ui5ShellBar__1IB0z" } }, 699: function (t, n, e) { t.exports = { detailInfo: "style_detailInfo__1rE-E" } }, 700: function (t, n, e) { t.exports = { goalFormHeader: "style_goalFormHeader__3WamL" } }, 701: function (t, n, e) { t.exports = { cardContainer: "style_cardContainer__1p-HP" } }, 702: function (t, n, e) { t.exports = { goalIntroContainer: "style_goalIntroContainer__2S7UN" } }, 915: function (t, n, e) { }, 919: function (t, n, e) { }, 920: function (t, n, e) { }, 921: function (t, n, e) { }, 922: function (t, n, e) { }, 929: function (t, n, e) { }, 930: function (t, n, e) { }, 931: function (t, n, e) { }, 932: function (t, n, e) { }, 933: function (t, n, e) { }, 934: function (t, n, e) { }, 935: function (t, n, e) { }, 938: function (t, n, e) { }, 939: function (t, n, e) { }, 940: function (t, n, e) { }, 941: function (t, n, e) { }, 942: function (t, n, e) { }, 943: function (t, n, e) { }, 944: function (t, n, e) { }, 946: function (t, n, e) { }, 948: function (t, n, e) { }, 949: function (t, n, e) { }, 951: function (t, n, e) { }, 954: function (t, n, e) { }, 956: function (t, n, e) { }, 957: function (t, n, e) { }, 958: function (t, n, e) { }, 959: function (t, n, e) { }, 961: function (t, n, e) { } }])</script>
+  <script nonce="@cspNonce!@" src="./static/js/common.59e33f12.chunk.js"></script>
+  <script nonce="@cspNonce!@" src="./static/js/sfsf.6f99f43a.chunk.js"></script>
+  <script nonce="@cspNonce!@" src="./static/js/main.fc446c9f.chunk.js"></script>
+</body>
+
+</html>

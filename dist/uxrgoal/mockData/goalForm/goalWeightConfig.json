@@ -1,0 +1,24 @@
+[
+  {
+    "value": [
+      {
+        "introduction": " ",
+        "maxGoals": -1,
+        "maxWeight": 200,
+        "maxWeightPerObj": 120,
+        "minGoals": -1,
+        "minWeight": -1,
+        "minWeightPerObj": 10,
+        "planId": 2
+      }
+    ]
+  },
+  {
+    "@odata.context": "https://localhost:443/odata/v4/Goal_19.svc/$metadata#Goal_19.svc.GoalSummary",
+    "@odata.metadataEtag": "\"0969f679-b4e5-4ed1-be87-e9419505ec3e\"",
+    "totalScore": 153.32222,
+    "totalScoreText": "153.32",
+    "totalWeight": 120,
+    "totalWeightText": "120.00"
+  }
+]

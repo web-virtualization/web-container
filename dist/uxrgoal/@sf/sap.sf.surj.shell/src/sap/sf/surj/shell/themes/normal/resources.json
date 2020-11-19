@@ -1,0 +1,41 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"theme": "normal"
+		},
+		{
+			"name": "library-RTL-dbg.css",
+			"isDebug": true,
+			"theme": "normal"
+		},
+		{
+			"name": "library-RTL.css",
+			"theme": "normal"
+		},
+		{
+			"name": "library-dbg.css",
+			"isDebug": true,
+			"theme": "normal"
+		},
+		{
+			"name": "library-parameters.json",
+			"theme": "normal"
+		},
+		{
+			"name": "library.css",
+			"theme": "normal"
+		},
+		{
+			"name": "library.less",
+			"designtime": true,
+			"theme": "normal"
+		},
+		{
+			"name": "library.source.less",
+			"designtime": true,
+			"theme": "normal"
+		}
+	]
+}

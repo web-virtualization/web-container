@@ -1,0 +1,15 @@
+{
+  "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/Goal_22.svc/$metadata#GoalPlanTemplate",
+    "@odata.metadataEtag": "\"27c4b7f7-cb09-4f0b-882e-a3c0f6fa698b\"",
+    "value": [
+      {
+        "description": "This is the objective plan for 2020.",
+        "displayOrder": 1,
+        "dueDate": "2020-12-31",
+        "id": 22,
+        "name": "2020 Goal Plan",
+        "parentPlanId": -1,
+        "startDate": "2020-01-01"
+      }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "web-container",
+  "version": "0.0.1",
+  "description": "This is ",
+  "main": "./dist/main.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-virtualization/web-container.git"
+  },
+  "keywords": [
+    "micro-frontend"
+  ],
+  "author": "alex-zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/web-virtualization/web-container/issues"
+  },
+  "homepage": "https://github.com/web-virtualization/web-container#readme",
+  "devDependencies": {
+    "rollup": "^2.33.3",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

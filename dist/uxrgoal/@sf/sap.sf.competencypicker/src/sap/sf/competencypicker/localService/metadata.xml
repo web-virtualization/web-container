@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:DataServices>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="JpbAdoptionOdataService.svc">            
+            <EntityType Name="CompetencyAssessment">
+                <Key>
+                    <PropertyRef Name="mdfSystemRecordId"/>
+                </Key>
+                <Property Name="assessmentDate" Type="Edm.Date" Nullable="false"/>
+                <Property Name="code" Type="Edm.Int64"/>
+                <Property Name="customLocalizedString1" Type="Edm.String"/>
+                <Property Name="customString1" Type="Edm.String"/>
+                <Property Name="customString2" Type="Edm.String"/>
+                <Property Name="highValue" Type="Edm.Decimal" Precision="39" Scale="17"/>
+                <Property Name="interval" Type="Edm.Decimal" Precision="39" Scale="17"/>
+                <Property Name="lowValue" Type="Edm.Decimal" Precision="39" Scale="17"/>
+                <Property Name="mdfSystemRecordId" Type="Edm.String"/>
+                <Property Name="mdfSystemStatus" Type="Edm.String" Nullable="false"/>
+                <Property Name="parent" Type="Edm.String"/>
+                <Property Name="parentRecordId" Type="Edm.String"/>
+                <Property Name="rating" Type="Edm.Decimal" Nullable="false" Precision="55" Scale="17"/>
+                <Property Name="sourceName" Type="Edm.String" Nullable="false"/>
+                <Property Name="sourceType" Type="Edm.String" Nullable="false"/>
+            </EntityType>
+            <EntityType Name="JdmJpbMappingEntity">
+                <Key>
+                    <PropertyRef Name="mdfSystemRecordId"/>
+                </Key>
+                <Property Name="externalCode" Type="Edm.Int64"/>
+                <Property Name="jdmId" Type="Edm.Int64" Nullable="false"/>
+                <Property Name="jpbId" Type="Edm.Int64" Nullable="false"/>
+                <Property Name="mdfSystemRecordId" Type="Edm.String"/>
+            </EntityType>
+            <EntityType Name="CompetencyAssignment">
+                <Key>
+                    <PropertyRef Name="mdfSystemRecordId"/>
+                </Key>
+                <Property Name="code" Type="Edm.Int64"/>
+                <Property Name="competency" Type="Edm.String" Nullable="false"/>
+                <Property Name="mdfSystemRecordId" Type="Edm.String"/>
+                <Property Name="user" Type="Edm.String" Nullable="false"/>
+            </EntityType>
+            <ComplexType Name="CompetencySearchResult">
+                <Property Name="resultByCategories" Type="Collection(JpbAdoptionOdataService.svc.CategoryResult)" Precision="0" Scale="0"/>
+                <Property Name="resultByCompetencies" Type="Collection(JpbAdoptionOdataService.svc.CompetencyResult)" Precision="0" Scale="0"/>
+                <Property Name="resultByLibraries" Type="Collection(Edm.String)" Precision="0" Scale="0"/>
+            </ComplexType>
+            <ComplexType Name="JPBCompetencyPickerRequest">
+                <Property Name="categoryName" Type="Edm.String" Precision="0" Scale="0"/>
+                <Property Name="competencyIds" Type="Collection(Edm.Int64)" Precision="0" Scale="0"/>
+                <Property Name="competencyName" Type="Edm.String" Precision="0" Scale="0"/>
+                <Property Name="includeInActive" Type="Edm.Boolean" Precision="0" Scale="0"/>
+                <Property Name="libraryCategoryMap" Type="Collection(JpbAdoptionOdataService.svc.LibraryVsCategoryVO)" Precision="0" Scale="0"/>
+                <Property Name="libraryName" Type="Edm.String" Precision="0" Scale="0"/>
+            </ComplexType>
+            <ComplexType Name="LibraryVsCategoryVO">
+                <Property Name="categoryName" Type="Collection(Edm.String)" Precision="0" Scale="0"/>
+                <Property Name="libraryName" Type="Edm.String" Precision="0" Scale="0"/>
+            </ComplexType>
+            <ComplexType Name="CompetencyBrowseResultVO">
+                <Property Name="competencyInternalId" Type="Edm.Int64" Precision="0" Scale="0"/>
+                <Property Name="competencyName" Type="Edm.String" Precision="0" Scale="0"/>
+            </ComplexType>
+            <ComplexType Name="CategoryResult">
+                <Property Name="categoryName" Type="Edm.String" Precision="0" Scale="0"/>
+                <Property Name="libraryName" Type="Edm.String" Precision="0" Scale="0"/>
+            </ComplexType>
+            <ComplexType Name="CompetencyResult">
+                <Property Name="categoryName" Type="Edm.String" Precision="0" Scale="0"/>
+                <Property Name="competencyInternalId" Type="Edm.Int64" Precision="0" Scale="0"/>
+                <Property Name="competencyName" Type="Edm.String" Precision="0" Scale="0"/>
+                <Property Name="libraryName" Type="Edm.String" Precision="0" Scale="0"/>
+            </ComplexType>
+            <Action Name="GetDistinctCompetenciesByLibAndCatNameAction" IsBound="false">
+                <Parameter Name="requestBody" Type="JpbAdoptionOdataService.svc.JPBCompetencyPickerRequest"/>
+                <ReturnType Type="Collection(JpbAdoptionOdataService.svc.CompetencyBrowseResultVO)"/>
+            </Action>
+            <Action Name="GetDistinctCompetencyLibrariesAction" IsBound="false">
+                <Parameter Name="requestBody" Type="JpbAdoptionOdataService.svc.JPBCompetencyPickerRequest"/>
+                <ReturnType Type="Collection(Edm.String)"/>
+            </Action>
+            <Action Name="GetDistinctCompetencyCategoriesByLibraryAction" IsBound="false">
+                <Parameter Name="requestBody" Type="JpbAdoptionOdataService.svc.JPBCompetencyPickerRequest"/>
+                <ReturnType Type="Collection(Edm.String)"/>
+            </Action>
+            <Action Name="SearchCompetencyAction" IsBound="false">
+                <Parameter Name="requestBody" Type="JpbAdoptionOdataService.svc.JPBCompetencyPickerRequest"/>
+                <ReturnType Type="JpbAdoptionOdataService.svc.CompetencySearchResult"/>
+            </Action>
+            <Action Name="refreshMetadata" IsBound="false"/>
+            <Action Name="GetDistinctBehaviorsByCompetencyAction" IsBound="false">
+                <Parameter Name="requestBody" Type="JpbAdoptionOdataService.svc.JPBCompetencyPickerRequest"/>
+                <ReturnType Type="Collection(JpbAdoptionOdataService.svc.CompetencyBrowseResultVO)"/>
+            </Action>
+            <EntityContainer Name="Container">
+                <EntitySet Name="CompetencyAssessment" EntityType="JpbAdoptionOdataService.svc.CompetencyAssessment"/>
+                <EntitySet Name="JdmJpbMappingEntity" EntityType="JpbAdoptionOdataService.svc.JdmJpbMappingEntity"/>
+                <EntitySet Name="CompetencyAssignment" EntityType="JpbAdoptionOdataService.svc.CompetencyAssignment"/>
+                <ActionImport Name="GetDistinctCompetenciesByLibAndCatNameAction" Action="JpbAdoptionOdataService.svc.GetDistinctCompetenciesByLibAndCatNameAction"/>
+                <ActionImport Name="GetDistinctCompetencyLibrariesAction" Action="JpbAdoptionOdataService.svc.GetDistinctCompetencyLibrariesAction"/>
+                <ActionImport Name="GetDistinctCompetencyCategoriesByLibraryAction" Action="JpbAdoptionOdataService.svc.GetDistinctCompetencyCategoriesByLibraryAction"/>
+                <ActionImport Name="SearchCompetencyAction" Action="JpbAdoptionOdataService.svc.SearchCompetencyAction"/>
+                <ActionImport Name="refreshMetadata" Action="JpbAdoptionOdataService.svc.refreshMetadata"/>
+                <ActionImport Name="GetDistinctBehaviorsByCompetencyAction" Action="JpbAdoptionOdataService.svc.GetDistinctBehaviorsByCompetencyAction"/>
+            </EntityContainer>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

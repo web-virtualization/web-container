@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library xmlns="http://www.sap.com/sap.ui.library.xsd">
+	<name>sap.sf.surj.shell</name>
+	<vendor>SAP</vendor>
+	<version>1.0.2-SNAPSHOT</version>
+	<documentation>Common UI shell library</documentation>
+	<dependencies>
+		<dependency>
+			<libraryName>sap.ui.core</libraryName>
+		</dependency>
+	</dependencies>
+</library>

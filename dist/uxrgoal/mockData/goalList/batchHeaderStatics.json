@@ -1,0 +1,135 @@
+[
+  {
+    "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/Goal_66.svc/$metadata#GoalEnum",
+    "@odata.metadataEtag": "\"11634919-7222-4d32-bc10-3c469a05d95e\"",
+    "value": [
+      {
+        "fieldId": "state",
+        "label": "Not Started",
+        "planId": 66,
+        "style": "#6a6d70",
+        "value": "white"
+      },
+      {
+        "fieldId": "state",
+        "label": "On Track",
+        "planId": 66,
+        "style": "#6367de",
+        "value": "yellow"
+      },
+      {
+        "fieldId": "state",
+        "label": "Behind",
+        "planId": 66,
+        "style": "#bb0000",
+        "value": "red"
+      },
+      {
+        "fieldId": "state",
+        "label": "Completed",
+        "planId": 66,
+        "style": "#107e3e",
+        "value": "green"
+      },
+      {
+        "fieldId": "state",
+        "label": "Postponed",
+        "planId": 66,
+        "style": "#FF0000",
+        "value": "purple"
+      },
+      {
+        "fieldId": "state",
+        "label": "Cancelled",
+        "planId": 66,
+        "style": "#520339",
+        "value": "blue"
+      },
+      {
+        "fieldId": "category",
+        "label": "Customer",
+        "planId": 66,
+        "style": null,
+        "value": "Customer"
+      },
+      {
+        "default": false,
+        "fieldId": "category",
+        "label": "Business Process",
+        "planId": 66,
+        "style": null,
+        "value": "Business_Process"
+      },
+
+      {
+        "default": false,
+        "fieldId": "category",
+        "label": "Financial",
+        "planId": 66,
+        "style": null,
+        "value": "Financial"
+      }
+    ]
+  },
+  {
+    "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/Goal_66.svc/$metadata#Collection(Goal_66.svc.GoalPlanUserStateStatistics)",
+    "@odata.metadataEtag": "\"40d71f7e-788e-45b6-b212-b23d92bd77a7\"",
+    "value": [
+      {
+        "count": 3,
+        "stateId": "white"
+      },
+      {
+        "count": 0,
+        "stateId": "yellow"
+      },
+      {
+        "count": 0,
+        "stateId": "red"
+      },
+      {
+        "count": 0,
+        "stateId": "green"
+      },
+      {
+        "count": 0,
+        "stateId": "purple"
+      },
+      {
+        "count": 0,
+        "stateId": "blue"
+      }
+    ]
+  },
+  {
+    "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/Goal_66.svc/$metadata#GoalPlanTemplate(templateConfiguration())",
+    "@odata.metadataEtag": "\"3109be12-ed8c-48ad-a572-4f90eb45837d\"",
+    "value": [
+      {
+        "description": "This is the 2008 objective plan.",
+        "displayOrder": 172,
+        "dueDate": "2010-12-31",
+        "id": 66,
+        "name": "Standard Goal Template (TGM-3150/3005)",
+        "parentPlanId": -1,
+        "startDate": "2010-01-01",
+        "templateConfiguration": {
+          "introduction": "<font size=\"3\">The <b>Goals</b> section is used by managers <a target='_blank' href='http://www.sap.com'>who wish to</a> cascade their performance goals to their direct reports. Employees can also view and manage performance goals in this section, but please note that you must use the <b>Performance</b> tab to submit goals for manager approval.</font>",
+          "maxGoals": 100,
+          "maxWeight": 300.0,
+          "maxWeightPerObj": 80.0,
+          "minGoals": 123,
+          "minWeight": 1.0,
+          "minWeightPerObj": 1.0,
+          "planId": 66
+        }
+      }
+    ]
+  },
+  {
+    "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/Goal_583.svc/$metadata#Goal",
+    "@odata.metadataEtag": "\"69b42116-8aa3-46c9-abc9-facb00b45294\"",
+    "@odata.nextLink": "https://qacand.lab-rot.ondemand.com/odata/v4/Goal_583.svc/Goal?$skiptoken=eyJsaW1pdCI6MjAwLCJvZmZzZXQiOjIwMH0=",
+    "@odata.count": 38
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "@odata.context": "https://talent.uxr.c.eu-nl-1.cloud.sap:443/odata/v4/tgm.svc/$metadata#Edm.Boolean",
+  "@odata.metadataEtag": "\"cab09c61-6c74-4e0e-a381-588007ef6e24\"",
+  "value": true
+}

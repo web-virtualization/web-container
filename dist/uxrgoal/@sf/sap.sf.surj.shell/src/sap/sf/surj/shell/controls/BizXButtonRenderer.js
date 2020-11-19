@@ -1,0 +1,1 @@
+sap.ui.define('sap/sf/surj/shell/controls/BizXButtonRenderer',['jquery.sap.global','sap/ui/core/Renderer','sap/m/ButtonRenderer'],function($,R,B){"use strict";var a=$.extend(R.extend(B),{renderAccessibilityAttributes:function(r,b,A){var s=b.getAriaLabel();if(s){A['label']=s;}}});$.sap.setObject('sap.sf.surj.shell.controls.BizXButtonRenderer',a);return a;});

@@ -1,0 +1,56 @@
+{
+    "SuccessFactors 2.0":{
+        "Category1": {
+            "Demonstrating Self-Insight and Awareness":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                        "behaviorInternalId": 13981589,
+                        "behaviorName": "Managing Political Situations"
+                    },
+                    {
+                        "behaviorInternalId": 13981451,
+                        "behaviorName": "Adapting to Change"
+                    }
+                ]
+            },
+            "Establishing Relationships":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                        "behaviorInternalId": 13981699,
+                        "behaviorName": "Managing Resources"
+                    }
+                ]
+            }
+        },
+        "Category2": {
+            "Performing Physical or Mechanical Tasks":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                        "behaviorInternalId": 13981727,
+                        "behaviorName": "Driving Continuous Improvement"
+                    }
+                ]
+            }
+        }
+    },
+    "HealthPrint":{
+        "Category4": {
+            "Developing Talent":{
+                "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+                "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+                "value": [
+                    {
+                        "behaviorInternalId": 13981913,
+                        "behaviorName": "Managing Risk"
+                    }
+                ]
+            }
+        }
+    }
+}

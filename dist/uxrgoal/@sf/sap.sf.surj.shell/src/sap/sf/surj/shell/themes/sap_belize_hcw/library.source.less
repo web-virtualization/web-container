@@ -1,0 +1,315 @@
+@import "../base/library.source.less";
+@import "../../../../../../sap/ui/core/themes/sap_belize_hcw/base.less";
+@import "../../../../../../sap/ui/core/themes/sap_belize_hcw/global.less";
+
+/*\
+|*| BizXShell
+\*/
+
+/*\
+|*| Override the sapUiSizeCompact styles.
+|*| All these styles were copied from UI5 and then 
+|*| added .surjTopNav .surjTopNavHeaderBar  
+|*| overrides .sapUiSizeCompact
+\*/
+
+/*\
+|*| BizXPage
+\*/
+
+/*\
+|*| BizXSearchField
+\*/
+
+.globalLowVisionSupport.light .bizXSF .sapMSFF,
+.globalLowVisionSupport.light .bizXSF:not(.sapMSFDisabled)>.sapMSFF:hover {
+    border-color: #000000;
+}
+.globalLowVisionSupport.light .bizXSF>.sapMSFF>.sapMSFB {
+    color: #000000;
+}
+
+.globalLowVisionSupport.light .bizXSF>.sapMSFF>.sapMSFB:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.globalLowVisionSupport.light .bizXSF .sapMSFF.sapMSFNS {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.globalLowVisionSupport.light .bizXSFST {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-color: #000000;
+    border-radius: 0;
+}
+
+.globalLowVisionSupport.light .bizXSFST:hover,
+.globalLowVisionSupport.light .bizXSFST:focus {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+html[class~="syncHighContrastWithUI5"] .globalLowVisionSupport.light .bizXSFST:hover {
+    background-color: #EC8B46;
+    color: #000000;
+}
+
+html[class~="syncHighContrastWithUI5"] .globalLowVisionSupport.light .bizXSFST:focus {
+    background-color: transparent;
+}
+
+html:not([class~="syncHighContrastWithUI5"]) .bizXPeopleSuggestionItem.bizXSuggestionItem:hover {
+    background: #CCE4FE;
+}
+
+html:not([class~="syncHighContrastWithUI5"]) .bizXSuggestionItem b {
+    color: #008ECC;
+}
+
+html:not([class~="syncHighContrastWithUI5"]) .bizXSuggestExternalSearch,
+html:not([class~="syncHighContrastWithUI5"]) .bizXShowMoreSuggestionItem {
+    color: #008ECC;
+    font-size: 12px;
+}
+
+html:not([class~="syncHighContrastWithUI5"]) .bizXShowMoreSuggestionItem:hover {
+    text-decoration: underline;
+}
+
+.globalLowVisionSupport.light.bizXSuggestPicker .sapMSelectList,
+.globalLowVisionSupport.light.bizXSuggestPicker {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/* Highlighted term with light theme will be white color with black background. */
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem b {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem.sapMSelectListItemBaseSelected:not(.bizXShowMoreSuggestionItem) b,
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem:not(.bizXShowMoreSuggestionItem):hover b {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.globalLowVisionSupport.light .bizxPSIPN,
+.globalLowVisionSupport.light .bizxPSIT,
+.globalLowVisionSupport.light .bizxPSIN,
+.globalLowVisionSupport.light .bizxPSIUn {
+    color: #000000;
+}
+
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem.sapMSelectListItemBaseSelected:not(.bizXShowMoreSuggestionItem),
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem:not(.bizXShowMoreSuggestionItem):hover {
+    background-color: #000000;
+}
+
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem.sapMSelectListItemBaseSelected:not(.bizXShowMoreSuggestionItem),
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem.sapMSelectListItemBaseSelected:not(.bizXShowMoreSuggestionItem) .bizxPSIPN,
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem.sapMSelectListItemBaseSelected:not(.bizXShowMoreSuggestionItem) .bizxPSIT,
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem.sapMSelectListItemBaseSelected:not(.bizXShowMoreSuggestionItem) .bizxPSIN,
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem.sapMSelectListItemBaseSelected:not(.bizXShowMoreSuggestionItem) .bizxPSIUn,
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem:not(.bizXShowMoreSuggestionItem):hover,
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem:not(.bizXShowMoreSuggestionItem):hover .bizxPSIPN,
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem:not(.bizXShowMoreSuggestionItem):hover .bizxPSIT,
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem:not(.bizXShowMoreSuggestionItem):hover .bizxPSIN,
+html:not([class~="syncHighContrastWithUI5"]) .globalLowVisionSupport.light .bizXSuggestionItem:not(.bizXShowMoreSuggestionItem):hover .bizxPSIUn {
+    color: #FFFFFF;
+}
+
+/*\
+|*| UserPhoto
+\*/
+
+/*\
+|*| SearchInput.css
+\*/
+
+.surj-peui-noDataTitle{
+    color: #666666;
+}
+
+.surjli .surjhighlight {
+    font-weight: bold;
+}
+
+.surjli .surjcontent .info {
+    color: #a2a2a2;
+}
+
+
+.surjGACEIcon.sapUiIcon::before {
+  color: #000000;
+}
+
+/*\
+|*| QuickcardPeopleSearch items display for SearchResult
+\*/
+
+.surjli.surjli-hasSubTitle .surjli-Title {
+    color: #222222;
+}
+
+.globalLowVisionSupport.light.surjli.surjli-hasSubTitle .surjli-Title .surjhighlight {
+    color: #FFFFFF;
+}
+
+.globalLowVisionSupport.light.surjli.surjli-hasSubTitle .surjli-Title .surjhighlight {
+    background-color: #000000;
+}
+
+.globalLowVisionSupport.light.surjli.surjli-hasSubTitle .surjli-Title,
+.globalLowVisionSupport.light.surjli.surjli-hasSubTitle .surjli-Title .info,
+.globalLowVisionSupport.light.surjli.surjli-hasSubTitle .surjli-SubTitle {
+    color: #000000;
+}
+
+.surjli.surjli-hasSubTitle .surjli-Title .surjhighlight {
+    color: #008ECC;
+}
+
+.surjli.surjli-hasSubTitle .surjli-Title .info {
+    color: #666666;
+}
+
+.surjli.surjli-hasSubTitle .surjli-SubTitle {
+    color: #555555;
+}
+
+/*\
+|*| BizXSuggest
+\*/
+
+html:not([class~="syncHighContrastWithUI5"]) .fiori .bizXSuggestPicker {
+    box-shadow: 0 2px 3px -1px rgba(0,0,0,0.25);
+}
+/*\
+|*| Restyling UI5 Header to look like JUIC
+\*/
+
+/*\
+|*| RevolutionTopNavigation.css
+\*/
+
+/********************************************/
+/* START: Global Action Search Intro Styles */
+
+.globalLowVisionSupport.light .globalActionSearchIntro {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.globalLowVisionSupport.light .globalActionSearchIntro .searchItemIcon {
+    color: #000000;
+}
+
+/* END: Global Action Search Intro Styles */
+/******************************************/
+
+
+/*************************************************/
+/* START: Universal Search                       */
+/* --- START Show Me for SURJ --- */
+
+/* --- END Show Me for SURJ --- */
+
+html[class~="syncHighContrastWithUI5"] .surjSubTabBar .surjSubTabItem:link,
+html[class~="syncHighContrastWithUI5"] .surjSubTabBar .surjSubTabItem:visited,
+html[class~="syncHighContrastWithUI5"] .surjSubTabBar .surjSubTabItem {
+    text-decoration: underline;
+}
+
+html[class~="syncHighContrastWithUI5"] .surjSubTabBar .surjSubTabItem:hover,
+html[class~="syncHighContrastWithUI5"] .surjSubTabBar .surjSubTabItem:focus,
+html[class~="syncHighContrastWithUI5"] .surjSubTabBar .surjSubTabItem:active {
+    text-decoration: none;
+}
+
+/* --- START SFRevolutionTopNav.css --- */
+
+/* --- END SFRevolutionTopNav.css --- */
+
+/* missing .light equivalent classes of hcb */
+
+/* Override the header button colors while hover/active/focus for dark low vision theme. */ 
+html:not([class~="syncHighContrastWithUI5"]) .bizXSuggestPicker .sapMSelectList {
+    background: #FFFFFF;
+}
+
+html:not([class~="syncHighContrastWithUI5"]) .bizXSuggestPicker .sapMSelectList {
+    border: none !important;
+}
+
+html:not([class~="syncHighContrastWithUI5"]) .bizXSuggestPicker.globalLowVisionSupport.light {
+    border: 1px solid #000000;
+}
+
+/* Override the global keyboard navigation on sap M buttons because they already do that for us
+   Before there were 2 borders added to the buttons. */
+html:not([class~="syncHighContrastWithUI5"]) .globalKeyboardNavigation .surjTopNav .sapMBtn:focus {
+    border: none !important;
+}
+
+.surjResponsiveSidePanel {
+    box-shadow: -0.125rem 0 4rem 0 rgba(0,0,0,0.7), 0 0 0 2px #000000;
+}
+
+.rtl .surjResponsiveSidePanel {
+    box-shadow: 0.125rem 0 4rem 0 rgba(0,0,0,0.7), 0 0 0 2px #000000;
+}
+
+html:not([class~="syncHighContrastWithUI5"]) .surjGACEBorder div.sapMPanelContent{
+    border-color:transparent;
+}
+
+html:not([class~="syncHighContrastWithUI5"]) .surjGACEPanelBorder header.sapMPanelWrappingDiv{
+    border-color:transparent;
+}
+
+/*\
+|*| Transitive Text Display
+\*/
+
+.globalLowVisionSupport.light .bizXSFTT {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-right: 1px solid #000000;
+}
+
+/*\
+|*| Show Me Icon
+\*/
+
+/*\
+|*| Employment items
+\*/
+
+.globalLowVisionSupport.light .bizxGAMI .bizxGAMISupplIcon[data-sap-ui-icon-content="\e065"] {
+    color: #000000;
+}
+
+.globalLowVisionSupport.light .bizxGAMI:active .bizxGAMISupplIcon[data-sap-ui-icon-content="\e065"] {
+    color: #FFFFFF;
+}
+
+/*\
+|*| Downtime Notification
+\*/
+ 
+.ipsButton {
+    background-color: #FFF;
+    color: #000;
+} 
+
+#frameContainer {
+    background-color: #FFF;
+    border-color: #000;
+}
+
+#ipsContainer.expended {
+    box-shadow: -0.625rem 0 2rem 0 rgba(0, 0, 0, 0.8), 0 0 0 2px #000000;
+}

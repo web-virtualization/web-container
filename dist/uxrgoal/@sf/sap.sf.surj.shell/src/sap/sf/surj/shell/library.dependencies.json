@@ -1,0 +1,633 @@
+{
+  "modules" : [
+    {
+      "name" : "sap/sf/surj/shell/BizXHeader.controller.js",
+      "size" : 124757,
+      "compressedSize" : 49370,
+      "required" : ["jquery.sap.global.js", "jquery.sap.storage.js", "sap/m/Dialog.js", "sap/sf/surj/shell/controls/BizXMenuListItem.js", "sap/sf/surj/shell/controls/BizXMenuPopover.js", "sap/sf/surj/shell/controls/BizXSearchField.js", "sap/sf/surj/shell/controls/BizXSuggestionItem.js", "sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js", "sap/sf/surj/shell/controls/IntroSuggestionItem.js", "sap/sf/surj/shell/controls/PeopleSuggestionItem.js", "sap/sf/surj/shell/controls/ResponsiveSidePanel.js", "sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js", "sap/sf/surj/shell/core/BizXResourceModel.js", "sap/sf/surj/shell/library.js", "sap/sf/surj/shell/quickcard/QuickcardHandler.js", "sap/sf/surj/shell/util/A11yPreferences.js", "sap/sf/surj/shell/util/ActionSearchUtil.js", "sap/sf/surj/shell/util/AnimateUtil.js", "sap/sf/surj/shell/util/CookiePolicyUtil.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/FLPServices.js", "sap/sf/surj/shell/util/JamUtil.js", "sap/sf/surj/shell/util/LinkUtil.js", "sap/sf/surj/shell/util/Logger.js", "sap/sf/surj/shell/util/PeopleSearchUtil.js", "sap/sf/surj/shell/util/Polyfill.js", "sap/sf/surj/shell/util/ProxyUtil.js", "sap/sf/surj/shell/util/SearchUtil.js", "sap/sf/surj/shell/util/ShowMeUtil.js", "sap/sf/surj/shell/util/Util.js", "sap/sf/todo/util/PanelManager.js", "sap/ui/Device.js", "sap/ui/core/Fragment.js", "sap/ui/core/Icon.js", "sap/ui/model/json/JSONModel.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/BizXHeader.view.js",
+      "size" : 41791,
+      "compressedSize" : 15867,
+      "required" : ["jquery.sap.global.js", "sap/m/Bar.js", "sap/m/Image.js", "sap/m/Link.js", "sap/m/OverflowToolbar.js", "sap/m/SearchField.js", "sap/m/SuggestionItem.js", "sap/m/Text.js", "sap/sf/surj/shell/controls/BizXButton.js", "sap/sf/surj/shell/controls/BizXSearchField.js", "sap/sf/surj/shell/controls/Container.js", "sap/sf/surj/shell/controls/FocusMarker.js", "sap/sf/surj/shell/controls/NotificationWrapper.js", "sap/sf/surj/shell/controls/UserPhoto.js", "sap/sf/surj/shell/util/A11yPreferences.js", "sap/sf/surj/shell/util/SuppIconPool.js", "sap/sf/surj/shell/util/Util.js", "sap/ui/core/CustomData.js", "sap/ui/core/delegate/ItemNavigation.js", "sap/ui/core/theming/Parameters.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/BizXShell.controller.js",
+      "size" : 798,
+      "compressedSize" : 468,
+      "required" : ["jquery.sap.global.js", "sap/ui/model/json/JSONModel.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/BizXShell.view.js",
+      "size" : 3641,
+      "compressedSize" : 1452,
+      "required" : ["jquery.sap.global.js", "sap/m/Text.js", "sap/m/library.js", "sap/sf/surj/shell/controls/BizXApp.js", "sap/sf/surj/shell/controls/BizXPage.js", "sap/sf/surj/shell/controls/BizXShell.js", "sap/ui/core/Component.js", "sap/ui/core/ComponentContainer.js", "sap/ui/core/HTML.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/component/header/Component.js",
+      "size" : 209,
+      "compressedSize" : 164,
+      "required" : ["sap/ui/core/UIComponent.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/component/header/manifest.json",
+      "size" : 850,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/component/shell/Component.js",
+      "size" : 208,
+      "compressedSize" : 163,
+      "required" : ["sap/ui/core/UIComponent.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/component/shell/manifest.json",
+      "size" : 939,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/BizXApp.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.BizXApp.",
+      "size" : 3107,
+      "compressedSize" : 571,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/BizXButton.js",
+      "size" : 1418,
+      "compressedSize" : 646,
+      "required" : ["jquery.sap.global.js", "sap/m/Button.js", "sap/sf/surj/shell/controls/BizXButtonRenderer.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/BizXButtonRenderer.js",
+      "size" : 645,
+      "compressedSize" : 360,
+      "required" : ["jquery.sap.global.js", "sap/m/ButtonRenderer.js", "sap/ui/core/Renderer.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/BizXMenuListItem.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.BizXMenuListItem.",
+      "size" : 5524,
+      "compressedSize" : 1583,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js",
+      "size" : 4127,
+      "compressedSize" : 1555,
+      "required" : ["jquery.sap.global.js", "sap/m/ListItemBaseRenderer.js", "sap/ui/core/Renderer.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/BizXMenuPopover.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.BizXMenuPopover.",
+      "size" : 4566,
+      "compressedSize" : 1075,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/BizXPage.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.BizXPage.",
+      "size" : 12309,
+      "compressedSize" : 4400,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/BizXSearchField.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.BizXSearchField.",
+      "size" : 27728,
+      "compressedSize" : 9969,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/BizXShell.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.BizXShell.",
+      "size" : 4332,
+      "compressedSize" : 958,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/BizXSuggest.js",
+      "size" : 18734,
+      "compressedSize" : 4160,
+      "required" : ["jquery.sap.global.js", "sap/m/Suggest.js", "sap/sf/surj/shell/util/A11yPreferences.js", "sap/ui/Device.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/BizXSuggestionItem.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.BizXSuggestionItem.",
+      "size" : 4014,
+      "compressedSize" : 829,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/Container.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.Container.",
+      "size" : 4854,
+      "compressedSize" : 1093,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/FocusMarker.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.FocusMarker.",
+      "size" : 3940,
+      "compressedSize" : 824,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/GACESearchInput.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.GACESearchInput.",
+      "size" : 4339,
+      "compressedSize" : 860,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/GACESearchResult.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.GACESearchResult.",
+      "size" : 12064,
+      "compressedSize" : 4708,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.GlobalAssignmentMenuItem.",
+      "size" : 5785,
+      "compressedSize" : 1697,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/IntroSuggestionItem.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.IntroSuggestionItem.",
+      "size" : 3983,
+      "compressedSize" : 731,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/NotificationWrapper.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.NotificationWrapper.",
+      "size" : 6288,
+      "compressedSize" : 1729,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/PeopleSuggestionItem.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.PeopleSuggestionItem.",
+      "size" : 10741,
+      "compressedSize" : 3891,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/ResponsiveSidePanel.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.ResponsiveSidePanel.",
+      "size" : 12338,
+      "compressedSize" : 4430,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/SearchInput.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.SearchInput.",
+      "size" : 30843,
+      "compressedSize" : 11133,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/SearchInputRenderer.js",
+      "size" : 620,
+      "compressedSize" : 328,
+      "required" : ["jquery.sap.global.js", "sap/m/ComboBoxRenderer.js", "sap/m/InputRenderer.js", "sap/ui/core/Renderer.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/SearchResult.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.SearchResult.",
+      "size" : 6488,
+      "compressedSize" : 1836,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/SearchResultList.js",
+      "description" : "@class @extends sap.ui.core.Control @name sap.sf.surj.shell.controls.SearchResultList",
+      "size" : 437,
+      "compressedSize" : 193,
+      "required" : ["sap/m/List.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/SearchResultPopover.js",
+      "description" : "@class @extends sap.ui.core.Control @name sap.sf.surj.shell.controls.SearchResultPopover",
+      "size" : 457,
+      "compressedSize" : 202,
+      "required" : ["sap/m/Popover.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/ShowMeCallout.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.ShowMeCallout.",
+      "size" : 10358,
+      "compressedSize" : 4157,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.ShowMoreSuggestionItem.",
+      "size" : 4157,
+      "compressedSize" : 830,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/Table.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.Table.",
+      "size" : 13251,
+      "compressedSize" : 3212,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/controls/UserPhoto.js",
+      "description" : "Provides control sap.sf.surj.shell.controls.UserPhoto.",
+      "size" : 56640,
+      "compressedSize" : 16129,
+      "required" : ["sap/sf/surj/shell/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/core/BizXResourceBundle.js",
+      "description" : "A \"fake\" resource bundle that just routes everything through the MSGS global variable on a BizX page written by SMRF.  @class @implements jQuery.sap.util.ResourceBundle @name sap.sf.surj.shell.core.BizXResourceBundle @extends sap.ui.base.Object",
+      "size" : 1369,
+      "compressedSize" : 404,
+      "required" : ["sap/ui/base/Object.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/core/BizXResourceModel.js",
+      "description" : "@class @extends sap.ui.core.Control @name sap.sf.surj.shell.core.BizXResourceModel",
+      "size" : 857,
+      "compressedSize" : 419,
+      "required" : ["jquery.sap.global.js", "sap/sf/surj/shell/core/BizXResourceBundle.js", "sap/ui/model/resource/ResourceModel.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml",
+      "size" : 981,
+      "required" : ["sap/m/CustomListItem.js", "sap/m/Label.js", "sap/m/List.js", "sap/m/ResponsivePopover.js", "sap/m/Title.js", "sap/m/VBox.js", "sap/ui/core/Fragment.js", "sap/ui/core/Icon.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/i18n/messagebundle.properties",
+      "size" : 14017,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/library-h2-preload.js",
+      "size" : 14757,
+      "required" : ["jquery.sap.global.js", "jquery.sap.storage.js", "sap/base/util/isEmptyObject.js", "sap/m/Bar.js", "sap/m/BusyDialog.js", "sap/m/BusyIndicator.js", "sap/m/Button.js", "sap/m/ButtonRenderer.js", "sap/m/Column.js", "sap/m/ColumnListItem.js", "sap/m/ComboBoxRenderer.js", "sap/m/CustomListItem.js", "sap/m/Dialog.js", "sap/m/FlexItemData.js", "sap/m/HBox.js", "sap/m/Image.js", "sap/m/Input.js", "sap/m/InputRenderer.js", "sap/m/Label.js", "sap/m/Link.js", "sap/m/List.js", "sap/m/ListItemBaseRenderer.js", "sap/m/MessageBox.js", "sap/m/MessageStrip.js", "sap/m/OverflowToolbar.js", "sap/m/Page.js", "sap/m/Panel.js", "sap/m/Popover.js", "sap/m/ResponsivePopover.js", "sap/m/SearchField.js", "sap/m/SegmentedButton.js", "sap/m/SegmentedButtonItem.js", "sap/m/Select.js", "sap/m/StandardListItem.js", "sap/m/Suggest.js", "sap/m/SuggestionItem.js", "sap/m/Switch.js", "sap/m/Table.js", "sap/m/Text.js", "sap/m/TextArea.js", "sap/m/Title.js", "sap/m/VBox.js", "sap/m/library.js", "sap/sf/todo/util/PanelManager.js", "sap/ui/Device.js", "sap/ui/base/DataType.js", "sap/ui/base/EventProvider.js", "sap/ui/base/Object.js", "sap/ui/core/Component.js", "sap/ui/core/ComponentContainer.js", "sap/ui/core/Control.js", "sap/ui/core/Core.js", "sap/ui/core/CustomData.js", "sap/ui/core/Fragment.js", "sap/ui/core/HTML.js", "sap/ui/core/Icon.js", "sap/ui/core/IconPool.js", "sap/ui/core/InvisibleText.js", "sap/ui/core/Item.js", "sap/ui/core/ListItem.js", "sap/ui/core/Renderer.js", "sap/ui/core/UIComponent.js", "sap/ui/core/ValueState.js", "sap/ui/core/delegate/ItemNavigation.js", "sap/ui/core/library.js", "sap/ui/core/mvc/Controller.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/core/theming/Parameters.js", "sap/ui/layout/form/FormElement.js", "sap/ui/mdc/Field.js", "sap/ui/mdc/enum/EditMode.js", "sap/ui/mdc/enum/FieldDisplay.js", "sap/ui/mdc/field/FieldValueHelp.js", "sap/ui/mdc/field/FieldValueHelpMTableWrapper.js", "sap/ui/mdc/field/InParameter.js", "sap/ui/mdc/field/ListFieldHelp.js", "sap/ui/mdc/field/OutParameter.js", "sap/ui/model/json/JSONModel.js", "sap/ui/model/odata/v4/ODataModel.js", "sap/ui/model/resource/ResourceModel.js", "ui5loader-autoconfig.js"],
+      "includes" : ["sap/sf/surj/shell/library.js", "sap/sf/surj/shell/manifest.json", "sap/sf/surj/shell/BizXHeader.controller.js", "sap/sf/surj/shell/BizXHeader.view.js", "sap/sf/surj/shell/BizXShell.controller.js", "sap/sf/surj/shell/BizXShell.view.js", "sap/sf/surj/shell/component/header/Component.js", "sap/sf/surj/shell/component/header/manifest.json", "sap/sf/surj/shell/component/shell/Component.js", "sap/sf/surj/shell/component/shell/manifest.json", "sap/sf/surj/shell/controls/BizXApp.js", "sap/sf/surj/shell/controls/BizXButton.js", "sap/sf/surj/shell/controls/BizXButtonRenderer.js", "sap/sf/surj/shell/controls/BizXMenuListItem.js", "sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js", "sap/sf/surj/shell/controls/BizXMenuPopover.js", "sap/sf/surj/shell/controls/BizXPage.js", "sap/sf/surj/shell/controls/BizXSearchField.js", "sap/sf/surj/shell/controls/BizXShell.js", "sap/sf/surj/shell/controls/BizXSuggest.js", "sap/sf/surj/shell/controls/BizXSuggestionItem.js", "sap/sf/surj/shell/controls/Container.js", "sap/sf/surj/shell/controls/FocusMarker.js", "sap/sf/surj/shell/controls/GACESearchInput.js", "sap/sf/surj/shell/controls/GACESearchResult.js", "sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js", "sap/sf/surj/shell/controls/IntroSuggestionItem.js", "sap/sf/surj/shell/controls/NotificationWrapper.js", "sap/sf/surj/shell/controls/PeopleSuggestionItem.js", "sap/sf/surj/shell/controls/ResponsiveSidePanel.js", "sap/sf/surj/shell/controls/SearchInput.js", "sap/sf/surj/shell/controls/SearchInputRenderer.js", "sap/sf/surj/shell/controls/SearchResult.js", "sap/sf/surj/shell/controls/SearchResultList.js", "sap/sf/surj/shell/controls/SearchResultPopover.js", "sap/sf/surj/shell/controls/ShowMeCallout.js", "sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js", "sap/sf/surj/shell/controls/Table.js", "sap/sf/surj/shell/controls/UserPhoto.js", "sap/sf/surj/shell/core/BizXResourceBundle.js", "sap/sf/surj/shell/core/BizXResourceModel.js", "sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml", "sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js", "sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js", "sap/sf/surj/shell/mvc/GACESearchTest.controller.js", "sap/sf/surj/shell/mvc/GACESearchTest.view.xml", "sap/sf/surj/shell/quickcard/QuickcardHandler.js", "sap/sf/surj/shell/session/SessionTimer.fragment.xml", "sap/sf/surj/shell/session/SessionTimer.js", "sap/sf/surj/shell/util/A11yPreferences.js", "sap/sf/surj/shell/util/AboutBoxUtil.js", "sap/sf/surj/shell/util/ActionSearchUtil.js", "sap/sf/surj/shell/util/AjaxServiceError.js", "sap/sf/surj/shell/util/AnimateUtil.js", "sap/sf/surj/shell/util/Config.js", "sap/sf/surj/shell/util/CookiePolicyUtil.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/DowntimeNotificationUtil.js", "sap/sf/surj/shell/util/FLPServices.js", "sap/sf/surj/shell/util/FOPeopleSearchUtil.js", "sap/sf/surj/shell/util/FormGenerationUtil.js", "sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js", "sap/sf/surj/shell/util/GACESearchUtil.js", "sap/sf/surj/shell/util/JamUtil.js", "sap/sf/surj/shell/util/LinkUtil.js", "sap/sf/surj/shell/util/Logger.js", "sap/sf/surj/shell/util/NameFormatter.js", "sap/sf/surj/shell/util/Observable.js", "sap/sf/surj/shell/util/PeopleSearchUtil.js", "sap/sf/surj/shell/util/Polyfill.js", "sap/sf/surj/shell/util/PostMessageAPI.js", "sap/sf/surj/shell/util/ProxyUtil.js", "sap/sf/surj/shell/util/SMRF.js", "sap/sf/surj/shell/util/SearchUtil.js", "sap/sf/surj/shell/util/ServiceVisibilityMapping.js", "sap/sf/surj/shell/util/ShowMeUtil.js", "sap/sf/surj/shell/util/SuppIconPool.js", "sap/sf/surj/shell/util/ThemeUtil.js", "sap/sf/surj/shell/util/TopNavLogout.js", "sap/sf/surj/shell/util/UserPhotoUtil.js", "sap/sf/surj/shell/util/Util.js"]
+    },
+    {
+      "name" : "sap/sf/surj/shell/library-preload.js",
+      "size" : 362400,
+      "required" : ["jquery.sap.global.js", "jquery.sap.storage.js", "sap/base/util/isEmptyObject.js", "sap/m/Bar.js", "sap/m/BusyDialog.js", "sap/m/BusyIndicator.js", "sap/m/Button.js", "sap/m/ButtonRenderer.js", "sap/m/Column.js", "sap/m/ColumnListItem.js", "sap/m/ComboBoxRenderer.js", "sap/m/CustomListItem.js", "sap/m/Dialog.js", "sap/m/FlexItemData.js", "sap/m/HBox.js", "sap/m/Image.js", "sap/m/Input.js", "sap/m/InputRenderer.js", "sap/m/Label.js", "sap/m/Link.js", "sap/m/List.js", "sap/m/ListItemBaseRenderer.js", "sap/m/MessageBox.js", "sap/m/MessageStrip.js", "sap/m/OverflowToolbar.js", "sap/m/Page.js", "sap/m/Panel.js", "sap/m/Popover.js", "sap/m/ResponsivePopover.js", "sap/m/SearchField.js", "sap/m/SegmentedButton.js", "sap/m/SegmentedButtonItem.js", "sap/m/Select.js", "sap/m/StandardListItem.js", "sap/m/Suggest.js", "sap/m/SuggestionItem.js", "sap/m/Switch.js", "sap/m/Table.js", "sap/m/Text.js", "sap/m/TextArea.js", "sap/m/Title.js", "sap/m/VBox.js", "sap/m/library.js", "sap/sf/todo/util/PanelManager.js", "sap/ui/Device.js", "sap/ui/base/DataType.js", "sap/ui/base/EventProvider.js", "sap/ui/base/Object.js", "sap/ui/core/Component.js", "sap/ui/core/ComponentContainer.js", "sap/ui/core/Control.js", "sap/ui/core/Core.js", "sap/ui/core/CustomData.js", "sap/ui/core/Fragment.js", "sap/ui/core/HTML.js", "sap/ui/core/Icon.js", "sap/ui/core/IconPool.js", "sap/ui/core/InvisibleText.js", "sap/ui/core/Item.js", "sap/ui/core/ListItem.js", "sap/ui/core/Renderer.js", "sap/ui/core/UIComponent.js", "sap/ui/core/ValueState.js", "sap/ui/core/delegate/ItemNavigation.js", "sap/ui/core/library.js", "sap/ui/core/mvc/Controller.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/core/theming/Parameters.js", "sap/ui/layout/form/FormElement.js", "sap/ui/mdc/Field.js", "sap/ui/mdc/enum/EditMode.js", "sap/ui/mdc/enum/FieldDisplay.js", "sap/ui/mdc/field/FieldValueHelp.js", "sap/ui/mdc/field/FieldValueHelpMTableWrapper.js", "sap/ui/mdc/field/InParameter.js", "sap/ui/mdc/field/ListFieldHelp.js", "sap/ui/mdc/field/OutParameter.js", "sap/ui/model/json/JSONModel.js", "sap/ui/model/odata/v4/ODataModel.js", "sap/ui/model/resource/ResourceModel.js", "ui5loader-autoconfig.js"],
+      "includes" : ["sap/sf/surj/shell/BizXHeader.controller.js", "sap/sf/surj/shell/BizXHeader.view.js", "sap/sf/surj/shell/BizXShell.controller.js", "sap/sf/surj/shell/BizXShell.view.js", "sap/sf/surj/shell/component/header/Component.js", "sap/sf/surj/shell/component/header/manifest.json", "sap/sf/surj/shell/component/shell/Component.js", "sap/sf/surj/shell/component/shell/manifest.json", "sap/sf/surj/shell/controls/BizXApp.js", "sap/sf/surj/shell/controls/BizXButton.js", "sap/sf/surj/shell/controls/BizXButtonRenderer.js", "sap/sf/surj/shell/controls/BizXMenuListItem.js", "sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js", "sap/sf/surj/shell/controls/BizXMenuPopover.js", "sap/sf/surj/shell/controls/BizXPage.js", "sap/sf/surj/shell/controls/BizXSearchField.js", "sap/sf/surj/shell/controls/BizXShell.js", "sap/sf/surj/shell/controls/BizXSuggest.js", "sap/sf/surj/shell/controls/BizXSuggestionItem.js", "sap/sf/surj/shell/controls/Container.js", "sap/sf/surj/shell/controls/FocusMarker.js", "sap/sf/surj/shell/controls/GACESearchInput.js", "sap/sf/surj/shell/controls/GACESearchResult.js", "sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js", "sap/sf/surj/shell/controls/IntroSuggestionItem.js", "sap/sf/surj/shell/controls/NotificationWrapper.js", "sap/sf/surj/shell/controls/PeopleSuggestionItem.js", "sap/sf/surj/shell/controls/ResponsiveSidePanel.js", "sap/sf/surj/shell/controls/SearchInput.js", "sap/sf/surj/shell/controls/SearchInputRenderer.js", "sap/sf/surj/shell/controls/SearchResult.js", "sap/sf/surj/shell/controls/SearchResultList.js", "sap/sf/surj/shell/controls/SearchResultPopover.js", "sap/sf/surj/shell/controls/ShowMeCallout.js", "sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js", "sap/sf/surj/shell/controls/Table.js", "sap/sf/surj/shell/controls/UserPhoto.js", "sap/sf/surj/shell/core/BizXResourceBundle.js", "sap/sf/surj/shell/core/BizXResourceModel.js", "sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml", "sap/sf/surj/shell/library.js", "sap/sf/surj/shell/manifest.json", "sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js", "sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js", "sap/sf/surj/shell/mvc/GACESearchTest.controller.js", "sap/sf/surj/shell/mvc/GACESearchTest.view.xml", "sap/sf/surj/shell/quickcard/QuickcardHandler.js", "sap/sf/surj/shell/session/SessionTimer.fragment.xml", "sap/sf/surj/shell/session/SessionTimer.js", "sap/sf/surj/shell/util/A11yPreferences.js", "sap/sf/surj/shell/util/AboutBoxUtil.js", "sap/sf/surj/shell/util/ActionSearchUtil.js", "sap/sf/surj/shell/util/AjaxServiceError.js", "sap/sf/surj/shell/util/AnimateUtil.js", "sap/sf/surj/shell/util/Config.js", "sap/sf/surj/shell/util/CookiePolicyUtil.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/DowntimeNotificationUtil.js", "sap/sf/surj/shell/util/FLPServices.js", "sap/sf/surj/shell/util/FOPeopleSearchUtil.js", "sap/sf/surj/shell/util/FormGenerationUtil.js", "sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js", "sap/sf/surj/shell/util/GACESearchUtil.js", "sap/sf/surj/shell/util/JamUtil.js", "sap/sf/surj/shell/util/LinkUtil.js", "sap/sf/surj/shell/util/Logger.js", "sap/sf/surj/shell/util/NameFormatter.js", "sap/sf/surj/shell/util/Observable.js", "sap/sf/surj/shell/util/PeopleSearchUtil.js", "sap/sf/surj/shell/util/Polyfill.js", "sap/sf/surj/shell/util/PostMessageAPI.js", "sap/sf/surj/shell/util/ProxyUtil.js", "sap/sf/surj/shell/util/SMRF.js", "sap/sf/surj/shell/util/SearchUtil.js", "sap/sf/surj/shell/util/ServiceVisibilityMapping.js", "sap/sf/surj/shell/util/ShowMeUtil.js", "sap/sf/surj/shell/util/SuppIconPool.js", "sap/sf/surj/shell/util/ThemeUtil.js", "sap/sf/surj/shell/util/TopNavLogout.js", "sap/sf/surj/shell/util/UserPhotoUtil.js", "sap/sf/surj/shell/util/Util.js"]
+    },
+    {
+      "name" : "sap/sf/surj/shell/library-preload.json",
+      "size" : 0,
+      "required" : ["jquery.sap.global.js", "jquery.sap.storage.js", "sap/base/util/isEmptyObject.js", "sap/m/Bar.js", "sap/m/BusyDialog.js", "sap/m/BusyIndicator.js", "sap/m/Button.js", "sap/m/ButtonRenderer.js", "sap/m/Column.js", "sap/m/ColumnListItem.js", "sap/m/ComboBoxRenderer.js", "sap/m/CustomListItem.js", "sap/m/Dialog.js", "sap/m/FlexItemData.js", "sap/m/HBox.js", "sap/m/Image.js", "sap/m/Input.js", "sap/m/InputRenderer.js", "sap/m/Label.js", "sap/m/Link.js", "sap/m/List.js", "sap/m/ListItemBaseRenderer.js", "sap/m/MessageBox.js", "sap/m/MessageStrip.js", "sap/m/OverflowToolbar.js", "sap/m/Page.js", "sap/m/Panel.js", "sap/m/Popover.js", "sap/m/ResponsivePopover.js", "sap/m/SearchField.js", "sap/m/SegmentedButton.js", "sap/m/SegmentedButtonItem.js", "sap/m/Select.js", "sap/m/StandardListItem.js", "sap/m/Suggest.js", "sap/m/SuggestionItem.js", "sap/m/Switch.js", "sap/m/Table.js", "sap/m/Text.js", "sap/m/TextArea.js", "sap/m/Title.js", "sap/m/VBox.js", "sap/m/library.js", "sap/sf/todo/util/PanelManager.js", "sap/ui/Device.js", "sap/ui/base/DataType.js", "sap/ui/base/EventProvider.js", "sap/ui/base/Object.js", "sap/ui/core/Component.js", "sap/ui/core/ComponentContainer.js", "sap/ui/core/Control.js", "sap/ui/core/Core.js", "sap/ui/core/CustomData.js", "sap/ui/core/Fragment.js", "sap/ui/core/HTML.js", "sap/ui/core/Icon.js", "sap/ui/core/IconPool.js", "sap/ui/core/InvisibleText.js", "sap/ui/core/Item.js", "sap/ui/core/ListItem.js", "sap/ui/core/Renderer.js", "sap/ui/core/UIComponent.js", "sap/ui/core/ValueState.js", "sap/ui/core/delegate/ItemNavigation.js", "sap/ui/core/library-preload.json", "sap/ui/core/library.js", "sap/ui/core/mvc/Controller.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/core/theming/Parameters.js", "sap/ui/layout/form/FormElement.js", "sap/ui/mdc/Field.js", "sap/ui/mdc/enum/EditMode.js", "sap/ui/mdc/enum/FieldDisplay.js", "sap/ui/mdc/field/FieldValueHelp.js", "sap/ui/mdc/field/FieldValueHelpMTableWrapper.js", "sap/ui/mdc/field/InParameter.js", "sap/ui/mdc/field/ListFieldHelp.js", "sap/ui/mdc/field/OutParameter.js", "sap/ui/model/json/JSONModel.js", "sap/ui/model/odata/v4/ODataModel.js", "sap/ui/model/resource/ResourceModel.js", "ui5loader-autoconfig.js"],
+      "includes" : ["sap/sf/surj/shell/BizXHeader.controller.js", "sap/sf/surj/shell/BizXHeader.view.js", "sap/sf/surj/shell/BizXShell.controller.js", "sap/sf/surj/shell/BizXShell.view.js", "sap/sf/surj/shell/component/header/Component.js", "sap/sf/surj/shell/component/header/manifest.json", "sap/sf/surj/shell/component/shell/Component.js", "sap/sf/surj/shell/component/shell/manifest.json", "sap/sf/surj/shell/controls/BizXApp.js", "sap/sf/surj/shell/controls/BizXButton.js", "sap/sf/surj/shell/controls/BizXButtonRenderer.js", "sap/sf/surj/shell/controls/BizXMenuListItem.js", "sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js", "sap/sf/surj/shell/controls/BizXMenuPopover.js", "sap/sf/surj/shell/controls/BizXPage.js", "sap/sf/surj/shell/controls/BizXSearchField.js", "sap/sf/surj/shell/controls/BizXShell.js", "sap/sf/surj/shell/controls/BizXSuggest.js", "sap/sf/surj/shell/controls/BizXSuggestionItem.js", "sap/sf/surj/shell/controls/Container.js", "sap/sf/surj/shell/controls/FocusMarker.js", "sap/sf/surj/shell/controls/GACESearchInput.js", "sap/sf/surj/shell/controls/GACESearchResult.js", "sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js", "sap/sf/surj/shell/controls/IntroSuggestionItem.js", "sap/sf/surj/shell/controls/NotificationWrapper.js", "sap/sf/surj/shell/controls/PeopleSuggestionItem.js", "sap/sf/surj/shell/controls/ResponsiveSidePanel.js", "sap/sf/surj/shell/controls/SearchInput.js", "sap/sf/surj/shell/controls/SearchInputRenderer.js", "sap/sf/surj/shell/controls/SearchResult.js", "sap/sf/surj/shell/controls/SearchResultList.js", "sap/sf/surj/shell/controls/SearchResultPopover.js", "sap/sf/surj/shell/controls/ShowMeCallout.js", "sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js", "sap/sf/surj/shell/controls/Table.js", "sap/sf/surj/shell/controls/UserPhoto.js", "sap/sf/surj/shell/core/BizXResourceBundle.js", "sap/sf/surj/shell/core/BizXResourceModel.js", "sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml", "sap/sf/surj/shell/library.js", "sap/sf/surj/shell/manifest.json", "sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js", "sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js", "sap/sf/surj/shell/mvc/GACESearchTest.controller.js", "sap/sf/surj/shell/mvc/GACESearchTest.view.xml", "sap/sf/surj/shell/quickcard/QuickcardHandler.js", "sap/sf/surj/shell/session/SessionTimer.fragment.xml", "sap/sf/surj/shell/session/SessionTimer.js", "sap/sf/surj/shell/util/A11yPreferences.js", "sap/sf/surj/shell/util/AboutBoxUtil.js", "sap/sf/surj/shell/util/ActionSearchUtil.js", "sap/sf/surj/shell/util/AjaxServiceError.js", "sap/sf/surj/shell/util/AnimateUtil.js", "sap/sf/surj/shell/util/Config.js", "sap/sf/surj/shell/util/CookiePolicyUtil.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/DowntimeNotificationUtil.js", "sap/sf/surj/shell/util/FLPServices.js", "sap/sf/surj/shell/util/FOPeopleSearchUtil.js", "sap/sf/surj/shell/util/FormGenerationUtil.js", "sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js", "sap/sf/surj/shell/util/GACESearchUtil.js", "sap/sf/surj/shell/util/JamUtil.js", "sap/sf/surj/shell/util/LinkUtil.js", "sap/sf/surj/shell/util/Logger.js", "sap/sf/surj/shell/util/NameFormatter.js", "sap/sf/surj/shell/util/Observable.js", "sap/sf/surj/shell/util/PeopleSearchUtil.js", "sap/sf/surj/shell/util/Polyfill.js", "sap/sf/surj/shell/util/PostMessageAPI.js", "sap/sf/surj/shell/util/ProxyUtil.js", "sap/sf/surj/shell/util/SMRF.js", "sap/sf/surj/shell/util/SearchUtil.js", "sap/sf/surj/shell/util/ServiceVisibilityMapping.js", "sap/sf/surj/shell/util/ShowMeUtil.js", "sap/sf/surj/shell/util/SuppIconPool.js", "sap/sf/surj/shell/util/ThemeUtil.js", "sap/sf/surj/shell/util/TopNavLogout.js", "sap/sf/surj/shell/util/UserPhotoUtil.js", "sap/sf/surj/shell/util/Util.js"]
+    },
+    {
+      "name" : "sap/sf/surj/shell/library.js",
+      "description" : "Initialization Code and shared classes of library sap.sf.surj.shell (1.0.2-SNAPSHOT)",
+      "size" : 1979,
+      "compressedSize" : 1259,
+      "required" : ["jquery.sap.global.js", "sap/ui/core/Core.js", "sap/ui/core/library.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/library.properties",
+      "size" : 2166,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/manifest.json",
+      "size" : 938,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js",
+      "description" : "@class @extends sap.ui.core.Control @name sap.sf.surj.shell.core.BizXResourceModel",
+      "size" : 24848,
+      "compressedSize" : 9855,
+      "required" : ["jquery.sap.global.js", "sap/sf/surj/shell/controls/SearchInput.js", "sap/sf/surj/shell/util/SearchUtil.js", "sap/ui/core/ValueState.js", "sap/ui/core/mvc/Controller.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js",
+      "description" : "@class @name sap.sf.surj.shell.mvc.GACEAdvancedSearch",
+      "size" : 27400,
+      "compressedSize" : 9832,
+      "required" : ["jquery.sap.global.js", "sap/m/Column.js", "sap/sf/surj/shell/controls/Table.js", "sap/sf/surj/shell/controls/UserPhoto.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/mvc/GACESearchTest.controller.js",
+      "size" : 16584,
+      "compressedSize" : 8874,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/mvc/GACESearchTest.view.xml",
+      "size" : 8900,
+      "required" : ["sap/m/Button.js", "sap/m/FlexItemData.js", "sap/m/HBox.js", "sap/m/Input.js", "sap/m/Label.js", "sap/m/MessageStrip.js", "sap/m/Page.js", "sap/m/Panel.js", "sap/m/SegmentedButton.js", "sap/m/SegmentedButtonItem.js", "sap/m/Select.js", "sap/m/Switch.js", "sap/m/TextArea.js", "sap/m/VBox.js", "sap/sf/surj/shell/controls/SearchInput.js", "sap/sf/surj/shell/mvc/GACESearchTest.controller.js", "sap/ui/core/Item.js", "sap/ui/core/mvc/XMLView.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/quickcard/QuickcardHandler.js",
+      "description" : "Use the QuickcardHandler to open Quickcards associated with a Suggestion popup like BizXSuggest.  @name sap.sf.surj.shell.quickcard.QuickcardHandler @constructor",
+      "size" : 12131,
+      "compressedSize" : 4034,
+      "required" : ["jquery.sap.global.js", "sap/sf/surj/shell/util/Logger.js", "sap/sf/surj/shell/util/SMRF.js", "sap/sf/surj/shell/util/Util.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/session/SessionTimer.fragment.xml",
+      "size" : 1163,
+      "required" : ["sap/m/Button.js", "sap/m/Dialog.js", "sap/ui/core/Fragment.js", "sap/ui/core/HTML.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/session/SessionTimer.js",
+      "size" : 40007,
+      "compressedSize" : 11161,
+      "required" : ["jquery.sap.global.js", "jquery.sap.storage.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/LinkUtil.js", "sap/sf/surj/shell/util/TopNavLogout.js", "sap/sf/surj/shell/util/Util.js", "sap/ui/Device.js", "sap/ui/base/EventProvider.js", "sap/ui/model/json/JSONModel.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/A11yPreferences.js",
+      "description" : "Make sure to change both places if any changes are required",
+      "size" : 2891,
+      "compressedSize" : 1561,
+      "required" : ["jquery.sap.global.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/AboutBoxUtil.js",
+      "size" : 3128,
+      "compressedSize" : 1007,
+      "required" : ["jquery.sap.global.js", "sap/m/Button.js", "sap/m/Dialog.js", "sap/ui/core/HTML.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/ActionSearchUtil.js",
+      "description" : "TODO: Need to make sure sapui5 is not a dependency from this file, or any dependant files  TODO: We can remove the jQuery dependency by refactoring all usages of jQuery to safe alternatives However, we may want to start allowing jQuery hard dependencies sooner or later  @fileDescription The ActionSearchUtil, initially created for use in the Responsive Header, or the one which only displays on smaller screens but should also be used by the JUIC-based one as well.",
+      "size" : 45323,
+      "compressedSize" : 14053,
+      "required" : ["jquery.sap.global.js", "jquery.sap.storage.js", "sap/m/MessageBox.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/LinkUtil.js", "sap/sf/surj/shell/util/SMRF.js", "sap/sf/surj/shell/util/SearchUtil.js", "sap/sf/surj/shell/util/Util.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/AjaxServiceError.js",
+      "description" : "@namespace @name sap.sf.surj.shell.util.AjaxServiceError",
+      "size" : 10597,
+      "compressedSize" : 4260,
+      "required" : ["jquery.sap.global.js", "sap/m/BusyIndicator.js", "sap/m/Button.js", "sap/m/Dialog.js", "sap/m/List.js", "sap/m/StandardListItem.js", "sap/m/TextArea.js", "sap/sf/surj/shell/controls/Container.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/ui/core/HTML.js", "sap/ui/core/InvisibleText.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/AnimateUtil.js",
+      "size" : 2196,
+      "compressedSize" : 1017,
+      "required" : ["jquery.sap.global.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/Config.js",
+      "description" : "This function will normalize an incoming options object by updating any default values, and validating the required attributes and their types.  <h3>Validation</h3>  Validation is always optional, but you can add this validation of output options object to ensure that users are not incorrectly calling your component.  Not only will this provide a more verbose error for users of your component facilitating quick error recovery, it will also serve to better document the contract between the component and the parent controller.  Values contained in the validation object is expected to be one of the following:  <ul> <li>Array: List of different possible types for the value.</li> <li>ArrayType: The value must be an array, and every value in that array must match the sub type. Use <code>util.Config.arrayType(subType)</code> to generate an object of type ArrayType. (recursive)</li> <li>EnumType: The value must exactly match one of a given set of values. Use <code>util.Config.enumType(...)</code> to generate an object of type EnumType.</li> <li>Config.ValidatorType: You can create your own object that extends this object. Here is an example. <code>extend(CustomValidator, Config.ValidatorType, {validate: function(value,errors){}});</code></li> <li>function: The value can be an instanceof this constructor.</li> <li>Object: The value can be an object which matches the rules defined in this object.</li> <li>null: The value can be null.</li> <li>\"undefined\": The value can be undefined.</li> <li>\"string\": The value can be a non-empty string.</li> <li>\"number\": The value can be a number.</li> <li>\"object\": The value can be a non-null object.</li> <li>\"*\": The value can be anything, but not null or undefined.</li> </ul>  <h3>Validation Errors</h3>  Any time there is a validation error. The error will result in an exception with a generic message. However, the Logger will be used to display each individual message that went wrong before the error is thrown.  <h3>Return Object</h3>  The return object from this function will be an object, but there is one extra feature. You can test that object to see if it was truly created by this function by checking if it is an instanceof Config.  This is a little different, because in your code you do not invoke new Config, you will call it like a function, like so:  <pre> var result = Config(null, {hello:\"world\"}); assert(result.hello === \"world\", \"This assertion will pass\"); assert(result instanceof Config, \"This will also pass\"); </pre>  @constructor @param {Object} options The incoming options object sent by the user of the Component's constructor. @param {Object=} defaults Optional defaults object. The keys for this object will correspond to the keys in the options object. If there is some key in defaults in which the value from the options object was undefined, the output from this function will have an object with the value set from the defaults object. @param {Object=} validation Optional validation object. The keys for this object will correspond to the keys in the options object, and the value will be used to determine if the value on the resulting object is valid. If one of the rules defined in the validation was determined to be false, then there will be an assertion error. See the description of this function for more information about how to structure the values of this object to properly validate objects. @return {Config} An Object which contains all the config attributes set, and you can test that this object was generated by this function by testing <code>result instanceof Config</code>",
+      "size" : 28294,
+      "compressedSize" : 6329,
+      "required" : ["jquery.sap.global.js", "sap/sf/surj/shell/util/Logger.js", "sap/ui/base/DataType.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/CookiePolicyUtil.js",
+      "size" : 1917,
+      "compressedSize" : 900,
+      "required" : ["jquery.sap.global.js", "sap/m/Button.js", "sap/m/Dialog.js", "sap/m/Text.js", "sap/sf/surj/shell/util/DeferredUtil.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/DeferredUtil.js",
+      "description" : "idl-surj-web/src/main/webapp/ui/surj/js/util/DeferredUtil.js",
+      "size" : 71795,
+      "compressedSize" : 18992,
+      "required" : ["jquery.sap.global.js", "sap/m/Button.js", "sap/m/Dialog.js", "sap/m/Text.js", "sap/sf/surj/shell/core/BizXResourceBundle.js", "sap/sf/surj/shell/util/Logger.js", "sap/sf/surj/shell/util/SMRF.js", "sap/sf/surj/shell/util/ServiceVisibilityMapping.js", "sap/sf/surj/shell/util/Util.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/DowntimeNotificationUtil.js",
+      "size" : 1929,
+      "compressedSize" : 882,
+      "required" : ["sap/m/Button.js", "sap/m/Dialog.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/ui/core/HTML.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/FLPServices.js",
+      "size" : 27899,
+      "compressedSize" : 4590,
+      "required" : ["sap/sf/surj/shell/util/PostMessageAPI.js", "sap/sf/surj/shell/util/Util.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/FOPeopleSearchUtil.js",
+      "size" : 3328,
+      "compressedSize" : 1256,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/FormGenerationUtil.js",
+      "size" : 17515,
+      "compressedSize" : 6521,
+      "required" : ["sap/base/util/isEmptyObject.js", "sap/m/Column.js", "sap/m/ColumnListItem.js", "sap/m/Label.js", "sap/m/Table.js", "sap/m/Text.js", "sap/ui/core/ListItem.js", "sap/ui/layout/form/FormElement.js", "sap/ui/mdc/Field.js", "sap/ui/mdc/enum/EditMode.js", "sap/ui/mdc/enum/FieldDisplay.js", "sap/ui/mdc/field/FieldValueHelp.js", "sap/ui/mdc/field/FieldValueHelpMTableWrapper.js", "sap/ui/mdc/field/InParameter.js", "sap/ui/mdc/field/ListFieldHelp.js", "sap/ui/mdc/field/OutParameter.js", "sap/ui/model/odata/v4/ODataModel.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js",
+      "size" : 17474,
+      "compressedSize" : 6619,
+      "required" : ["jquery.sap.global.js", "sap/m/MessageBox.js", "sap/sf/surj/shell/library.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/SearchUtil.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/GACESearchUtil.js",
+      "description" : "Provides the back-end hooks for fetching the Person-based search results.  @name sap.sf.surj.shell.util.PersonEmploymentSearchUtil",
+      "size" : 15364,
+      "compressedSize" : 5331,
+      "required" : ["jquery.sap.global.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/SearchUtil.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/JamUtil.js",
+      "size" : 20456,
+      "compressedSize" : 4799,
+      "required" : ["jquery.sap.global.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/LinkUtil.js", "sap/sf/surj/shell/util/Logger.js", "sap/sf/surj/shell/util/SearchUtil.js", "sap/sf/surj/shell/util/Util.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/LinkUtil.js",
+      "size" : 5368,
+      "compressedSize" : 1580,
+      "required" : ["jquery.sap.global.js", "sap/sf/surj/shell/util/SMRF.js", "sap/sf/surj/shell/util/Util.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/Logger.js",
+      "size" : 9583,
+      "compressedSize" : 2363,
+      "required" : ["jquery.sap.global.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/NameFormatter.js",
+      "description" : "@name sap.sf.surj.shell.util.NameFormatter",
+      "size" : 6645,
+      "compressedSize" : 2069,
+      "required" : ["jquery.sap.global.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/Observable.js",
+      "size" : 2154,
+      "compressedSize" : 804,
+      "required" : ["ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/PeopleSearchUtil.js",
+      "size" : 5579,
+      "compressedSize" : 1812,
+      "required" : ["jquery.sap.global.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/LinkUtil.js", "sap/sf/surj/shell/util/SearchUtil.js", "sap/sf/surj/shell/util/Util.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/Polyfill.js",
+      "size" : 372,
+      "compressedSize" : 221,
+      "required" : ["jquery.sap.global.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/PostMessageAPI.js",
+      "size" : 12540,
+      "compressedSize" : 3456,
+      "required" : ["sap/sf/surj/shell/util/Util.js", "sap/ui/base/EventProvider.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/ProxyUtil.js",
+      "size" : 5261,
+      "compressedSize" : 2162,
+      "required" : ["jquery.sap.global.js", "sap/m/Button.js", "sap/m/Dialog.js", "sap/m/Label.js", "sap/sf/surj/shell/controls/SearchInput.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/TopNavLogout.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/SMRF.js",
+      "description" : "IMPORTANT: --------------------------------------------------------------------------------------------------- This file will overwrite SMRF.load in the \"upgrade\" inner function which is called right away. Even existing pages will get this upgrade; however, this code will just rely on the old implementation the only time something different happens is when the requested files are not initialized yet.  This means that any page can now execute SMRF.load() on any file, even if that page did not have the file commented somewhere. ---------------------------------------------------------------------------------------------------",
+      "size" : 33863,
+      "compressedSize" : 11321,
+      "required" : ["jquery.sap.global.js", "jquery.sap.storage.js", "sap/sf/surj/shell/util/Util.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/SearchUtil.js",
+      "size" : 15364,
+      "compressedSize" : 3668,
+      "required" : ["jquery.sap.global.js", "sap/sf/surj/shell/util/Config.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/LinkUtil.js", "sap/sf/surj/shell/util/Logger.js", "sap/sf/surj/shell/util/Util.js", "sap/ui/base/EventProvider.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/ServiceVisibilityMapping.js",
+      "size" : 6099,
+      "compressedSize" : 4949,
+      "required" : ["ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/ShowMeUtil.js",
+      "size" : 20101,
+      "compressedSize" : 6413,
+      "required" : ["jquery.sap.global.js", "sap/m/BusyDialog.js", "sap/sf/surj/shell/controls/ShowMeCallout.js", "sap/sf/surj/shell/util/DeferredUtil.js", "sap/sf/surj/shell/util/Util.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/SuppIconPool.js",
+      "size" : 8236,
+      "compressedSize" : 5723,
+      "required" : ["jquery.sap.global.js", "sap/ui/core/IconPool.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/ThemeUtil.js",
+      "size" : 2487,
+      "compressedSize" : 674,
+      "required" : ["jquery.sap.global.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/TopNavLogout.js",
+      "size" : 14748,
+      "compressedSize" : 5598,
+      "required" : ["jquery.sap.global.js", "sap/m/BusyDialog.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/UserPhotoUtil.js",
+      "size" : 10344,
+      "compressedSize" : 2551,
+      "required" : ["sap/sf/surj/shell/util/NameFormatter.js", "sap/sf/surj/shell/util/Util.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/sf/surj/shell/util/Util.js",
+      "size" : 74557,
+      "compressedSize" : 20250,
+      "required" : ["jquery.sap.global.js", "sap/sf/surj/shell/util/AjaxServiceError.js", "sap/sf/surj/shell/util/SMRF.js", "sap/ui/Device.js", "sap/ui/base/EventProvider.js", "sap/ui/core/HTML.js", "ui5loader-autoconfig.js"],
+      "includes" : []
+    }
+  ]
+}

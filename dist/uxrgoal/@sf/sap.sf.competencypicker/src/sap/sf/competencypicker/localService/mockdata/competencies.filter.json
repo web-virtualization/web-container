@@ -1,0 +1,40 @@
+{
+    "SuccessFactors 2.0":{
+        "Category1": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981122,
+                    "competencyName": "Demonstrating Self-Insight and Awareness"
+                },
+                {
+                    "competencyInternalId": 13981140,
+                    "competencyName": "Establishing Relationships"
+                }
+            ]
+        },
+        "Category2": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981216,
+                    "competencyName": "Performing Physical or Mechanical Tasks"
+                }
+            ]
+        }
+    },
+    "HealthPrint":{
+        "Category4": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981314,
+                    "competencyName": "Developing Talent"
+                }             
+            ]
+        }
+    }
+}

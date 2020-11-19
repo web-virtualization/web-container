@@ -1,0 +1,5 @@
+{
+  "@odata.context": "https://localhost:443/odata/v4/tgm.svc/$metadata#Edm.Boolean(1)",
+  "@odata.metadataEtag": "\"ff50f9e5-d046-4f39-b2f6-89a57010fc97\"",
+  "value": true
+}

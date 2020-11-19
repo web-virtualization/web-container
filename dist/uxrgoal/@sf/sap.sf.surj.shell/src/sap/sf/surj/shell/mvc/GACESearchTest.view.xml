@@ -1,0 +1,224 @@
+<mvc:View
+    controllerName="sap.sf.surj.shell.mvc.GACESearchTest"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:surj="sap.sf.surj.shell.controls"
+    xmlns="sap.m">
+        <Page showHeader="false">
+            <content>
+                <Panel
+                    expandable="true"
+                    expanded="true"
+                    headerText="GA/CE Advanced Search Testing">
+						<HBox
+							fitContainer="true">
+							<items>
+								<VBox
+									fitContainer="true">
+									<layoutData>
+										<FlexItemData growFactor="1" />
+									</layoutData>
+									<items>
+										<Label
+											labelFor="search-input"
+											text="Search Widget:"
+											width="100%" />
+										<surj:SearchInput
+											searchType="Person-Employment-User"
+											settings="{/settings}"
+											itemSelected="itemSelected"
+											showValueHelp="true"
+                                            maxLength="100"
+											valueHelpRequest="advancedSearch" />
+									</items>
+								</VBox>
+								<VBox
+									fitContainer="true">
+									<layoutData>
+										<FlexItemData growFactor="0" />
+									</layoutData>
+									<items>
+										<Label
+											labelFor="dataSourceToggle"
+											text="Data Source:"
+											width="100%" />
+										<SegmentedButton
+                                            id="dataSourceToggle"
+                                            selectedKey="{/oDataServiceIndex}"
+                                            class="sapUiSmallMarginBottom"
+                                            selectionChange="onDataServiceSelectionChange">
+                                            <items>
+                                                <SegmentedButtonItem text="OData V2" key="oDataV2" />
+                                                <SegmentedButtonItem text="OData V4" key="oDataV4" />
+											</items>
+										</SegmentedButton>
+									</items>
+								</VBox>
+							</items>
+						</HBox>
+						<Label
+                        labelFor="smartSuiteMode"
+                        text="Global Setting (autocomplete.personBased):"
+                        width="100%" />
+                    <Switch
+                        id="smartSuiteMode"
+                        state="{/smartSuiteMode}"
+                        change="updateSmartSuiteMode" />
+                    <Label
+                        labelFor="useQuickcardSearch"
+                        text="Use Quickcard People Search:"
+                        width="100%" />
+                    <Switch
+                        id="useQuickcardSearch"
+                        state="{/useQuickcardSearch}"
+                        change="updateUseQuickcardSearch" />
+                    <Label
+                        labelFor="event-log"
+                        text="Event Log:"
+                        width="100%" />
+                    <TextArea
+                        id="event-log" 
+                        height="10rem"
+                        value="{/event-log}"
+                        width="100%" />
+                    <Label
+                        labelFor="additionalCriteria"
+                        text="Additional Criteria (Smart Suite Mode Enabled):"
+                        width="100%" />
+                    <TextArea
+                        id="additionalCriteria"
+                        height="10rem"
+                        value="{/additionalCriteria}"
+                        change="readCriteriaText"
+                        width="100%" />
+                    <Label
+                        labelFor="advSrchFieldIds"
+                        text="Advanced Search Fields:"
+                        width="100%" />
+                    <TextArea
+                        id="advSrchFieldIds"
+                        height="10rem"
+                        value="{/fieldIds}"
+                        change="readCriteriaText"
+                        width="100%" />                        
+                    <Label
+                        labelFor="legacySearchCriteria"
+                        text="Legacy Search Criteria (Smart Suite Mode Disabled):"
+                        width="100%" />
+                    <TextArea
+                        id="legacySearchCriteria"
+                        height="10rem"
+                        value="{/legacySearchCriteria}"
+                        change="readCriteriaText"
+                        width="100%" />
+                </Panel>
+                <Panel
+                    expandable="true"
+                    expanded="false"
+                    headerText="Generic DWR Testing">
+                    <Label
+                        labelFor="ajaxSuggest"
+                        text="Propopulated:"
+                        width="100%" />
+                    <Select
+                        id="ajaxSuggest"
+                        items="{/ajaxServiceSuggestions}"
+                        change="changeAjaxSuggest">
+                        <core:Item
+                            key="{key}"
+                            text="{key}" />
+                    </Select>
+                    <Label
+                        labelFor="serviceName"
+                        text="serviceName:"
+                        width="100%" />
+                    <Input
+                        id="serviceName"
+                        value="{/ajaxService/serviceName}"
+                        width="100%" />
+                    <Label
+                        labelFor="serviceMethod"
+                        text="serviceMethod:"
+                        width="100%" />
+                    <Input
+                        id="serviceMethod"
+                        value="{/ajaxService/serviceMethod}"
+                        width="100%" />
+                    <Label
+                        labelFor="arguments"
+                        text="arguments:"
+                        width="100%" />
+                    <TextArea
+                        id="arguments"
+                        height="30rem"
+                        value="{/ajaxService/arguments-text}"
+                        width="100%"
+                        change="updateArguments" />
+                    <MessageStrip
+                        type="Error"
+                        text="{/ajaxServiceErrorMessage}"
+                        visible="{/ajaxServiceHasError}" />
+                    <Button
+                        text="Invoke"
+                        press="invokeAjaxService" />
+                    <TextArea
+                        id="service-log"
+                        height="30rem"
+                        value="{/service-log}"
+                        width="100%" />
+                </Panel>
+                <Panel
+                    expandable="true"
+                    expanded="false"
+                    headerText="Generic OData Testing">
+                    <Label
+                        labelFor="odataServiceName"
+                        text="serviceName:"
+                        width="100%" />
+                    <Select
+                        id="odataSuggest"
+                        items="{/odataServiceSuggestions}"
+                        change="changeOdataSuggest">
+                        <core:Item
+                            key="{key}"
+                            text="{label}" />
+                    </Select>
+                    <Input
+                        id="odataServiceName"
+                        value="{/odataService/serviceName}"
+                        width="100%" />
+                    <Label
+                        labelFor="baseUrl"
+                        text="baseUrl:"
+                        width="100%" />
+                    <Input
+                        id="baseUrl"
+                        value="{/odataService/baseUrl}"
+                        width="100%" />
+                    <Label
+                        labelFor="urlParams"
+                        text="urlParams:"
+                        width="100%" />
+                    <TextArea
+                        id="urlParams"
+                        height="30rem"
+                        value="{/odataService/urlParams-text}"
+                        width="100%"
+                        change="readUrlParams" />
+                    <MessageStrip
+                        type="Error"
+                        text="{/odataServiceErrorMessage}"
+                        visible="{/odataServiceHasError}" />
+                    <Button
+                        text="Invoke"
+                        press="invokeOdataService" />
+                    <TextArea
+                        id="odataservice-log"
+                        height="30rem"
+                        value="{/odataservice-log}"
+                        width="100%" />
+                </Panel>
+            </content>
+        </Page>
+</mvc:View>

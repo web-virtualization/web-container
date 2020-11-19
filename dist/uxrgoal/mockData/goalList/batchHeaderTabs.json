@@ -1,0 +1,12 @@
+[
+  {
+    "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/tgm.svc/$metadata#Edm.Boolean",
+    "@odata.metadataEtag": "\"80a6c197-e32a-4b11-8180-7489df3fc4cf\"",
+    "value": true
+  },
+  {
+    "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/tgm.svc/$metadata#Edm.Boolean",
+    "@odata.metadataEtag": "\"80a6c197-e32a-4b11-8180-7489df3fc4cf\"",
+    "value": true
+  }
+]

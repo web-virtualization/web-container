@@ -1,0 +1,22 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns:commons="sap.sf.surj.commons"
+                         xmlns="sap.m">
+    <Dialog
+        type="Message"
+        state="Warning"
+        contentWidth="420px"
+        contentHeight="auto"
+        escapeHandler=".escapeHandler"
+        title="{= ${/params/type} === 'timeout' ? ${i18n>COMMON_SESSION_TIMED_OUT} : ${i18n>COMMON_SESSION_INFORMATION} }"
+        >
+        <content>
+            <core:HTML content="{parts: [{path: '/params'}, {path: '/addonMessage'}], formatter: '.formatTimerHTML'}"/>
+        </content>
+        <buttons>
+            <Button text="{i18n>COMMON_Close}" press=".close" visible="{= ${/params/type} === 'timeout' }" />
+            <Button text="{i18n>COMMON_LOGIN}" type="Emphasized" press=".login" visible="{= ${/params/type} === 'timeout' }" />
+            <Button text="{i18n>COMMON_Logout}" press=".logout" visible="{= ${/params/type} !== 'timeout' }" />
+            <Button text="{i18n>COMMON_KEEP_WORKING}" type="Emphasized" press=".keepAlive" visible="{= ${/params/type} !== 'timeout' }" />
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

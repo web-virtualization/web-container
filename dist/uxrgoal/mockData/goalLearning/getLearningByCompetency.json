@@ -1,0 +1,7 @@
+{
+  "@odata.context": "https://qacand-api.lab-rot.ondemand.com/odata/v4/DevGoalDetail_2027.svc/$metadata#DevGoalDetail_2027.svc.LMSResponse(4566)",
+  "@odata.metadataEtag": "\"0eaf45c7-131b-4821-a732-8f7a6a4f6eee\"",
+  "lmsServerURL": "http://localhost:3001/?mock=true&mock=true&sap-ui-content-density=compact/#/goal-form?action=create&templateType=tgm&templateId=22",
+  "requestBody": "{assignee:\"cgrant1\",changeBy:\"cgrant1\",competencies:\"[\\n  {\\n    \\\"competencyGuid\\\":\\\"44775\\\",\\n    \\\"currentRating\\\":-1972.0,\\n    \\\"expectedRating\\\":-1972.0\\n  },\\n  {\\n    \\\"competencyGuid\\\":\\\"3\\\",\\n    \\\"currentRating\\\":2.0,\\n    \\\"expectedRating\\\":1.8\\n  },\\n  {\\n    \\\"competencyGuid\\\":\\\"44746\\\",\\n    \\\"currentRating\\\":-1972.0,\\n    \\\"expectedRating\\\":-1972.0\\n  }\\n]\",country:\"West\",extDevGoalID:\"DG$2027-4566\",fromExt:\"CDP\",fromSF:\"Y\",goalDueDate:\"1514678400000\",goalid:\"DG%242027-4566\",groupMode:\"false\",linkId:\"ITEM_SEARCH_BY_COMPETENCY\",showOnlyGapItems:\"true\",urlType:\"COMPETENCY_SEARCH\",userRole:\"E\"}",
+  "success": true
+}

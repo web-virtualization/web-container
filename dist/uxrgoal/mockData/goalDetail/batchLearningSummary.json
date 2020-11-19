@@ -1,0 +1,14 @@
+[
+  {
+    "@odata.context": "https://qaautocand-api.lab-rot.ondemand.com/odata/v4/DevGoalDetail_2009.svc/$metadata#Edm.Boolean",
+    "@odata.metadataEtag": "\"b9159996-13aa-4a7d-8bf6-c4f8b0436889\"",
+    "comments": "launch perm",
+    "value": true
+  },
+  {
+    "@odata.context": "https://qaautocand-api.lab-rot.ondemand.com/odata/v4/DevGoalDetail_2009.svc/$metadata#Edm.Boolean",
+    "@odata.metadataEtag": "\"d7cabb9e-a4da-4dc5-9303-a74d6ec37412\"",
+    "comments": "add perm",
+    "value": true
+  }
+]

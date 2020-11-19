@@ -1,0 +1,98 @@
+[
+  {
+    "@odata.context": "https://qacand.lab-rot.ondemand.com/odata/v4/Goal_666.svc/$metadata#GoalPlanTemplate(666)/enums",
+    "@odata.metadataEtag": "\"7b1383dc-4321-4b86-9724-28cd4f333910\"",
+    "value": [
+      {
+        "fieldId": "flag",
+        "label": "Private",
+        "planId": 666,
+        "style": null,
+        "value": "1"
+      },
+      {
+        "fieldId": "flag",
+        "label": "Public",
+        "planId": 666,
+        "style": null,
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "value": [
+      {
+        "fieldId": "category",
+        "label": "Financial Name",
+        "planId": 1,
+        "value": "Financial"
+      },
+      {
+        "fieldId": "category",
+        "label": "Customer Name",
+        "planId": 1,
+        "value": "Customer"
+      },
+      {
+        "fieldId": "category",
+        "label": "Operational Name",
+        "planId": 1,
+        "value": "Operational"
+      },
+      {
+        "fieldId": "category",
+        "label": "Workforce Name",
+        "planId": 1,
+        "value": "Workforce"
+      },
+      {
+        "fieldId": "category",
+        "label": "Other Name",
+        "planId": 1,
+        "value": "Other"
+      }
+    ]
+  },
+  {
+    "@odata.context": "https://talent.uxr.c.eu-nl-1.cloud.sap:443/odata/v4/Goal_2.svc/$metadata#GoalPlanTemplate(2)/enums",
+    "@odata.metadataEtag": "\"c2fe6348-8811-444d-b2c7-6c38bebf80ad\"",
+    "value": [
+      {
+        "fieldId": "state",
+        "label": "Not Started",
+        "planId": 2,
+        "value": "white"
+      },
+      {
+        "fieldId": "state",
+        "label": "On Track",
+        "planId": 2,
+        "value": "yellow"
+      },
+      {
+        "fieldId": "state",
+        "label": "Behind",
+        "planId": 2,
+        "value": "red"
+      },
+      {
+        "fieldId": "state",
+        "label": "Completed",
+        "planId": 2,
+        "value": "green"
+      },
+      {
+        "fieldId": "state",
+        "label": "Postponed",
+        "planId": 2,
+        "value": "purple"
+      },
+      {
+        "fieldId": "state",
+        "label": "Cancelled",
+        "planId": 2,
+        "value": "blue"
+      }
+    ]
+  }
+]

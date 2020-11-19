@@ -1,0 +1,1231 @@
+<?xml version="1.0" ?>
+<library  version="2.0" name="sap.sf.surj.shell">
+  <module name="sap/sf/surj/shell/BizXHeader.controller.js" size="124757" compressedSize="49370">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="jquery.sap.storage.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXMenuListItem.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXMenuPopover.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXSearchField.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js"/>
+      <module name="sap/sf/surj/shell/controls/IntroSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/PeopleSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/ResponsiveSidePanel.js"/>
+      <module name="sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/core/BizXResourceModel.js"/>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/sf/surj/shell/quickcard/QuickcardHandler.js"/>
+      <module name="sap/sf/surj/shell/util/A11yPreferences.js"/>
+      <module name="sap/sf/surj/shell/util/ActionSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/AnimateUtil.js"/>
+      <module name="sap/sf/surj/shell/util/CookiePolicyUtil.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/FLPServices.js"/>
+      <module name="sap/sf/surj/shell/util/JamUtil.js"/>
+      <module name="sap/sf/surj/shell/util/LinkUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Logger.js"/>
+      <module name="sap/sf/surj/shell/util/PeopleSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Polyfill.js"/>
+      <module name="sap/sf/surj/shell/util/ProxyUtil.js"/>
+      <module name="sap/sf/surj/shell/util/SearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/ShowMeUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="sap/sf/todo/util/PanelManager.js" conditional="true"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/Icon.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/BizXHeader.view.js" size="41791" compressedSize="15867">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Bar.js"/>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/SuggestionItem.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXButton.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXSearchField.js"/>
+      <module name="sap/sf/surj/shell/controls/Container.js"/>
+      <module name="sap/sf/surj/shell/controls/FocusMarker.js"/>
+      <module name="sap/sf/surj/shell/controls/NotificationWrapper.js"/>
+      <module name="sap/sf/surj/shell/controls/UserPhoto.js"/>
+      <module name="sap/sf/surj/shell/util/A11yPreferences.js"/>
+      <module name="sap/sf/surj/shell/util/SuppIconPool.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/delegate/ItemNavigation.js"/>
+      <module name="sap/ui/core/theming/Parameters.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/BizXShell.controller.js" size="798" compressedSize="468">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/BizXShell.view.js" size="3641" compressedSize="1452">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXApp.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXPage.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXShell.js"/>
+      <module name="sap/ui/core/Component.js"/>
+      <module name="sap/ui/core/ComponentContainer.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/component/header/Component.js" size="209" compressedSize="164">
+    <requires>
+      <module name="sap/ui/core/UIComponent.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/component/header/manifest.json" size="850">
+  </module>
+  <module name="sap/sf/surj/shell/component/shell/Component.js" size="208" compressedSize="163">
+    <requires>
+      <module name="sap/ui/core/UIComponent.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/component/shell/manifest.json" size="939">
+  </module>
+  <module name="sap/sf/surj/shell/controls/BizXApp.js" size="3107" compressedSize="571">
+    <description>Provides control sap.sf.surj.shell.controls.BizXApp.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/BizXButton.js" size="1418" compressedSize="646">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXButtonRenderer.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/BizXButtonRenderer.js" size="645" compressedSize="360">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/ButtonRenderer.js"/>
+      <module name="sap/ui/core/Renderer.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/BizXMenuListItem.js" size="5524" compressedSize="1583">
+    <description>Provides control sap.sf.surj.shell.controls.BizXMenuListItem.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js" size="4127" compressedSize="1555">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/ListItemBaseRenderer.js"/>
+      <module name="sap/ui/core/Renderer.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/BizXMenuPopover.js" size="4566" compressedSize="1075">
+    <description>Provides control sap.sf.surj.shell.controls.BizXMenuPopover.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/BizXPage.js" size="12309" compressedSize="4400">
+    <description>Provides control sap.sf.surj.shell.controls.BizXPage.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/BizXSearchField.js" size="27728" compressedSize="9969">
+    <description>Provides control sap.sf.surj.shell.controls.BizXSearchField.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/BizXShell.js" size="4332" compressedSize="958">
+    <description>Provides control sap.sf.surj.shell.controls.BizXShell.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/BizXSuggest.js" size="18734" compressedSize="4160">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Suggest.js"/>
+      <module name="sap/sf/surj/shell/util/A11yPreferences.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/BizXSuggestionItem.js" size="4014" compressedSize="829">
+    <description>Provides control sap.sf.surj.shell.controls.BizXSuggestionItem.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/Container.js" size="4854" compressedSize="1093">
+    <description>Provides control sap.sf.surj.shell.controls.Container.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/FocusMarker.js" size="3940" compressedSize="824">
+    <description>Provides control sap.sf.surj.shell.controls.FocusMarker.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/GACESearchInput.js" size="4339" compressedSize="860">
+    <description>Provides control sap.sf.surj.shell.controls.GACESearchInput.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/GACESearchResult.js" size="12064" compressedSize="4708">
+    <description>Provides control sap.sf.surj.shell.controls.GACESearchResult.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js" size="5785" compressedSize="1697">
+    <description>Provides control sap.sf.surj.shell.controls.GlobalAssignmentMenuItem.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/IntroSuggestionItem.js" size="3983" compressedSize="731">
+    <description>Provides control sap.sf.surj.shell.controls.IntroSuggestionItem.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/NotificationWrapper.js" size="6288" compressedSize="1729">
+    <description>Provides control sap.sf.surj.shell.controls.NotificationWrapper.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/PeopleSuggestionItem.js" size="10741" compressedSize="3891">
+    <description>Provides control sap.sf.surj.shell.controls.PeopleSuggestionItem.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/ResponsiveSidePanel.js" size="12338" compressedSize="4430">
+    <description>Provides control sap.sf.surj.shell.controls.ResponsiveSidePanel.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/SearchInput.js" size="30843" compressedSize="11133">
+    <description>Provides control sap.sf.surj.shell.controls.SearchInput.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/SearchInputRenderer.js" size="620" compressedSize="328">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/ComboBoxRenderer.js"/>
+      <module name="sap/m/InputRenderer.js"/>
+      <module name="sap/ui/core/Renderer.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/SearchResult.js" size="6488" compressedSize="1836">
+    <description>Provides control sap.sf.surj.shell.controls.SearchResult.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/SearchResultList.js" size="437" compressedSize="193">
+    <description>@class @extends sap.ui.core.Control @name sap.sf.surj.shell.controls.SearchResultList</description>
+    <requires>
+      <module name="sap/m/List.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/SearchResultPopover.js" size="457" compressedSize="202">
+    <description>@class @extends sap.ui.core.Control @name sap.sf.surj.shell.controls.SearchResultPopover</description>
+    <requires>
+      <module name="sap/m/Popover.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/ShowMeCallout.js" size="10358" compressedSize="4157">
+    <description>Provides control sap.sf.surj.shell.controls.ShowMeCallout.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js" size="4157" compressedSize="830">
+    <description>Provides control sap.sf.surj.shell.controls.ShowMoreSuggestionItem.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/Table.js" size="13251" compressedSize="3212">
+    <description>Provides control sap.sf.surj.shell.controls.Table.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/controls/UserPhoto.js" size="56640" compressedSize="16129">
+    <description>Provides control sap.sf.surj.shell.controls.UserPhoto.</description>
+    <requires>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/core/BizXResourceBundle.js" size="1369" compressedSize="404">
+    <description>A "fake" resource bundle that just routes everything through the MSGS global variable on a BizX page written by SMRF.  @class @implements jQuery.sap.util.ResourceBundle @name sap.sf.surj.shell.core.BizXResourceBundle @extends sap.ui.base.Object</description>
+    <requires>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/core/BizXResourceModel.js" size="857" compressedSize="419">
+    <description>@class @extends sap.ui.core.Control @name sap.sf.surj.shell.core.BizXResourceModel</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/sf/surj/shell/core/BizXResourceBundle.js"/>
+      <module name="sap/ui/model/resource/ResourceModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml" size="981">
+    <requires>
+      <module name="sap/m/CustomListItem.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/List.js"/>
+      <module name="sap/m/ResponsivePopover.js"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/Icon.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/i18n/messagebundle.properties" size="14017">
+  </module>
+  <module name="sap/sf/surj/shell/library-h2-preload.js" size="14757" dynamicDependencies="true">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="jquery.sap.storage.js"/>
+      <module name="sap/base/util/isEmptyObject.js"/>
+      <module name="sap/m/Bar.js"/>
+      <module name="sap/m/BusyDialog.js" conditional="true"/>
+      <module name="sap/m/BusyIndicator.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/ButtonRenderer.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/ComboBoxRenderer.js"/>
+      <module name="sap/m/CustomListItem.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/FlexItemData.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/Input.js"/>
+      <module name="sap/m/InputRenderer.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/List.js"/>
+      <module name="sap/m/ListItemBaseRenderer.js"/>
+      <module name="sap/m/MessageBox.js"/>
+      <module name="sap/m/MessageStrip.js"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/Panel.js"/>
+      <module name="sap/m/Popover.js"/>
+      <module name="sap/m/ResponsivePopover.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/SegmentedButton.js"/>
+      <module name="sap/m/SegmentedButtonItem.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/m/StandardListItem.js"/>
+      <module name="sap/m/Suggest.js"/>
+      <module name="sap/m/SuggestionItem.js"/>
+      <module name="sap/m/Switch.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/TextArea.js"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/sf/todo/util/PanelManager.js" conditional="true"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/base/DataType.js" conditional="true"/>
+      <module name="sap/ui/base/EventProvider.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/core/Component.js"/>
+      <module name="sap/ui/core/ComponentContainer.js"/>
+      <module name="sap/ui/core/Control.js"/>
+      <module name="sap/ui/core/Core.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/core/Icon.js"/>
+      <module name="sap/ui/core/IconPool.js"/>
+      <module name="sap/ui/core/InvisibleText.js"/>
+      <module name="sap/ui/core/Item.js"/>
+      <module name="sap/ui/core/ListItem.js"/>
+      <module name="sap/ui/core/Renderer.js"/>
+      <module name="sap/ui/core/UIComponent.js"/>
+      <module name="sap/ui/core/ValueState.js"/>
+      <module name="sap/ui/core/delegate/ItemNavigation.js"/>
+      <module name="sap/ui/core/library.js"/>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/core/theming/Parameters.js"/>
+      <module name="sap/ui/layout/form/FormElement.js"/>
+      <module name="sap/ui/mdc/Field.js"/>
+      <module name="sap/ui/mdc/enum/EditMode.js"/>
+      <module name="sap/ui/mdc/enum/FieldDisplay.js"/>
+      <module name="sap/ui/mdc/field/FieldValueHelp.js"/>
+      <module name="sap/ui/mdc/field/FieldValueHelpMTableWrapper.js"/>
+      <module name="sap/ui/mdc/field/InParameter.js"/>
+      <module name="sap/ui/mdc/field/ListFieldHelp.js"/>
+      <module name="sap/ui/mdc/field/OutParameter.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="sap/ui/model/odata/v4/ODataModel.js"/>
+      <module name="sap/ui/model/resource/ResourceModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+    <includes>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/sf/surj/shell/manifest.json"/>
+      <module name="sap/sf/surj/shell/BizXHeader.controller.js"/>
+      <module name="sap/sf/surj/shell/BizXHeader.view.js"/>
+      <module name="sap/sf/surj/shell/BizXShell.controller.js"/>
+      <module name="sap/sf/surj/shell/BizXShell.view.js"/>
+      <module name="sap/sf/surj/shell/component/header/Component.js"/>
+      <module name="sap/sf/surj/shell/component/header/manifest.json"/>
+      <module name="sap/sf/surj/shell/component/shell/Component.js"/>
+      <module name="sap/sf/surj/shell/component/shell/manifest.json"/>
+      <module name="sap/sf/surj/shell/controls/BizXApp.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXButton.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXButtonRenderer.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXMenuListItem.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXMenuPopover.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXPage.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXSearchField.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXShell.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXSuggest.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/Container.js"/>
+      <module name="sap/sf/surj/shell/controls/FocusMarker.js"/>
+      <module name="sap/sf/surj/shell/controls/GACESearchInput.js"/>
+      <module name="sap/sf/surj/shell/controls/GACESearchResult.js"/>
+      <module name="sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js"/>
+      <module name="sap/sf/surj/shell/controls/IntroSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/NotificationWrapper.js"/>
+      <module name="sap/sf/surj/shell/controls/PeopleSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/ResponsiveSidePanel.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchInput.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchInputRenderer.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchResult.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchResultList.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchResultPopover.js"/>
+      <module name="sap/sf/surj/shell/controls/ShowMeCallout.js"/>
+      <module name="sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/Table.js"/>
+      <module name="sap/sf/surj/shell/controls/UserPhoto.js"/>
+      <module name="sap/sf/surj/shell/core/BizXResourceBundle.js"/>
+      <module name="sap/sf/surj/shell/core/BizXResourceModel.js"/>
+      <module name="sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml"/>
+      <module name="sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js"/>
+      <module name="sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js"/>
+      <module name="sap/sf/surj/shell/mvc/GACESearchTest.controller.js"/>
+      <module name="sap/sf/surj/shell/mvc/GACESearchTest.view.xml"/>
+      <module name="sap/sf/surj/shell/quickcard/QuickcardHandler.js"/>
+      <module name="sap/sf/surj/shell/session/SessionTimer.fragment.xml"/>
+      <module name="sap/sf/surj/shell/session/SessionTimer.js"/>
+      <module name="sap/sf/surj/shell/util/A11yPreferences.js"/>
+      <module name="sap/sf/surj/shell/util/AboutBoxUtil.js"/>
+      <module name="sap/sf/surj/shell/util/ActionSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/AjaxServiceError.js"/>
+      <module name="sap/sf/surj/shell/util/AnimateUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Config.js"/>
+      <module name="sap/sf/surj/shell/util/CookiePolicyUtil.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/DowntimeNotificationUtil.js"/>
+      <module name="sap/sf/surj/shell/util/FLPServices.js"/>
+      <module name="sap/sf/surj/shell/util/FOPeopleSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/FormGenerationUtil.js"/>
+      <module name="sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/GACESearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/JamUtil.js"/>
+      <module name="sap/sf/surj/shell/util/LinkUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Logger.js"/>
+      <module name="sap/sf/surj/shell/util/NameFormatter.js"/>
+      <module name="sap/sf/surj/shell/util/Observable.js"/>
+      <module name="sap/sf/surj/shell/util/PeopleSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Polyfill.js"/>
+      <module name="sap/sf/surj/shell/util/PostMessageAPI.js"/>
+      <module name="sap/sf/surj/shell/util/ProxyUtil.js"/>
+      <module name="sap/sf/surj/shell/util/SMRF.js"/>
+      <module name="sap/sf/surj/shell/util/SearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/ServiceVisibilityMapping.js"/>
+      <module name="sap/sf/surj/shell/util/ShowMeUtil.js"/>
+      <module name="sap/sf/surj/shell/util/SuppIconPool.js"/>
+      <module name="sap/sf/surj/shell/util/ThemeUtil.js"/>
+      <module name="sap/sf/surj/shell/util/TopNavLogout.js"/>
+      <module name="sap/sf/surj/shell/util/UserPhotoUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+    </includes>
+  </module>
+  <module name="sap/sf/surj/shell/library-preload.js" size="362400" dynamicDependencies="true">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="jquery.sap.storage.js"/>
+      <module name="sap/base/util/isEmptyObject.js"/>
+      <module name="sap/m/Bar.js"/>
+      <module name="sap/m/BusyDialog.js" conditional="true"/>
+      <module name="sap/m/BusyIndicator.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/ButtonRenderer.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/ComboBoxRenderer.js"/>
+      <module name="sap/m/CustomListItem.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/FlexItemData.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/Input.js"/>
+      <module name="sap/m/InputRenderer.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/List.js"/>
+      <module name="sap/m/ListItemBaseRenderer.js"/>
+      <module name="sap/m/MessageBox.js"/>
+      <module name="sap/m/MessageStrip.js"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/Panel.js"/>
+      <module name="sap/m/Popover.js"/>
+      <module name="sap/m/ResponsivePopover.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/SegmentedButton.js"/>
+      <module name="sap/m/SegmentedButtonItem.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/m/StandardListItem.js"/>
+      <module name="sap/m/Suggest.js"/>
+      <module name="sap/m/SuggestionItem.js"/>
+      <module name="sap/m/Switch.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/TextArea.js"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/sf/todo/util/PanelManager.js" conditional="true"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/base/DataType.js" conditional="true"/>
+      <module name="sap/ui/base/EventProvider.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/core/Component.js"/>
+      <module name="sap/ui/core/ComponentContainer.js"/>
+      <module name="sap/ui/core/Control.js"/>
+      <module name="sap/ui/core/Core.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/core/Icon.js"/>
+      <module name="sap/ui/core/IconPool.js"/>
+      <module name="sap/ui/core/InvisibleText.js"/>
+      <module name="sap/ui/core/Item.js"/>
+      <module name="sap/ui/core/ListItem.js"/>
+      <module name="sap/ui/core/Renderer.js"/>
+      <module name="sap/ui/core/UIComponent.js"/>
+      <module name="sap/ui/core/ValueState.js"/>
+      <module name="sap/ui/core/delegate/ItemNavigation.js"/>
+      <module name="sap/ui/core/library.js"/>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/core/theming/Parameters.js"/>
+      <module name="sap/ui/layout/form/FormElement.js"/>
+      <module name="sap/ui/mdc/Field.js"/>
+      <module name="sap/ui/mdc/enum/EditMode.js"/>
+      <module name="sap/ui/mdc/enum/FieldDisplay.js"/>
+      <module name="sap/ui/mdc/field/FieldValueHelp.js"/>
+      <module name="sap/ui/mdc/field/FieldValueHelpMTableWrapper.js"/>
+      <module name="sap/ui/mdc/field/InParameter.js"/>
+      <module name="sap/ui/mdc/field/ListFieldHelp.js"/>
+      <module name="sap/ui/mdc/field/OutParameter.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="sap/ui/model/odata/v4/ODataModel.js"/>
+      <module name="sap/ui/model/resource/ResourceModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+    <includes>
+      <module name="sap/sf/surj/shell/BizXHeader.controller.js"/>
+      <module name="sap/sf/surj/shell/BizXHeader.view.js"/>
+      <module name="sap/sf/surj/shell/BizXShell.controller.js"/>
+      <module name="sap/sf/surj/shell/BizXShell.view.js"/>
+      <module name="sap/sf/surj/shell/component/header/Component.js"/>
+      <module name="sap/sf/surj/shell/component/header/manifest.json"/>
+      <module name="sap/sf/surj/shell/component/shell/Component.js"/>
+      <module name="sap/sf/surj/shell/component/shell/manifest.json"/>
+      <module name="sap/sf/surj/shell/controls/BizXApp.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXButton.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXButtonRenderer.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXMenuListItem.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXMenuPopover.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXPage.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXSearchField.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXShell.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXSuggest.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/Container.js"/>
+      <module name="sap/sf/surj/shell/controls/FocusMarker.js"/>
+      <module name="sap/sf/surj/shell/controls/GACESearchInput.js"/>
+      <module name="sap/sf/surj/shell/controls/GACESearchResult.js"/>
+      <module name="sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js"/>
+      <module name="sap/sf/surj/shell/controls/IntroSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/NotificationWrapper.js"/>
+      <module name="sap/sf/surj/shell/controls/PeopleSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/ResponsiveSidePanel.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchInput.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchInputRenderer.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchResult.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchResultList.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchResultPopover.js"/>
+      <module name="sap/sf/surj/shell/controls/ShowMeCallout.js"/>
+      <module name="sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/Table.js"/>
+      <module name="sap/sf/surj/shell/controls/UserPhoto.js"/>
+      <module name="sap/sf/surj/shell/core/BizXResourceBundle.js"/>
+      <module name="sap/sf/surj/shell/core/BizXResourceModel.js"/>
+      <module name="sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml"/>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/sf/surj/shell/manifest.json"/>
+      <module name="sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js"/>
+      <module name="sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js"/>
+      <module name="sap/sf/surj/shell/mvc/GACESearchTest.controller.js"/>
+      <module name="sap/sf/surj/shell/mvc/GACESearchTest.view.xml"/>
+      <module name="sap/sf/surj/shell/quickcard/QuickcardHandler.js"/>
+      <module name="sap/sf/surj/shell/session/SessionTimer.fragment.xml"/>
+      <module name="sap/sf/surj/shell/session/SessionTimer.js"/>
+      <module name="sap/sf/surj/shell/util/A11yPreferences.js"/>
+      <module name="sap/sf/surj/shell/util/AboutBoxUtil.js"/>
+      <module name="sap/sf/surj/shell/util/ActionSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/AjaxServiceError.js"/>
+      <module name="sap/sf/surj/shell/util/AnimateUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Config.js"/>
+      <module name="sap/sf/surj/shell/util/CookiePolicyUtil.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/DowntimeNotificationUtil.js"/>
+      <module name="sap/sf/surj/shell/util/FLPServices.js"/>
+      <module name="sap/sf/surj/shell/util/FOPeopleSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/FormGenerationUtil.js"/>
+      <module name="sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/GACESearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/JamUtil.js"/>
+      <module name="sap/sf/surj/shell/util/LinkUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Logger.js"/>
+      <module name="sap/sf/surj/shell/util/NameFormatter.js"/>
+      <module name="sap/sf/surj/shell/util/Observable.js"/>
+      <module name="sap/sf/surj/shell/util/PeopleSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Polyfill.js"/>
+      <module name="sap/sf/surj/shell/util/PostMessageAPI.js"/>
+      <module name="sap/sf/surj/shell/util/ProxyUtil.js"/>
+      <module name="sap/sf/surj/shell/util/SMRF.js"/>
+      <module name="sap/sf/surj/shell/util/SearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/ServiceVisibilityMapping.js"/>
+      <module name="sap/sf/surj/shell/util/ShowMeUtil.js"/>
+      <module name="sap/sf/surj/shell/util/SuppIconPool.js"/>
+      <module name="sap/sf/surj/shell/util/ThemeUtil.js"/>
+      <module name="sap/sf/surj/shell/util/TopNavLogout.js"/>
+      <module name="sap/sf/surj/shell/util/UserPhotoUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+    </includes>
+  </module>
+  <module name="sap/sf/surj/shell/library-preload.json" size="0" dynamicDependencies="true">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="jquery.sap.storage.js"/>
+      <module name="sap/base/util/isEmptyObject.js"/>
+      <module name="sap/m/Bar.js"/>
+      <module name="sap/m/BusyDialog.js" conditional="true"/>
+      <module name="sap/m/BusyIndicator.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/ButtonRenderer.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/ComboBoxRenderer.js"/>
+      <module name="sap/m/CustomListItem.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/FlexItemData.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/Input.js"/>
+      <module name="sap/m/InputRenderer.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/List.js"/>
+      <module name="sap/m/ListItemBaseRenderer.js"/>
+      <module name="sap/m/MessageBox.js"/>
+      <module name="sap/m/MessageStrip.js"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/Panel.js"/>
+      <module name="sap/m/Popover.js"/>
+      <module name="sap/m/ResponsivePopover.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/SegmentedButton.js"/>
+      <module name="sap/m/SegmentedButtonItem.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/m/StandardListItem.js"/>
+      <module name="sap/m/Suggest.js"/>
+      <module name="sap/m/SuggestionItem.js"/>
+      <module name="sap/m/Switch.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/TextArea.js"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/sf/todo/util/PanelManager.js" conditional="true"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/base/DataType.js" conditional="true"/>
+      <module name="sap/ui/base/EventProvider.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/core/Component.js"/>
+      <module name="sap/ui/core/ComponentContainer.js"/>
+      <module name="sap/ui/core/Control.js"/>
+      <module name="sap/ui/core/Core.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/core/Icon.js"/>
+      <module name="sap/ui/core/IconPool.js"/>
+      <module name="sap/ui/core/InvisibleText.js"/>
+      <module name="sap/ui/core/Item.js"/>
+      <module name="sap/ui/core/ListItem.js"/>
+      <module name="sap/ui/core/Renderer.js"/>
+      <module name="sap/ui/core/UIComponent.js"/>
+      <module name="sap/ui/core/ValueState.js"/>
+      <module name="sap/ui/core/delegate/ItemNavigation.js"/>
+      <module name="sap/ui/core/library-preload.json"/>
+      <module name="sap/ui/core/library.js"/>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/core/theming/Parameters.js"/>
+      <module name="sap/ui/layout/form/FormElement.js"/>
+      <module name="sap/ui/mdc/Field.js"/>
+      <module name="sap/ui/mdc/enum/EditMode.js"/>
+      <module name="sap/ui/mdc/enum/FieldDisplay.js"/>
+      <module name="sap/ui/mdc/field/FieldValueHelp.js"/>
+      <module name="sap/ui/mdc/field/FieldValueHelpMTableWrapper.js"/>
+      <module name="sap/ui/mdc/field/InParameter.js"/>
+      <module name="sap/ui/mdc/field/ListFieldHelp.js"/>
+      <module name="sap/ui/mdc/field/OutParameter.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="sap/ui/model/odata/v4/ODataModel.js"/>
+      <module name="sap/ui/model/resource/ResourceModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+    <includes>
+      <module name="sap/sf/surj/shell/BizXHeader.controller.js"/>
+      <module name="sap/sf/surj/shell/BizXHeader.view.js"/>
+      <module name="sap/sf/surj/shell/BizXShell.controller.js"/>
+      <module name="sap/sf/surj/shell/BizXShell.view.js"/>
+      <module name="sap/sf/surj/shell/component/header/Component.js"/>
+      <module name="sap/sf/surj/shell/component/header/manifest.json"/>
+      <module name="sap/sf/surj/shell/component/shell/Component.js"/>
+      <module name="sap/sf/surj/shell/component/shell/manifest.json"/>
+      <module name="sap/sf/surj/shell/controls/BizXApp.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXButton.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXButtonRenderer.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXMenuListItem.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXMenuListItemRenderer.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXMenuPopover.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXPage.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXSearchField.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXShell.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXSuggest.js"/>
+      <module name="sap/sf/surj/shell/controls/BizXSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/Container.js"/>
+      <module name="sap/sf/surj/shell/controls/FocusMarker.js"/>
+      <module name="sap/sf/surj/shell/controls/GACESearchInput.js"/>
+      <module name="sap/sf/surj/shell/controls/GACESearchResult.js"/>
+      <module name="sap/sf/surj/shell/controls/GlobalAssignmentMenuItem.js"/>
+      <module name="sap/sf/surj/shell/controls/IntroSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/NotificationWrapper.js"/>
+      <module name="sap/sf/surj/shell/controls/PeopleSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/ResponsiveSidePanel.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchInput.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchInputRenderer.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchResult.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchResultList.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchResultPopover.js"/>
+      <module name="sap/sf/surj/shell/controls/ShowMeCallout.js"/>
+      <module name="sap/sf/surj/shell/controls/ShowMoreSuggestionItem.js"/>
+      <module name="sap/sf/surj/shell/controls/Table.js"/>
+      <module name="sap/sf/surj/shell/controls/UserPhoto.js"/>
+      <module name="sap/sf/surj/shell/core/BizXResourceBundle.js"/>
+      <module name="sap/sf/surj/shell/core/BizXResourceModel.js"/>
+      <module name="sap/sf/surj/shell/fragments/ProductSwitcher.fragment.xml"/>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/sf/surj/shell/manifest.json"/>
+      <module name="sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js"/>
+      <module name="sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js"/>
+      <module name="sap/sf/surj/shell/mvc/GACESearchTest.controller.js"/>
+      <module name="sap/sf/surj/shell/mvc/GACESearchTest.view.xml"/>
+      <module name="sap/sf/surj/shell/quickcard/QuickcardHandler.js"/>
+      <module name="sap/sf/surj/shell/session/SessionTimer.fragment.xml"/>
+      <module name="sap/sf/surj/shell/session/SessionTimer.js"/>
+      <module name="sap/sf/surj/shell/util/A11yPreferences.js"/>
+      <module name="sap/sf/surj/shell/util/AboutBoxUtil.js"/>
+      <module name="sap/sf/surj/shell/util/ActionSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/AjaxServiceError.js"/>
+      <module name="sap/sf/surj/shell/util/AnimateUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Config.js"/>
+      <module name="sap/sf/surj/shell/util/CookiePolicyUtil.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/DowntimeNotificationUtil.js"/>
+      <module name="sap/sf/surj/shell/util/FLPServices.js"/>
+      <module name="sap/sf/surj/shell/util/FOPeopleSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/FormGenerationUtil.js"/>
+      <module name="sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/GACESearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/JamUtil.js"/>
+      <module name="sap/sf/surj/shell/util/LinkUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Logger.js"/>
+      <module name="sap/sf/surj/shell/util/NameFormatter.js"/>
+      <module name="sap/sf/surj/shell/util/Observable.js"/>
+      <module name="sap/sf/surj/shell/util/PeopleSearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Polyfill.js"/>
+      <module name="sap/sf/surj/shell/util/PostMessageAPI.js"/>
+      <module name="sap/sf/surj/shell/util/ProxyUtil.js"/>
+      <module name="sap/sf/surj/shell/util/SMRF.js"/>
+      <module name="sap/sf/surj/shell/util/SearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/ServiceVisibilityMapping.js"/>
+      <module name="sap/sf/surj/shell/util/ShowMeUtil.js"/>
+      <module name="sap/sf/surj/shell/util/SuppIconPool.js"/>
+      <module name="sap/sf/surj/shell/util/ThemeUtil.js"/>
+      <module name="sap/sf/surj/shell/util/TopNavLogout.js"/>
+      <module name="sap/sf/surj/shell/util/UserPhotoUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+    </includes>
+  </module>
+  <module name="sap/sf/surj/shell/library.js" size="1979" compressedSize="1259">
+    <description>Initialization Code and shared classes of library sap.sf.surj.shell (1.0.2-SNAPSHOT)</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/core/Core.js"/>
+      <module name="sap/ui/core/library.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/library.properties" size="2166">
+  </module>
+  <module name="sap/sf/surj/shell/manifest.json" size="938">
+  </module>
+  <module name="sap/sf/surj/shell/mvc/GACEAdvancedSearch.controller.js" size="24848" compressedSize="9855">
+    <description>@class @extends sap.ui.core.Control @name sap.sf.surj.shell.core.BizXResourceModel</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchInput.js"/>
+      <module name="sap/sf/surj/shell/util/SearchUtil.js"/>
+      <module name="sap/ui/core/ValueState.js"/>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/mvc/GACEAdvancedSearch.view.js" size="27400" compressedSize="9832">
+    <description>@class @name sap.sf.surj.shell.mvc.GACEAdvancedSearch</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/sf/surj/shell/controls/Table.js"/>
+      <module name="sap/sf/surj/shell/controls/UserPhoto.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/mvc/GACESearchTest.controller.js" size="16584" compressedSize="8874" raw="true">
+  </module>
+  <module name="sap/sf/surj/shell/mvc/GACESearchTest.view.xml" size="8900">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/FlexItemData.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Input.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/MessageStrip.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/Panel.js"/>
+      <module name="sap/m/SegmentedButton.js"/>
+      <module name="sap/m/SegmentedButtonItem.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/m/Switch.js"/>
+      <module name="sap/m/TextArea.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchInput.js"/>
+      <module name="sap/sf/surj/shell/mvc/GACESearchTest.controller.js"/>
+      <module name="sap/ui/core/Item.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/quickcard/QuickcardHandler.js" size="12131" compressedSize="4034">
+    <description>Use the QuickcardHandler to open Quickcards associated with a Suggestion popup like BizXSuggest.  @name sap.sf.surj.shell.quickcard.QuickcardHandler @constructor</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/sf/surj/shell/util/Logger.js"/>
+      <module name="sap/sf/surj/shell/util/SMRF.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/session/SessionTimer.fragment.xml" size="1163">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/session/SessionTimer.js" size="40007" compressedSize="11161">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="jquery.sap.storage.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/LinkUtil.js"/>
+      <module name="sap/sf/surj/shell/util/TopNavLogout.js" conditional="true"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/base/EventProvider.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/A11yPreferences.js" size="2891" compressedSize="1561">
+    <description>Make sure to change both places if any changes are required</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/AboutBoxUtil.js" size="3128" compressedSize="1007">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/ActionSearchUtil.js" size="45323" compressedSize="14053">
+    <description>TODO: Need to make sure sapui5 is not a dependency from this file, or any dependant files  TODO: We can remove the jQuery dependency by refactoring all usages of jQuery to safe alternatives However, we may want to start allowing jQuery hard dependencies sooner or later  @fileDescription The ActionSearchUtil, initially created for use in the Responsive Header, or the one which only displays on smaller screens but should also be used by the JUIC-based one as well.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="jquery.sap.storage.js"/>
+      <module name="sap/m/MessageBox.js" conditional="true"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/LinkUtil.js"/>
+      <module name="sap/sf/surj/shell/util/SMRF.js"/>
+      <module name="sap/sf/surj/shell/util/SearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/AjaxServiceError.js" size="10597" compressedSize="4260">
+    <description>@namespace @name sap.sf.surj.shell.util.AjaxServiceError</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/BusyIndicator.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/List.js"/>
+      <module name="sap/m/StandardListItem.js"/>
+      <module name="sap/m/TextArea.js"/>
+      <module name="sap/sf/surj/shell/controls/Container.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/core/InvisibleText.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/AnimateUtil.js" size="2196" compressedSize="1017">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/Config.js" size="28294" compressedSize="6329">
+    <description>This function will normalize an incoming options object by updating any default values, and validating the required attributes and their types.  &lt;h3&gt;Validation&lt;/h3&gt;  Validation is always optional, but you can add this validation of output options object to ensure that users are not incorrectly calling your component.  Not only will this provide a more verbose error for users of your component facilitating quick error recovery, it will also serve to better document the contract between the component and the parent controller.  Values contained in the validation object is expected to be one of the following:  &lt;ul&gt; &lt;li&gt;Array: List of different possible types for the value.&lt;/li&gt; &lt;li&gt;ArrayType: The value must be an array, and every value in that array must match the sub type. Use &lt;code&gt;util.Config.arrayType(subType)&lt;/code&gt; to generate an object of type ArrayType. (recursive)&lt;/li&gt; &lt;li&gt;EnumType: The value must exactly match one of a given set of values. Use &lt;code&gt;util.Config.enumType(...)&lt;/code&gt; to generate an object of type EnumType.&lt;/li&gt; &lt;li&gt;Config.ValidatorType: You can create your own object that extends this object. Here is an example. &lt;code&gt;extend(CustomValidator, Config.ValidatorType, {validate: function(value,errors){}});&lt;/code&gt;&lt;/li&gt; &lt;li&gt;function: The value can be an instanceof this constructor.&lt;/li&gt; &lt;li&gt;Object: The value can be an object which matches the rules defined in this object.&lt;/li&gt; &lt;li&gt;null: The value can be null.&lt;/li&gt; &lt;li&gt;"undefined": The value can be undefined.&lt;/li&gt; &lt;li&gt;"string": The value can be a non-empty string.&lt;/li&gt; &lt;li&gt;"number": The value can be a number.&lt;/li&gt; &lt;li&gt;"object": The value can be a non-null object.&lt;/li&gt; &lt;li&gt;"*": The value can be anything, but not null or undefined.&lt;/li&gt; &lt;/ul&gt;  &lt;h3&gt;Validation Errors&lt;/h3&gt;  Any time there is a validation error. The error will result in an exception with a generic message. However, the Logger will be used to display each individual message that went wrong before the error is thrown.  &lt;h3&gt;Return Object&lt;/h3&gt;  The return object from this function will be an object, but there is one extra feature. You can test that object to see if it was truly created by this function by checking if it is an instanceof Config.  This is a little different, because in your code you do not invoke new Config, you will call it like a function, like so:  &lt;pre&gt; var result = Config(null, {hello:"world"}); assert(result.hello === "world", "This assertion will pass"); assert(result instanceof Config, "This will also pass"); &lt;/pre&gt;  @constructor @param {Object} options The incoming options object sent by the user of the Component's constructor. @param {Object=} defaults Optional defaults object. The keys for this object will correspond to the keys in the options object. If there is some key in defaults in which the value from the options object was undefined, the output from this function will have an object with the value set from the defaults object. @param {Object=} validation Optional validation object. The keys for this object will correspond to the keys in the options object, and the value will be used to determine if the value on the resulting object is valid. If one of the rules defined in the validation was determined to be false, then there will be an assertion error. See the description of this function for more information about how to structure the values of this object to properly validate objects. @return {Config} An Object which contains all the config attributes set, and you can test that this object was generated by this function by testing &lt;code&gt;result instanceof Config&lt;/code&gt;</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/sf/surj/shell/util/Logger.js"/>
+      <module name="sap/ui/base/DataType.js" conditional="true"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/CookiePolicyUtil.js" size="1917" compressedSize="900">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/DeferredUtil.js" size="71795" compressedSize="18992" dynamicDependencies="true">
+    <description>idl-surj-web/src/main/webapp/ui/surj/js/util/DeferredUtil.js</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Button.js" conditional="true"/>
+      <module name="sap/m/Dialog.js" conditional="true"/>
+      <module name="sap/m/Text.js" conditional="true"/>
+      <module name="sap/sf/surj/shell/core/BizXResourceBundle.js"/>
+      <module name="sap/sf/surj/shell/util/Logger.js"/>
+      <module name="sap/sf/surj/shell/util/SMRF.js"/>
+      <module name="sap/sf/surj/shell/util/ServiceVisibilityMapping.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/DowntimeNotificationUtil.js" size="1929" compressedSize="882">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/FLPServices.js" size="27899" compressedSize="4590">
+    <requires>
+      <module name="sap/sf/surj/shell/util/PostMessageAPI.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/FOPeopleSearchUtil.js" size="3328" compressedSize="1256">
+  </module>
+  <module name="sap/sf/surj/shell/util/FormGenerationUtil.js" size="17515" compressedSize="6521">
+    <requires>
+      <module name="sap/base/util/isEmptyObject.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/ListItem.js"/>
+      <module name="sap/ui/layout/form/FormElement.js"/>
+      <module name="sap/ui/mdc/Field.js"/>
+      <module name="sap/ui/mdc/enum/EditMode.js"/>
+      <module name="sap/ui/mdc/enum/FieldDisplay.js"/>
+      <module name="sap/ui/mdc/field/FieldValueHelp.js"/>
+      <module name="sap/ui/mdc/field/FieldValueHelpMTableWrapper.js"/>
+      <module name="sap/ui/mdc/field/InParameter.js"/>
+      <module name="sap/ui/mdc/field/ListFieldHelp.js"/>
+      <module name="sap/ui/mdc/field/OutParameter.js"/>
+      <module name="sap/ui/model/odata/v4/ODataModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/GACEAdvancedSearchUtil.js" size="17474" compressedSize="6619">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/MessageBox.js"/>
+      <module name="sap/sf/surj/shell/library.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/SearchUtil.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/GACESearchUtil.js" size="15364" compressedSize="5331">
+    <description>Provides the back-end hooks for fetching the Person-based search results.  @name sap.sf.surj.shell.util.PersonEmploymentSearchUtil</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/SearchUtil.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/JamUtil.js" size="20456" compressedSize="4799">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/LinkUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Logger.js"/>
+      <module name="sap/sf/surj/shell/util/SearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/LinkUtil.js" size="5368" compressedSize="1580">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/sf/surj/shell/util/SMRF.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/Logger.js" size="9583" compressedSize="2363">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/NameFormatter.js" size="6645" compressedSize="2069">
+    <description>@name sap.sf.surj.shell.util.NameFormatter</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/Observable.js" size="2154" compressedSize="804">
+    <requires>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/PeopleSearchUtil.js" size="5579" compressedSize="1812">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/LinkUtil.js"/>
+      <module name="sap/sf/surj/shell/util/SearchUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/Polyfill.js" size="372" compressedSize="221">
+    <requires>
+      <module name="jquery.sap.global.js" conditional="true"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/PostMessageAPI.js" size="12540" compressedSize="3456">
+    <requires>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="sap/ui/base/EventProvider.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/ProxyUtil.js" size="5261" compressedSize="2162">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/sf/surj/shell/controls/SearchInput.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/TopNavLogout.js" conditional="true"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/SMRF.js" size="33863" compressedSize="11321">
+    <description>IMPORTANT: --------------------------------------------------------------------------------------------------- This file will overwrite SMRF.load in the "upgrade" inner function which is called right away. Even existing pages will get this upgrade; however, this code will just rely on the old implementation the only time something different happens is when the requested files are not initialized yet.  This means that any page can now execute SMRF.load() on any file, even if that page did not have the file commented somewhere. ---------------------------------------------------------------------------------------------------</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="jquery.sap.storage.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/SearchUtil.js" size="15364" compressedSize="3668">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/sf/surj/shell/util/Config.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/LinkUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Logger.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="sap/ui/base/EventProvider.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/ServiceVisibilityMapping.js" size="6099" compressedSize="4949">
+    <requires>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/ShowMeUtil.js" size="20101" compressedSize="6413">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/BusyDialog.js" conditional="true"/>
+      <module name="sap/sf/surj/shell/controls/ShowMeCallout.js"/>
+      <module name="sap/sf/surj/shell/util/DeferredUtil.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/SuppIconPool.js" size="8236" compressedSize="5723">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/core/IconPool.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/ThemeUtil.js" size="2487" compressedSize="674">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/TopNavLogout.js" size="14748" compressedSize="5598">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/BusyDialog.js" conditional="true"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/UserPhotoUtil.js" size="10344" compressedSize="2551">
+    <requires>
+      <module name="sap/sf/surj/shell/util/NameFormatter.js"/>
+      <module name="sap/sf/surj/shell/util/Util.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/sf/surj/shell/util/Util.js" size="74557" compressedSize="20250">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/sf/surj/shell/util/AjaxServiceError.js" conditional="true"/>
+      <module name="sap/sf/surj/shell/util/SMRF.js" conditional="true"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/base/EventProvider.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+</library>

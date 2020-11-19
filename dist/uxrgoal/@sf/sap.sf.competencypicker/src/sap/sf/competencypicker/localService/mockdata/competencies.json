@@ -1,0 +1,158 @@
+{
+    "SuccessFactors 2.0":{
+        "Category1": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981122,
+                    "competencyName": "Demonstrating Self-Insight and Awareness"
+                },
+                {
+                    "competencyInternalId": 13981140,
+                    "competencyName": "Establishing Relationships"
+                },
+                {
+                    "competencyInternalId": 13981146,
+                    "competencyName": "Following Policies and Procedures"
+                },
+                {
+                    "competencyInternalId": 13981152,
+                    "competencyName": "Evaluating and Implementing Ideas"
+                },
+                {
+                    "competencyInternalId": 13981158,
+                    "competencyName": "Setting a Strategic Vision"
+                },
+                {
+                    "competencyInternalId": 13981204,
+                    "competencyName": "Using Math"
+                }
+            ]
+        },
+        "Category2": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981216,
+                    "competencyName": "Performing Physical or Mechanical Tasks"
+                },
+                {
+                    "competencyInternalId": 13981222,
+                    "competencyName": "Making a Strong Impression"
+                }
+            ]
+        },
+        "Category3": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981228,
+                    "competencyName": "Delivering High Quality Work"
+                },
+                {
+                    "competencyInternalId": 13981256,
+                    "competencyName": "Demonstrating Initiative"
+                }
+            ]
+        }
+    },
+    "HealthPrint":{
+        "Category4": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981262,
+                    "competencyName": "Demonstrating Tenacity and Perseverance"
+                },
+                {
+                    "competencyInternalId": 13981314,
+                    "competencyName": "Developing Talent"
+                }             
+            ]
+        },
+        "Category5": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981320,
+                    "competencyName": "Developing Plans"
+                }
+            ]
+        },
+        "Category6": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981326,
+                    "competencyName": "Demonstrating Appreciation"
+                }
+            ]
+        }
+    },
+    "Partner Demo Library":{
+        "Category7": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981362,
+                    "competencyName": "Working Safely"
+                }
+            ]
+        },
+        "Category8": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981371,
+                    "competencyName": "Presenting and Public Speaking"
+                },
+                {
+                    "competencyInternalId": 13981377,
+                    "competencyName": "Acquiring Information"
+                },
+                {
+                    "competencyInternalId": 13981383,
+                    "competencyName": "Managing Performance"
+                },
+                {
+                    "competencyInternalId": 13981395,
+                    "competencyName": "Accepting Direction"
+                }
+            ]
+        },
+        "Category9": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981411,
+                    "competencyName": "Creating and Maintaining Networks"
+                }
+            ]
+        }
+    },
+    "BPA Library":{
+        "Assists EVP/COO in strategic and long-range planning to meet current and future goals and objectives of the Corporation.": {
+            "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+            "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+            "value": [
+                {
+                    "competencyInternalId": 13981417,
+                    "competencyName": "Meeting Basic Work Expectations"
+                },
+                {
+                    "competencyInternalId": 13981433,
+                    "competencyName": "Long-range planning Assists EVP/COO in strategic and to meet current and future goals."
+                }
+            ]
+        }
+    }
+}

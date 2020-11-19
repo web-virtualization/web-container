@@ -1,0 +1,6 @@
+{
+  "name": "@sf/sap.sf.surj.shell",
+  "description": "Successfactors UI module - idl-surj-sap.sf.surj.shell-web",
+  "version": "1.0.0",
+  "private": true
+}

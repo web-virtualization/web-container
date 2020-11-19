@@ -1,0 +1,30 @@
+{
+  ".ActivityDetail": {
+    "@com.sap.vocabularies.Common.v1.SideEffects#statusChanged": {
+      "SourceProperties": [
+        {
+          "$PropertyPath": "statusId"
+        }
+      ],
+      "TargetProperties": [
+        {
+          "$PropertyPath": "hasAchievement"
+        }
+      ],
+      "EffectTypes": "ValueChange"
+    },
+    "@com.sap.vocabularies.Common.v1.SideEffects#hasAchievementChanged": {
+      "SourceProperties": [
+        {
+          "$PropertyPath": "hasAchievement"
+        }
+      ],
+      "TargetProperties": [
+        {
+          "$PropertyPath": "achievementDate"
+        }
+      ],
+      "EffectTypes": "ValueChange"
+    }
+  }
+}

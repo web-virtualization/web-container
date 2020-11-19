@@ -1,0 +1,6 @@
+{
+  "@odata.context": "https://localhost:443/odata/v4/DevGoalDetail_2009.svc/$metadata#DevGoalDetail_2009.svc.LMSResponse(36626)",
+  "@odata.metadataEtag": "\"9bea7ea5-610f-430a-a269-87d5730d0388\"",
+  "lmsServerURL": "http://localhost:3001/?mock=true&mock=true&sap-ui-content-density=compact/#/goal-list?templateType=tgm&templateId=22",
+  "success": true
+}

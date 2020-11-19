@@ -1,0 +1,20 @@
+{
+	"1231": {
+		"@odata.context": "https://localhost:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(JpbAdoptionOdataService.svc.CompetencyBrowseResultVO)",
+		"@odata.metadataEtag": "\"89c114e9-1021-4efe-9051-318d2c8876d5\"",
+		"value": [
+			{
+				"competencyInternalId": 6649775,
+				"competencyName": "comp1"
+			},
+			{
+				"competencyInternalId": 14642,
+				"competencyName": "Computer Languages"
+			},
+			{
+				"competencyInternalId": 14706,
+				"competencyName": "Database Administration"
+			}
+		]
+	}
+}

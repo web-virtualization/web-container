@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"sap/sf/surj/shell/library-h2-preload.js",
+"sourceroot":".",
+"sources":["manifest.json","library-dbg.js"],
+"names":[],
+"mappings":";;;2CCQA,gDACA,uCAWA,0CAGA,8BACC,IAAK,CAAE,oBACP,YAAa,CAAE,gBACf,MAAO,GACP,WAAY,GACZ,SAAU,CACT,qCACA,8CACA,6CACA,sCACA,6CACA,uCACA,gDACA,uCACA,yCACA,6CACA,8CACA,sDACA,iDACA,iDACA,kDACA,iDACA,yCACA,0CACA,2CACA,oDACA,mCACA,sCACD,EACA,SAAU,GACV,QAAS,gBACV;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",
+"x_com_sap_openui5_sections":[114,746,780,2051]
+}

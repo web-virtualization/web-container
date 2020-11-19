@@ -1,0 +1,64 @@
+@import "../normal/library.source.less";
+@import "../../../../../../sap/ui/core/themes/sap_fiori_3/base.less";
+@import "../../../../../../sap/ui/core/themes/sap_fiori_3/global.less";
+
+/*
+sap_belize_hcb
+sap_belize_hcw
+sap_belize_plus
+sap_bluecrystal
+sap_fiori_3
+*/
+
+.surjGACEIcon.sapUiIcon::before {
+    color: #d08014;
+}
+
+//sap.m.SearchField
+.fioriShellBarEnabled {
+    .surjTopNavHeaderBar {
+        .bizXSF {
+            &.sapMSF {
+                .sapMSFF {
+                    background: transparent;
+                    border-color: lighten(@sapUiShellBorderColor, 30);
+                    &:hover {
+                        background: @sapUiShellHoverBackground;
+                    }
+                    .sapMSFI {
+                        color: @sapUiShellTextColor;
+                        &::placeholder{
+                            color: @sapUiShellInteractiveTextColor;
+                        }
+                    }
+                    .sapMSFB {
+                        color: @sapUiShellInteractiveTextColor;
+                        &:hover {
+                            background: @sapUiShellHoverBackground;
+                            color: @sapUiShellInteractiveTextColor;
+                        }
+                        &:active {
+                            background: @sapUiShellActiveBackground;
+                            color: @sapUiShellActiveTextColor;
+                        }
+                    }
+                    .bizXSFSI {
+                        color: @sapUiShellInteractiveTextColor;
+                    }
+                    .bizXSFST {
+                        background: transparent;
+                        color: @sapUiShellInteractiveTextColor;
+                        border-left: 1px solid lighten(@sapUiShellBorderColor, 30);
+                        &:hover,
+                        &:focus {
+                            background: @sapUiShellHoverBackground;
+                        }
+                    }
+                }
+                &.sapMSFDisabled {
+                    opacity: 0.4;
+                }
+            }
+        }
+    }
+}

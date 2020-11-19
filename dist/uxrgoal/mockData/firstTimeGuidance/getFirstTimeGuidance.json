@@ -1,0 +1,9 @@
+{
+  "@odata.context": "https://talent.uxr.c.eu-nl-1.cloud.sap:443/odata/v4/tgm.svc/$metadata#tgm.svc.PageEntryFlagValuesResponse",
+  "@odata.metadataEtag": "\"d98b96d6-f897-4fc4-b110-942b2d45da63\"",
+  "flags": [
+    { "keyName": "goal_page_view_first_time_guidance_dialog", "value": false },
+    { "keyName": "goal_page_view_first_time_guidance_bar", "value": false }
+  ],
+  "success": true
+}

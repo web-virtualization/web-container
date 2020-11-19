@@ -1,0 +1,56 @@
+{
+    "Skilled Craft Family":{
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+    	{
+            "competencyIds": [13981122, 13981140],
+            "roleName": "Role1",
+            "roleId": "1231"
+        },
+        {
+            "competencyIds": [13981146, 13981152],
+            "roleName": "Role2",
+            "roleId": "1232"
+        },
+        {
+            "competencyIds": [13981158, 13981204],
+            "roleName": "Role3",
+            "roleId": "1233"
+        }
+    ]
+   },
+   "Retail Associates":{
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+        {
+            "competencyIds": [13981216, 13981222],
+            "roleName": "Role4",
+            "roleId": "1234"
+        }
+    ]
+   },
+   "Human Resources Family":{
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+        {
+            "competencyIds": [13981140],
+            "roleName": "Role5",
+            "roleId": "1235"
+        }
+    ]
+   },
+   "Services and Maintenance Family":{
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+        {
+            "competencyIds": [13981228, 13981256],
+            "roleName": "Role6",
+            "roleId": "1236"
+        }
+    ]
+   } 
+}

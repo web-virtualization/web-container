@@ -1,0 +1,67 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"id": "sap.sf.competencypicker",
+		"type": "application",
+		"i18n": "i18n/messagebundle.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "au-jdmng-sap.sf.competencypicker-web",
+		"description": "au-jdmng-sap.sf.competencypicker-web: SuccessFactors UIComponent",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.40.12"
+		}
+	},
+
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
+	},
+
+	"sap.ui5": {
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "sap.sf.competencypicker.i18n.messagebundle"
+				}
+			}
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/competencypicker.css",
+				"id": ""
+			}]
+		}
+	}
+}

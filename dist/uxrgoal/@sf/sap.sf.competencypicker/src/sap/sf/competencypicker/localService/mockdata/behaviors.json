@@ -1,0 +1,316 @@
+{
+  "13981122": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981439,
+        "behaviorName": "Critical Thinking"
+      },
+      {
+        "behaviorInternalId": 13981451,
+        "behaviorName": "Adapting to Change"
+      },
+      {
+        "behaviorInternalId": 13981475,
+        "behaviorName": "Inspiring and Motivating Others"
+      },
+      {
+        "behaviorInternalId": 13981547,
+        "behaviorName": "Maintaining Work-Life Balance"
+      }
+    ]
+  },
+  "13981140": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981565,
+        "behaviorName": "Using Computers and Technology"
+      },
+      {
+        "behaviorInternalId": 13981571,
+        "behaviorName": "Thinking Broadly"
+      },
+      {
+        "behaviorInternalId": 13981583,
+        "behaviorName": "Reading Effectively"
+      }
+    ]
+  },
+  "13981146": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981589,
+        "behaviorName": "Managing Political Situations"
+      },
+      {
+        "behaviorInternalId": 13981601,
+        "behaviorName": "Resolving Conflict"
+      }
+    ]
+  },
+  "13981152": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981607,
+        "behaviorName": "Testing and Troubleshooting"
+      }
+    ]
+  },
+  "13981158": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981613,
+        "behaviorName": "Driving for Results"
+      },
+      {
+        "behaviorInternalId": 13981625,
+        "behaviorName": "Entrepreneurial Thinking"
+      }
+    ]
+  },
+  "13981204": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981693,
+        "behaviorName": "Setting Objectives"
+      },
+      {
+        "behaviorInternalId": 13981699,
+        "behaviorName": "Managing Resources"
+      }
+    ]
+  },
+  "13981216": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981727,
+        "behaviorName": "Driving Continuous Improvement"
+      }
+    ]
+  },
+  "13981222": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981736,
+        "behaviorName": "Thinking Globally"
+      }
+    ]
+  },
+  "13981228": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981742,
+        "behaviorName": "Serving Customers"
+      }
+    ]
+  },
+  "13981256": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981765,
+        "behaviorName": "Prioritizing and Organizing Work"
+      }
+    ]
+  },
+  "13981262": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981783,
+        "behaviorName": "Driving Projects to Completion"
+      }
+    ]
+  },
+  "13981314": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981801,
+        "behaviorName": "Displaying Creativity"
+      }
+    ]
+  },
+  "13981320": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981819,
+        "behaviorName": "Solving Complex Problems"
+      }
+    ]
+  },
+  "13981326": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981825,
+        "behaviorName": "Working with Diverse Populations"
+      }
+    ]
+  },
+  "13981362": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981837,
+        "behaviorName": "Showing Caring and Understanding"
+      },
+      {
+        "behaviorInternalId": 13981849,
+        "behaviorName": "Teaching"
+      }
+    ]
+  },
+  "13981371": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981867,
+        "behaviorName": "Adapting to Others"
+      }
+    ]
+  },
+  "13981377": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981885,
+        "behaviorName": "Championing Customer Needs"
+      }
+    ]
+  },
+  "13981383": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981901,
+        "behaviorName": "Supporting Coworkers"
+      }
+    ]
+  },
+  "13981395": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981907,
+        "behaviorName": "Composing and Writing Text"
+      }
+    ]
+  },
+  "13981411": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981913,
+        "behaviorName": "Managing Risk"
+      },
+      {
+        "behaviorInternalId": 13981919,
+        "behaviorName": "Utilizing Feedback"
+      },
+      {
+        "behaviorInternalId": 13981942,
+        "behaviorName": "Building and Supporting Teams"
+      }
+    ]
+  },
+  "13981417": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981948,
+        "behaviorName": "Supporting Organizational Goals"
+      },
+      {
+        "behaviorInternalId": 13981960,
+        "behaviorName": "Negotiating Agreements"
+      }
+    ]
+  },
+  "13981433": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981996,
+        "behaviorName": "Accepting Responsibility"
+      }
+    ]
+  },
+  "13981111": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981613,
+        "behaviorName": "Driving for Results"
+      },
+      {
+        "behaviorInternalId": 13981625,
+        "behaviorName": "Entrepreneurial Thinking"
+      }
+    ]
+  },
+  "13981121": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981948,
+        "behaviorName": "Supporting Organizational Goals"
+      },
+      {
+        "behaviorInternalId": 13981960,
+        "behaviorName": "Negotiating Agreements"
+      }
+    ]
+  },
+  "13981131": {
+    "@odata.context": "https://192.168.174.128:443/odata/v4/JpbAdoptionOdataService.svc/$metadata#Collection(Edm.String)",
+    "@odata.metadataEtag": "\"d4e8acad-4d17-4dfc-8b5e-10d0ff2eb4fa\"",
+    "value": [
+      {
+        "behaviorInternalId": 13981948,
+        "behaviorName": "Managing Risk"
+      },
+      {
+        "behaviorInternalId": 13981919,
+        "behaviorName": "Utilizing Feedback"
+      },
+      {
+        "behaviorInternalId": 13981942,
+        "behaviorName": "Building and Supporting Teams"
+      }
+    ]
+  }
+}
