@@ -6,7 +6,7 @@ const textArea = document.getElementById('message');
 
 btn.addEventListener('click', ()=>{
   if (!input.value) return;
-  window.postContainerMessage(input.value, 'app3');
+  window.postContainerMessage(input.value, '*');
   input.value = '';
 })
 

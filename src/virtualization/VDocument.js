@@ -17,7 +17,6 @@ export class VDocument {
     }
 
     this.createElement = (...args) => {
-      console.log(args);
       return document.createElement(...args);
     }
 

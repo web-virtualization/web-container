@@ -209,7 +209,6 @@
       };
 
       this.createElement = (...args) => {
-        console.log(args);
         return document.createElement(...args);
       };
 
@@ -256,7 +255,7 @@
       if (!tag) return;
 
       Object.values(window.WebContainer.instances).forEach(webContainer => {
-        const targetTags = webContainer.containerElement.getAttribute('tags');
+        const targetTags = webContainer.containerElement.getAttribute('message-topics');
         if (!targetTags) return;
 
         let isValidTarget = false;
@@ -401,7 +400,7 @@
 
       try {
         node.appendChild(scriptElement);
-        node.removeChild(scriptElement);
+        // node.removeChild(scriptElement);
       } catch (err) {
         console.error(error);
       }

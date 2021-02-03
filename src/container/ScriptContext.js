@@ -19,7 +19,7 @@ export class ScriptContext {
 
     try {
       node.appendChild(scriptElement);
-      node.removeChild(scriptElement);
+      // node.removeChild(scriptElement);
     } catch (err) {
       console.error(error);
     }

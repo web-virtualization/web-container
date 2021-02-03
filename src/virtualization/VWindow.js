@@ -22,7 +22,7 @@ export class VWindow extends EventTarget {
     if (!tag) return;
 
     Object.values(window.WebContainer.instances).forEach(webContainer => {
-      const targetTags = webContainer.containerElement.getAttribute('tags');
+      const targetTags = webContainer.containerElement.getAttribute('message-topics');
       if (!targetTags) return;
 
       let isValidTarget = false;
